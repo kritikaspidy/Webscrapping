@@ -1,23 +1,19 @@
-import Navigation from './components/Navigation';
+'use client';
+
+import './globals.css';
 
 
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+
+type Props = { children: ReactNode };
+
+
+export default function Layout({ children }: Props) {
   return (
     <html lang="en">
-      <body >
-        
-
-        {/* Main Content */}
-        <main >
-          {children}
-        </main>
-
-        {/* Footer */}
-        <footer >
-          &copy; 2025 Product Explorer | Powered by World of Books
-        </footer>
+      <body className="bg-gray-50">
+        {children}
       </body>
     </html>
   );

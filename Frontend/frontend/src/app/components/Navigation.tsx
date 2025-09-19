@@ -1,21 +1,16 @@
 'use client';
+
 import React, { useState, useEffect } from 'react';
 
-type NavigationItem = {
-  id: number;
-  title: string;
-};
-
-type Category = {
-  id: number;
-  name: string;
-};
+type NavigationItem = { id: number; title: string };
+type Category = { id: number; name: string };
 
 type Props = {
   onSelectHeading: (heading: string | null) => void;
   onSelectCategory: (category: string | null) => void;
   selectedHeading: string | null;
   selectedCategory: string | null;
+  className?: string;
 };
 
 export default function Navigation({
@@ -23,6 +18,7 @@ export default function Navigation({
   onSelectCategory,
   selectedHeading,
   selectedCategory,
+  className = '',
 }: Props) {
   const [navItems, setNavItems] = useState<NavigationItem[]>([]);
   const [expandedId, setExpandedId] = useState<number | null>(null);
@@ -36,7 +32,6 @@ export default function Navigation({
       .catch(console.error);
   }, []);
 
-  // Fetch categories when a heading is expanded
   useEffect(() => {
     if (expandedId !== null) {
       setLoadingCategories(true);
@@ -56,66 +51,56 @@ export default function Navigation({
   }, [expandedId]);
 
   return (
-    <nav>
-      <h2 className="font-bold text-xl mb-4">Browse by Heading</h2>
-      <ul>
-        {navItems.map((heading) => (
-          <li key={heading.id} className="mb-2">
-            <button
-              className={`w-full text-left px-3 py-2 rounded-lg ${
-                selectedHeading === heading.title
-                  ? 'bg-blue-100 font-bold'
-                  : 'hover:bg-gray-100'
-              }`}
-              onClick={() => {
-                onSelectHeading(heading.title);
-                setExpandedId(expandedId === heading.id ? null : heading.id);
-                onSelectCategory(null);
-              }}
-            >
-              {heading.title}
-              <span className="float-right">{expandedId === heading.id ? '▲' : '▼'}</span>
-            </button>
-            {expandedId === heading.id && (
-              <div className="ml-4 mt-2">
-                {loadingCategories ? (
-                  <div className="text-sm text-gray-500">Loading categories...</div>
-                ) : categories.length > 0 ? (
-                  <ul>
-                    {categories.map((cat) => (
+    <aside >
+      <nav aria-label="sidebar">
+        <h2 className="font-semibold text-lg mb-4">Books</h2>
+        <ul className="space-y-2">
+          {navItems.map((item) => (
+            <li key={item.id}>
+              <button
+                onClick={() => {
+                  onSelectHeading(item.title);
+                  setExpandedId(expandedId === item.id ? null : item.id);
+                  onSelectCategory(null);
+                }}
+                className={`block w-full text-left px-3 py-2 rounded transition
+                 
+                  ${selectedHeading === item.title ? "bg-white-50 font-bold" : "text-gray-800"}`}
+                aria-expanded={expandedId === item.id}
+                aria-controls={`category-list-${item.id}`}
+              >
+                {item.title}
+              </button>
+              {expandedId === item.id && (
+                <ul
+                  className="ml-4 mt-2 space-y-1"
+                  id={`category-list-${item.id}`}
+                  role="region"
+                  aria-live="polite"
+                >
+                  {loadingCategories ? (
+                    <li>Loading categories...</li>
+                  ) : categories.length > 0 ? (
+                    categories.map((cat) => (
                       <li key={cat.id}>
                         <button
-                          className={`w-full text-left px-2 py-1 rounded ${
-                            selectedCategory === cat.name
-                              ? 'bg-blue-200 font-semibold'
-                              : 'hover:bg-gray-200'
-                          }`}
                           onClick={() => onSelectCategory(cat.name)}
+                          className={`block px-2 py-1 rounded hover:bg-blue-50 focus:bg-blue-100
+                            focus:outline-none ${selectedCategory === cat.name ? "font-bold" : ""}`}
                         >
                           {cat.name}
                         </button>
                       </li>
-                    ))}
-                  </ul>
-                ) : (
-                  <div className="text-xs text-gray-400">No categories found</div>
-                )}
-              </div>
-            )}
-          </li>
-        ))}
-      </ul>
-      <hr className="my-4" />
-      <button
-        className="text-blue-700 underline mt-2"
-        onClick={() => {
-          onSelectHeading(null);
-          onSelectCategory(null);
-          setExpandedId(null);
-        }}
-      >
-        View All Products
-      </button>
-    </nav>
+                    ))
+                  ) : (
+                    <li>No categories found</li>
+                  )}
+                </ul>
+              )}
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </aside>
   );
 }

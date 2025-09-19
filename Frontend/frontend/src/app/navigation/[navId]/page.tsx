@@ -45,20 +45,19 @@ export default function CategoriesPage() {
   }, [navId]);
 
   if (loading) return <p>Loading categories...</p>;
-  if (error) return <p className="text-red-600">Error: {error}</p>;
+  if (error) return <p>Error: {error}</p>;
 
   return (
-    <div className="p-8 max-w-xl mx-auto">
-      <h1 className="text-2xl font-bold mb-4">Categories for Navigation ID: {navId}</h1>
-      <ul className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6">
-  {categories.map(cat => (
-    <li key={cat.id} className="bg-white border rounded-xl shadow-sm p-4 transition hover:shadow-lg hover:border-indigo-200">
-      <Link href={`/category/${cat.id}`} className="block text-lg font-semibold text-blue-600 hover:underline">
-        {cat.name}
-      </Link>
-    </li>
-  ))}
-</ul>
+    <div>
+      <ul >
+        {categories.map(cat => (
+          <li key={cat.id} >
+            <Link href={`/category/${cat.id}`} >
+              {cat.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
 
     </div>
   );

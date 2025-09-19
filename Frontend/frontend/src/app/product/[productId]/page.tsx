@@ -38,23 +38,23 @@ export default function ProductDetailPage() {
   }, [productId]);
 
   if (loading) return <p>Loading product details...</p>;
-  if (error) return <p className="text-red-600">Error: {error}</p>;
+  if (error) return <p>Error: {error}</p>;
   if (!product) return <p>Product not found.</p>;
 
   return (
-    <div className="p-8 max-w-4xl mx-auto">
-      <h1 className="text-4xl font-bold mb-4">{product.title}</h1>
+    <div>
+      <h1>{product.title}</h1>
       {product.imageUrl && (
-        <img src={product.imageUrl} alt={product.title} className="w-full max-w-md mb-6 rounded" />
+        <img src={product.imageUrl} alt={product.title}/>
       )}
-      <p className="mb-4">{product.description}</p>
-      <p className="text-2xl font-semibold mb-6">${product.price.toFixed(2)}</p>
+      <p>{product.description}</p>
+      <p>${product.price.toFixed(2)}</p>
       {product.productUrl && (
         <a
           href={product.productUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-600 hover:underline"
+         
         >
           View Product on Original Site
         </a>

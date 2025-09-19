@@ -1,9 +1,0 @@
-@import "tailwindcss";
-@import "tailwindcss/preflight";
-@tailwind utilities;
-
-
-body {
-  font-family: 'Geist', Arial, sans-serif;
-  background: #f3f4f6;
-}
