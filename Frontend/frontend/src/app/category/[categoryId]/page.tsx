@@ -1,7 +1,6 @@
 'use client';
-
 import React, { useState, useEffect } from 'react';
-import Card from '@/app/components/Card';
+import Card from '@/app/components/Card'; // update path if needed
 import Loader from '@/app/components/Loader';
 import ErrorMessage from '@/app/components/ErrorMessage';
 
@@ -9,10 +8,9 @@ export type Product = {
   id: number;
   title: string;
   imageUrl: string;
-  rating: number;
   price: string;
-  heading: string;
-  category: string;
+  description?: string;
+  productUrl?: string;
 };
 
 type ProductListProps = {
@@ -26,16 +24,13 @@ export default function ProductList({ selectedHeading, selectedCategory }: Produ
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!selectedHeading) {
-      setProducts([]);
-      return;
-    }
-
     setLoading(true);
-    let url = `http://localhost:3000/products?heading=${encodeURIComponent(selectedHeading)}`;
-    if (selectedCategory) {
-      url += `&category=${encodeURIComponent(selectedCategory)}`;
-    }
+    setError(null);
+    let url = 'http://localhost:3000/products';
+    const params: string[] = [];
+    if (selectedHeading) params.push(`heading=${encodeURIComponent(selectedHeading)}`);
+    if (selectedCategory) params.push(`category=${encodeURIComponent(selectedCategory)}`);
+    if (params.length > 0) url += '?' + params.join('&');
 
     fetch(url)
       .then(res => {
@@ -53,22 +48,18 @@ export default function ProductList({ selectedHeading, selectedCategory }: Produ
       .finally(() => setLoading(false));
   }, [selectedHeading, selectedCategory]);
 
-
   if (loading) return <Loader />;
-
   if (error) return <ErrorMessage message={error} />;
-
- 
+  if (products.length === 0) return <div className="p-6 text-gray-500">No products found.</div>;
 
   return (
-    <div>
+    <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-6">
       {products.map(product => (
         <Card
           key={product.id}
           title={product.title}
-          href="#"
+          href={product.productUrl || "#"}
           imageSrc={product.imageUrl}
-          
           price={product.price}
         />
       ))}

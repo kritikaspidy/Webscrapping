@@ -13,8 +13,7 @@ export class Category {
   @Column({ nullable: true })
 navigationId: number;
 
-  @ManyToOne(() => Navigation, navigation => navigation.categories)
-@JoinColumn({ name: 'navigationId' })  // matches DB column name precisely
+@ManyToOne(() => Navigation, navigation => navigation.categories)
 navigation: Navigation;
 
 

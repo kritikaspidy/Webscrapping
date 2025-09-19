@@ -8,9 +8,16 @@ export class ProductController {
   constructor(private readonly productService: ProductService) {}
 
   @Get()
-  async getAllProducts(): Promise<Product[]> {
+async getProducts(
+  @Query('heading') heading?: string,
+  @Query('category') category?: string,
+): Promise<Product[]> {
+  if (!heading && !category) {
     return this.productService.findAll();
   }
+  return this.productService.filterProducts(heading, category);
+}
+
 
   @Get(':id')
   async getProductById(@Param('id') id: number): Promise<Product> {
@@ -22,13 +29,7 @@ async getProductsByCategory(@Param('categoryId') categoryId: number): Promise<Pr
   return this.productService.findByCategory(categoryId);
 }
 
-@Get()
-async getProducts(
-  @Query('heading') heading?: string,
-  @Query('category') category?: string,
-) {
-  return this.productService.filterProducts(heading, category);
-}
+
 
 
   @Post()
