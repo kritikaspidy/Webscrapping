@@ -67,4 +67,19 @@ export class ProductService {
       throw new NotFoundException(`Product with ID ${id} not found`);
     }
   }
+
+  async filterProducts(heading?: string, category?: string): Promise<Product[]> {
+  const queryBuilder = this.productRepository.createQueryBuilder('product')
+    .leftJoinAndSelect('product.category', 'category')
+    .leftJoinAndSelect('category.navigation', 'navigation');
+
+  if (category) {
+    queryBuilder.andWhere('category.name = :category', { category });
+  } else if (heading) {
+    queryBuilder.andWhere('navigation.title = :heading', { heading });
+  }
+  // If neither heading nor category, no filters — all products returned.
+
+  return queryBuilder.getMany();
+}
 }
