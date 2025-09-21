@@ -1,0 +1,9 @@
+{
+	"id": "AKspxe6wORKkPaJ",
+	"json": "{\"id\":\"AKspxe6wORKkPaJ\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-documentary-films\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-documentary-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-documentary-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7811,\"categoryId\":13123,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T02:02:59.961Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/dvd-documentary-films",
+	"url": "https://www.worldofbooks.com/en-gb/collections/dvd-documentary-films"
+}

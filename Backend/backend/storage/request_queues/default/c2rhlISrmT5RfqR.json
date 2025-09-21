@@ -1,0 +1,9 @@
+{
+	"id": "c2rhlISrmT5RfqR",
+	"json": "{\"id\":\"c2rhlISrmT5RfqR\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-anime-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-anime-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"Error: requestHandler timed out after 190 seconds (c2rhlISrmT5RfqR).\\n    at Timeout._onTimeout (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@apify\\\\src\\\\index.ts:88:74)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\"],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7811,\"categoryId\":13119,\"__crawlee\":{\"state\":5}}}",
+	"method": "GET",
+	"orderNo": 1758420410549,
+	"retryCount": 1,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/dvd-anime-films",
+	"url": "https://www.worldofbooks.com/en-gb/collections/dvd-anime-films"
+}

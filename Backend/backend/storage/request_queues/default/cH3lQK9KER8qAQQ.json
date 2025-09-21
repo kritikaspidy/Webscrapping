@@ -1,0 +1,9 @@
+{
+	"id": "cH3lQK9KER8qAQQ",
+	"json": "{\"id\":\"cH3lQK9KER8qAQQ\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-crime-tv-and-movies\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-crime-tv-and-movies\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-crime-tv-and-movies\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7811,\"categoryId\":13122,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T02:02:47.786Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/dvd-crime-tv-and-movies",
+	"url": "https://www.worldofbooks.com/en-gb/collections/dvd-crime-tv-and-movies"
+}

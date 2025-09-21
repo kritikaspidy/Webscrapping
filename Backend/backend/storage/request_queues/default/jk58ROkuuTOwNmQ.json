@@ -1,0 +1,9 @@
+{
+	"id": "jk58ROkuuTOwNmQ",
+	"json": "{\"id\":\"jk58ROkuuTOwNmQ\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-journals-periodicals-and-magazines\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-journals-periodicals-and-magazines\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-journals-periodicals-and-magazines\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13096,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:54:55.290Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/rare-journals-periodicals-and-magazines",
+	"url": "https://www.worldofbooks.com/en-gb/collections/rare-journals-periodicals-and-magazines"
+}

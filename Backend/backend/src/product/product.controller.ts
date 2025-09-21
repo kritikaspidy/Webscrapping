@@ -1,36 +1,31 @@
 import { Controller, Get, Post, Put, Delete, Param, Body, Query } from '@nestjs/common';
 import { ProductService } from './product.service';
 import { Product } from '../entities/product.entity';
- 
 
 @Controller('products')
 export class ProductController {
   constructor(private readonly productService: ProductService) {}
 
   @Get()
-async getProducts(
-  @Query('heading') heading?: string,
-  @Query('category') category?: string,
-): Promise<Product[]> {
-  if (!heading && !category) {
-    return this.productService.findAll();
+  async getProducts(
+    @Query('heading') heading?: string,
+    @Query('category') category?: string,
+  ): Promise<Product[]> {
+    if (!heading && !category) {
+      return this.productService.findAll();
+    }
+    return this.productService.filterProducts(heading, category);
   }
-  return this.productService.filterProducts(heading, category);
-}
 
+  @Get('category/:categoryId')
+  async getProductsByCategory(@Param('categoryId') categoryId: number): Promise<Product[]> {
+    return this.productService.findByCategory(categoryId);
+  }
 
   @Get(':id')
   async getProductById(@Param('id') id: number): Promise<Product> {
     return this.productService.findOne(id);
   }
-
-  @Get('category/:categoryId')
-async getProductsByCategory(@Param('categoryId') categoryId: number): Promise<Product[]> {
-  return this.productService.findByCategory(categoryId);
-}
-
-
-
 
   @Post()
   async createProduct(@Body() productData: Partial<Product>): Promise<Product> {

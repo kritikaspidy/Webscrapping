@@ -43,6 +43,10 @@ export class CategoryService {
   });
 }
 
+async findByNameAndHeading(name: string, navigationId: number) {
+  return this.catrepo.findOne({ where: { name, navigation: { id: navigationId } } });
+}
+
 
 
     async delete(id: number): Promise<void>{

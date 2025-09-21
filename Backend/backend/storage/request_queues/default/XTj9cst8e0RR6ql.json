@@ -1,0 +1,9 @@
+{
+	"id": "XTj9cst8e0RR6ql",
+	"json": "{\"id\":\"XTj9cst8e0RR6ql\",\"url\":\"https://www.worldofbooks.com/en-gb/pages/childrens-books-of-the-month\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/pages/childrens-books-of-the-month\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/pages/childrens-books-of-the-month\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13019,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:50:38.487Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/pages/childrens-books-of-the-month",
+	"url": "https://www.worldofbooks.com/en-gb/pages/childrens-books-of-the-month"
+}

@@ -1,0 +1,39 @@
+{
+  "requestsFinished": 122,
+  "requestsFailed": 0,
+  "requestsRetries": 0,
+  "requestsFailedPerMinute": 0,
+  "requestsFinishedPerMinute": 8,
+  "requestMinDurationMillis": 3990,
+  "requestMaxDurationMillis": 26049,
+  "requestTotalFailedDurationMillis": 0,
+  "requestTotalFinishedDurationMillis": 1016303,
+  "crawlerStartedAt": "2025-09-21T01:48:29.658Z",
+  "crawlerFinishedAt": null,
+  "statsPersistedAt": "2025-09-21T02:03:00.959Z",
+  "crawlerRuntimeMillis": 871431,
+  "crawlerLastStartTimestamp": 1758419309528,
+  "requestRetryHistogram": [
+    122
+  ],
+  "statsId": 0,
+  "requestAvgFailedDurationMillis": null,
+  "requestAvgFinishedDurationMillis": 8330,
+  "requestTotalDurationMillis": 1016303,
+  "requestsTotal": 122,
+  "requestsWithStatusCode": {
+    "200": 122
+  },
+  "errors": {},
+  "retryErrors": {
+    "D:\\webscrapping\\Backend\\backend\\node_modules\\@apify\\src\\index.ts:88:74": {
+      "missing error code": {
+        "Error": {
+          "requestHandler timed out after 190 seconds _": {
+            "count": 3
+          }
+        }
+      }
+    }
+  }
+}

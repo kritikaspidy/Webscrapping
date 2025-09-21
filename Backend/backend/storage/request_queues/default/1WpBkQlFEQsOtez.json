@@ -1,0 +1,9 @@
+{
+	"id": "1WpBkQlFEQsOtez",
+	"json": "{\"id\":\"1WpBkQlFEQsOtez\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/childrens-poetry-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/childrens-poetry-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/childrens-poetry-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13008,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:50:31.018Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/childrens-poetry-books",
+	"url": "https://www.worldofbooks.com/en-gb/collections/childrens-poetry-books"
+}

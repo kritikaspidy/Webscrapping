@@ -1,0 +1,9 @@
+{
+	"id": "igfbUZckkCz4l7X",
+	"json": "{\"id\":\"igfbUZckkCz4l7X\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/historical-fiction-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/historical-fiction-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/historical-fiction-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13027,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:49:51.574Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/historical-fiction-books",
+	"url": "https://www.worldofbooks.com/en-gb/collections/historical-fiction-books"
+}

@@ -12,7 +12,6 @@ export class Navigation {
   @Column({ nullable: true })
   url: string;
 
-  @OneToMany(() => Category, category => category.navigation)
-categories: Category[];
-
+  @OneToMany(() => Category, (category) => category.navigation, { cascade: true, eager: true })
+  categories: Category[];
 }

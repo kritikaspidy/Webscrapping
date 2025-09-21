@@ -1,0 +1,9 @@
+{
+	"id": "KbZgooXEHWE2xOJ",
+	"json": "{\"id\":\"KbZgooXEHWE2xOJ\",\"url\":\"https://www.worldofbooks.com/en-gb/pages/childrens-favourite-series\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/pages/childrens-favourite-series\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/pages/childrens-favourite-series\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13028,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:50:43.197Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/pages/childrens-favourite-series",
+	"url": "https://www.worldofbooks.com/en-gb/pages/childrens-favourite-series"
+}

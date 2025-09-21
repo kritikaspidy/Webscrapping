@@ -11,12 +11,13 @@ export class Category {
   name: string;
 
   @Column({ nullable: true })
-navigationId: number;
+url: string;
 
-@ManyToOne(() => Navigation, navigation => navigation.categories)
-navigation: Navigation;
 
+  @ManyToOne(() => Navigation, navigation => navigation.categories, { onDelete: 'CASCADE' })
+  navigation: Navigation;
 
   @OneToMany(() => Product, product => product.category)
   products: Product[];
 }
+

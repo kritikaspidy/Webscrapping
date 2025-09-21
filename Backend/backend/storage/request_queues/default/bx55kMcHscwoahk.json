@@ -1,0 +1,9 @@
+{
+	"id": "bx55kMcHscwoahk",
+	"json": "{\"id\":\"bx55kMcHscwoahk\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-biography-true-story-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-biography-true-story-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-biography-true-story-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13082,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:54:06.009Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/rare-biography-true-story-books",
+	"url": "https://www.worldofbooks.com/en-gb/collections/rare-biography-true-story-books"
+}

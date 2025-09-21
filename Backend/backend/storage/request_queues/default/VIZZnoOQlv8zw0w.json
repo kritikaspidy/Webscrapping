@@ -1,0 +1,9 @@
+{
+	"id": "VIZZnoOQlv8zw0w",
+	"json": "{\"id\":\"VIZZnoOQlv8zw0w\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/graphic-novels-and-comic-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/graphic-novels-and-comic-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/graphic-novels-and-comic-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13024,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:49:49.666Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/graphic-novels-and-comic-books",
+	"url": "https://www.worldofbooks.com/en-gb/collections/graphic-novels-and-comic-books"
+}

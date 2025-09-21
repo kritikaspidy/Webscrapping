@@ -27,7 +27,7 @@ export default function Navigation({
 
   useEffect(() => {
     fetch('http://localhost:3000/navigation')
-      .then((res) => res.json())
+      .then(res => res.json())
       .then(setNavItems)
       .catch(console.error);
   }, []);
@@ -36,8 +36,8 @@ export default function Navigation({
     if (expandedId !== null) {
       setLoadingCategories(true);
       fetch(`http://localhost:3000/category/navigation/${expandedId}`)
-        .then((res) => res.json())
-        .then((data) => {
+        .then(res => res.json())
+        .then(data => {
           setCategories(data);
           setLoadingCategories(false);
         })
@@ -50,12 +50,18 @@ export default function Navigation({
     }
   }, [expandedId]);
 
+  // Persist selection
+  useEffect(() => {
+    if (selectedHeading) localStorage.setItem('selectedHeading', selectedHeading);
+    if (selectedCategory) localStorage.setItem('selectedCategory', selectedCategory);
+  }, [selectedHeading, selectedCategory]);
+
   return (
-    <aside >
+    <aside className={className}>
       <nav aria-label="sidebar">
         <h2 className="font-semibold text-lg mb-4">Books</h2>
         <ul className="space-y-2">
-          {navItems.map((item) => (
+          {navItems.map(item => (
             <li key={item.id}>
               <button
                 onClick={() => {
@@ -64,13 +70,13 @@ export default function Navigation({
                   onSelectCategory(null);
                 }}
                 className={`block w-full text-left px-3 py-2 rounded transition
-                 
-                  ${selectedHeading === item.title ? "bg-white-50 font-bold" : "text-gray-800"}`}
+                  ${selectedHeading === item.title ? 'bg-green-100 font-bold' : 'text-gray-800'}`}
                 aria-expanded={expandedId === item.id}
                 aria-controls={`category-list-${item.id}`}
               >
                 {item.title}
               </button>
+
               {expandedId === item.id && (
                 <ul
                   className="ml-4 mt-2 space-y-1"
@@ -81,12 +87,12 @@ export default function Navigation({
                   {loadingCategories ? (
                     <li>Loading categories...</li>
                   ) : categories.length > 0 ? (
-                    categories.map((cat) => (
+                    categories.map(cat => (
                       <li key={cat.id}>
                         <button
                           onClick={() => onSelectCategory(cat.name)}
-                          className={`block px-2 py-1 rounded hover:bg-blue-50 focus:bg-blue-100
-                            focus:outline-none ${selectedCategory === cat.name ? "font-bold" : ""}`}
+                          className={`block px-2 py-1 rounded hover:bg-blue-50 focus:bg-blue-100 focus:outline-none
+                            ${selectedCategory === cat.name ? 'font-bold' : ''}`}
                         >
                           {cat.name}
                         </button>

@@ -1,0 +1,9 @@
+{
+	"id": "JSYPOXutR2QI9HK",
+	"json": "{\"id\":\"JSYPOXutR2QI9HK\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/new-non-fiction-uk\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/new-non-fiction-uk\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/new-non-fiction-uk\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13047,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:52:34.202Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/new-non-fiction-uk",
+	"url": "https://www.worldofbooks.com/en-gb/collections/new-non-fiction-uk"
+}

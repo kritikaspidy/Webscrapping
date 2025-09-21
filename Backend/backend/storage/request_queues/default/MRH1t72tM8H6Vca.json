@@ -1,0 +1,9 @@
+{
+	"id": "MRH1t72tM8H6Vca",
+	"json": "{\"id\":\"MRH1t72tM8H6Vca\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/biography-and-true-story-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/biography-and-true-story-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/biography-and-true-story-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":12995,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:51:27.831Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/biography-and-true-story-books",
+	"url": "https://www.worldofbooks.com/en-gb/collections/biography-and-true-story-books"
+}

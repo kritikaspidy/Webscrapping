@@ -1,0 +1,9 @@
+{
+	"id": "p99pazDhUjK44Ru",
+	"json": "{\"id\":\"p99pazDhUjK44Ru\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/media-music\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/media-music\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/media-music\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"HEADING\",\"headingId\":7810,\"headingName\":\"Music\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:49:01.951Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/media-music",
+	"url": "https://www.worldofbooks.com/en-gb/collections/media-music"
+}

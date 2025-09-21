@@ -1,9 +1,15 @@
 import { Injectable, Logger } from '@nestjs/common';
-import { PlaywrightCrawler } from 'crawlee';
+import { PlaywrightCrawler, RequestQueue } from 'crawlee';
 import { NavigationService } from '../navigation/navigation.service';
 import { CategoryService } from '../category/category.service';
 import { ProductService } from '../product/product.service';
+import { Navigation } from 'src/entities/navigation.entity';
 
+type UserData =
+  | { type: 'HOME' }
+  | { type: 'HEADING'; headingId: number, headingName: string }
+  | { type: 'CATEGORY'; headingId: number; categoryId: number }
+  | { type: 'PRODUCT'; headingId: number; categoryId: number };
 
 @Injectable()
 export class ScraperService {
@@ -14,106 +20,204 @@ export class ScraperService {
     private readonly categoryService: CategoryService,
     private readonly productService: ProductService,
   ) {}
+  
 
-  async scrapeNavigationHeadings() {
-    const results: { title: string; url: string }[] = [];
+  /**
+   * Entry point: call run('https://www.worldofbooks.com')
+   */
+  async run(startUrl: string) {
+    const requestQueue = await RequestQueue.open();
 
-    const crawler = new PlaywrightCrawler({
-      async requestHandler({ page, request, log }) {
-        const headings = await page.$$eval('nav a', (elements) =>
-          elements.map((el) => ({
-            title: el.textContent.trim(),
-            url: (el as HTMLAnchorElement).href,
-          })),
-        );
-        results.push(...headings);
-        log.info(`Scraped ${headings.length} navigation headings from ${request.url}`);
-      },
-      maxRequestsPerCrawl: 1,
-      maxConcurrency: 1,
-    });
-
-    await crawler.run(['https://www.worldofbooks.com']);
-    this.logger.log(`Scraped total ${results.length} navigation headings`);
-
-    for (const nav of results) {
-      await this.navigationService.create(nav);
-    }
-
-    return results;
-  }
-
-  async scrapeCategories(navigationId: number) {
-    const results: { title: string; url: string }[] = [];
-
-    const navigation = await this.navigationService.findOne(navigationId);
+    // Start with homepage
+    await requestQueue.addRequest({ url: startUrl, userData: { type: 'HOME' } });
 
     const crawler = new PlaywrightCrawler({
-      async requestHandler({ page, log }) {
-        const categories = await page.$$eval('.category-link-selector', (elements) =>
-          elements.map((el) => ({
-            title: el.textContent.trim(),
-            url: (el as HTMLAnchorElement).href,
-          })),
+      requestQueue,
+      maxConcurrency: 3,
+      launchContext: { launchOptions: { headless: true } },
+      navigationTimeoutSecs: 120,
+
+      requestHandler: async ({ page, request, log }) => {
+        const userData = request.userData as UserData;
+        log.info(`Handling ${request.url} (${userData.type})`);
+
+        // ---------- HOME ----------
+        if (userData.type === 'HOME') {
+          try {
+            await page.waitForSelector('a.header__menu-item', { timeout: 10000 });
+          } catch {
+            this.logger.warn('No navigation found on HOME page. Check selector!');
+            return;
+          }
+
+          const headings = await page.$$eval('a.header__menu-item[data-menu_subcategory=""]', nodes =>
+            nodes.map(n => ({
+              name: (n.textContent || '').trim(),
+              href: (n as HTMLAnchorElement).href,
+            })),
+          );
+
+          if (!headings.length) {
+            this.logger.warn('No headings found on HOME page. Check selector!');
+          }
+
+          for (const h of headings) {
+            if (!h.href || !h.name) continue;
+
+            const nav =
+              (await this.navigationService.findByName?.(h.name)) ??
+              (await this.navigationService.create?.({ title: h.name, url: h.href }));
+
+            const headingId = nav?.id;
+            if (!headingId) continue;
+
+            await requestQueue.addRequest({
+              url: h.href,
+              userData: { type: 'HEADING', headingId, headingName: h.name },
+            });
+          }
+        }
+
+        // ---------- HEADING ----------
+        else if (userData.type === 'HEADING') {
+          const { headingId, headingName } = userData;
+
+          const categories = await page.$$eval(
+          'a.header__menu-item[data-menu_subcategory]:not([data-menu_subcategory=""])',
+          (nodes, headingName) => nodes
+            .filter(n => n.getAttribute('data-menu_category') === headingName)
+            .map(n => ({
+              name: n.getAttribute('data-menu_subcategory'),
+              href: (n as HTMLAnchorElement).href,
+            })),
+            headingName
         );
-        results.push(...categories);
-        log.info(`Scraped ${categories.length} categories`);
+
+
+          for (const c of categories) {
+            if (!c.href || !c.name) continue;
+
+            const navEntity = await this.navigationService.findOne(headingId);
+            if (!navEntity) {
+              this.logger.warn(`Navigation with ID ${headingId} not found, skipping category ${c.name}`);
+              continue;
+            }
+
+            const existing =
+              (await this.categoryService.findByNameAndHeading?.(c.name, headingId)) ??
+              (await this.categoryService.create?.({
+                name: c.name,
+                navigation: navEntity,
+                url: c.href,
+              }));
+
+            const categoryId = existing?.id;
+            if (!categoryId) continue;
+
+            await requestQueue.addRequest({
+              url: c.href,
+              userData: { type: 'CATEGORY', headingId, categoryId },
+            });
+          }
+        }
+
+        // ---------- CATEGORY ----------
+        else if (userData.type === 'CATEGORY') {
+          const { categoryId, headingId } = userData;
+
+          const productCards = await page.$$eval('div.card.card--standard', cards =>
+  cards.map(card => {
+    const anchor = card.querySelector('a.product-card');
+    const titleEl = card.querySelector('a.product-card');
+    const authorEl = card.querySelector('p.author');
+    const priceEl = card.querySelector('.price-item');
+    const imgEl = card.querySelector('img');
+
+    return {
+      title: titleEl?.textContent?.trim() || '',
+      href: anchor ? (anchor as HTMLAnchorElement).href : '',
+      author: authorEl?.textContent?.trim() || '',
+      price: priceEl?.textContent?.trim() || '',
+      imageUrl: imgEl ? (imgEl as HTMLImageElement).src : '',
+    };
+  }),
+);
+
+
+for (const p of productCards) {
+  if (!p.href) continue;
+  const category = await this.categoryService.findOne(categoryId);
+  await this.productService.create?.({
+    title: p.title,
+    author: p.author,
+    price: parseFloat(p.price.replace(/[^0-9.]/g, '')) || 0,
+    imageUrl: p.imageUrl,
+    productUrl: p.href,
+    category,
+  });
+}
+
+
+          // Pagination
+         const nextHref = await page.$eval('a.next', (a: HTMLAnchorElement) => a?.href || '').catch(() => '');
+if (nextHref) {
+  await requestQueue.addRequest({
+    url: nextHref,
+    userData: { type: 'CATEGORY', headingId, categoryId },
+  });
+}
+
+        }
+
+        // ---------- PRODUCT ----------
+        else if (userData.type === 'PRODUCT') {
+          const { categoryId } = userData;
+
+          const title =
+  (await page.$eval('h1[itemprop="name"]', n => (n.textContent || '').trim()).catch(() => '')) || '';
+
+
+          const author =
+            (await page
+              .$eval('.product-author', n => (n.textContent || '').trim())
+              .catch(() => '')) || '';
+
+          const priceText = await page
+            .$eval('.product-price', n => n.textContent?.trim() ?? '')
+            .catch(() => '');
+          const price = parseFloat(priceText.replace(/[^0-9.]/g, '')) || 0;
+
+          const imageUrl =
+            (await page
+              .$eval('.product-image img', n => (n as HTMLImageElement).src)
+              .catch(() => '')) || '';
+
+          const productUrl = page.url();
+
+          if (!title) {
+            this.logger.warn(`Product page ${productUrl} missing title — skipping save.`);
+          } else {
+            const category = await this.categoryService.findOne(categoryId);
+            await this.productService.upsertProduct({
+              title,
+              author,
+              price,
+              imageUrl,
+              productUrl,
+              category,
+            });
+            this.logger.log(`Saved product: ${title}`);
+          }
+        }
       },
-      maxRequestsPerCrawl: 1,
-      maxConcurrency: 1,
+
+      failedRequestHandler: async ({ request, error }) => {
+        this.logger.error(`Request ${request.url} failed: ${String(error)}`);
+      },
     });
 
-    // Adjust the URL to the actual navigation page URL with navigationId if necessary
-    await crawler.run([`https://www.worldofbooks.com/navigation/${navigationId}`]);
-
-    for (const category of results) {
-      await this.categoryService.create({
-        name: category.title,
-        navigation,
-      });
-    }
-
-    return results;
-  }
-
-  async scrapeProducts(categoryId: number) {
-    const results: { title: string; price: string; url: string }[] = [];
-
-    const crawler = new PlaywrightCrawler({
-      async requestHandler({ page, log }) {
-        const products = await page.$$eval('.product-grid-item', (items) =>
-          items.map((item) => {
-            const title = item.querySelector('.product-title')?.textContent?.trim() ?? '';
-            const price = item.querySelector('.product-price')?.textContent?.trim() ?? '';
-            const url = (item.querySelector('a') as HTMLAnchorElement)?.href;
-            return { title, price, url };
-          }),
-        );
-        results.push(...products);
-        log.info(`Scraped ${products.length} products`);
-      },
-      maxRequestsPerCrawl: 1,
-      maxConcurrency: 1,
-    });
-
-    await crawler.run([`https://www.worldofbooks.com/category/${categoryId}`]);
-
-    const category = await this.categoryService.findOne(categoryId);
-
-    for (const product of results) {
-
-        const price = parseFloat(product.price.replace(/[^0-9.-]+/g, '')) || 0;
-
-      await this.productService.create({
-        title: product.title,
-        author: "",
-        price,
-        imageUrl: "",
-        productUrl: product.url,
-        category,
-      });
-    }
-
-    return results;
+    this.logger.log('Starting crawler run...');
+    await crawler.run();
+    this.logger.log('Crawler finished');
   }
 }

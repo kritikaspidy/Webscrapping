@@ -1,0 +1,9 @@
+{
+	"id": "vTGZEugRTnrDHxZ",
+	"json": "{\"id\":\"vTGZEugRTnrDHxZ\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-antiques-collectables-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-antiques-collectables-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-antiques-collectables-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13095,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:54:53.116Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/rare-antiques-collectables-books",
+	"url": "https://www.worldofbooks.com/en-gb/collections/rare-antiques-collectables-books"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "VsR6GR7WJ0HMv3L",
+	"json": "{\"id\":\"VsR6GR7WJ0HMv3L\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-romance-films\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-romance-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-romance-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7811,\"categoryId\":13130,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T02:03:35.563Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/dvd-romance-films",
+	"url": "https://www.worldofbooks.com/en-gb/collections/dvd-romance-films"
+}
