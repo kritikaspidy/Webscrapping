@@ -1,6 +1,6 @@
 {
 	"id": "vC3B5Yvtap2ubHN",
-	"json": "{\"id\":\"vC3B5Yvtap2ubHN\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/all-earth-sciences-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/all-earth-sciences-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/all-earth-sciences-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13017,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:52:04.432Z\"}",
+	"json": "{\"id\":\"vC3B5Yvtap2ubHN\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/all-earth-sciences-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/all-earth-sciences-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/all-earth-sciences-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13017,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T16:10:58.517Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -4,6 +4,7 @@ import { NavigationService } from '../navigation/navigation.service';
 import { CategoryService } from '../category/category.service';
 import { ProductService } from '../product/product.service';
 import { Navigation } from 'src/entities/navigation.entity';
+import { ReviewService } from 'src/review/review.service';
 
 type UserData =
   | { type: 'HOME' }
@@ -19,6 +20,7 @@ export class ScraperService {
     private readonly navigationService: NavigationService,
     private readonly categoryService: CategoryService,
     private readonly productService: ProductService,
+    private readonly reviewService : ReviewService,
   ) {}
   
 
@@ -187,6 +189,15 @@ if (nextHref) {
             .catch(() => '');
           const price = parseFloat(priceText.replace(/[^0-9.]/g, '')) || 0;
 
+          const reviews = await page.$$eval('.review-selector', nodes =>
+            nodes.map(node => ({
+              reviewerName: node.querySelector('.reviewer-name')?.textContent?.trim() || '',
+              rating: parseInt(node.querySelector('.rating')?.textContent?.trim() || '0', 10),
+              reviewText: node.querySelector('.review-text')?.textContent?.trim() || '',
+            }))
+          );
+
+
           const imageUrl =
             (await page
               .$eval('.product-image img', n => (n as HTMLImageElement).src)
@@ -198,7 +209,7 @@ if (nextHref) {
             this.logger.warn(`Product page ${productUrl} missing title — skipping save.`);
           } else {
             const category = await this.categoryService.findOne(categoryId);
-            await this.productService.upsertProduct({
+            const savedProduct = await this.productService.upsertProduct({
               title,
               author,
               price,
@@ -206,6 +217,10 @@ if (nextHref) {
               productUrl,
               category,
             });
+
+            for (const reviewData of reviews) {
+              await this.reviewService.createReview(savedProduct.id, reviewData);
+            }
             this.logger.log(`Saved product: ${title}`);
           }
         }

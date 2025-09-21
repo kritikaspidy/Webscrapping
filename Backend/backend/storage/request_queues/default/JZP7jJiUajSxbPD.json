@@ -1,9 +1,9 @@
 {
 	"id": "JZP7jJiUajSxbPD",
-	"json": "{\"id\":\"JZP7jJiUajSxbPD\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-animation-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-animation-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"Error: requestHandler timed out after 190 seconds (JZP7jJiUajSxbPD).\\n    at Timeout._onTimeout (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@apify\\\\src\\\\index.ts:88:74)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\"],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7811,\"categoryId\":13118,\"__crawlee\":{\"state\":5}}}",
+	"json": "{\"id\":\"JZP7jJiUajSxbPD\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-animation-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-animation-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7811,\"categoryId\":13118}}",
 	"method": "GET",
-	"orderNo": 1758420410549,
-	"retryCount": 1,
+	"orderNo": 1758471001361,
+	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/dvd-animation-films",
 	"url": "https://www.worldofbooks.com/en-gb/collections/dvd-animation-films"
 }

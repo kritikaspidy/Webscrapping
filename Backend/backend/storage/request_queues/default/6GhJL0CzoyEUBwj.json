@@ -1,6 +1,6 @@
 {
 	"id": "6GhJL0CzoyEUBwj",
-	"json": "{\"id\":\"6GhJL0CzoyEUBwj\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/new-fiction-books-uk\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/new-fiction-books-uk\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/new-fiction-books-uk\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13046,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:51:04.487Z\"}",
+	"json": "{\"id\":\"6GhJL0CzoyEUBwj\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/new-fiction-books-uk\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/new-fiction-books-uk\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/new-fiction-books-uk\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13046,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T16:13:30.914Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

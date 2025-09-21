@@ -1,6 +1,6 @@
 {
 	"id": "0pv4EYkmo1bFUXL",
-	"json": "{\"id\":\"0pv4EYkmo1bFUXL\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvds-and-blu-ray\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvds-and-blu-ray\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvds-and-blu-ray\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"HEADING\",\"headingId\":7811,\"headingName\":\"DVD & Blu-Ray\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:49:01.397Z\"}",
+	"json": "{\"id\":\"0pv4EYkmo1bFUXL\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvds-and-blu-ray\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvds-and-blu-ray\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvds-and-blu-ray\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"HEADING\",\"headingId\":7811,\"headingName\":\"DVD & Blu-Ray\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T16:10:02.349Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

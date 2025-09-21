@@ -1,6 +1,6 @@
 {
 	"id": "cIlqbti9GjwaPId",
-	"json": "{\"id\":\"cIlqbti9GjwaPId\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/childrens-fiction-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/childrens-fiction-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/childrens-fiction-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":12993,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:50:12.747Z\"}",
+	"json": "{\"id\":\"cIlqbti9GjwaPId\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/childrens-fiction-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/childrens-fiction-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/childrens-fiction-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":12993,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T16:14:04.287Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

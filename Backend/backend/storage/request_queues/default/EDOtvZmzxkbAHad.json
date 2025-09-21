@@ -1,6 +1,6 @@
 {
 	"id": "EDOtvZmzxkbAHad",
-	"json": "{\"id\":\"EDOtvZmzxkbAHad\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/religious-and-spiritual-fiction-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/religious-and-spiritual-fiction-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/religious-and-spiritual-fiction-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13034,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:49:58.901Z\"}",
+	"json": "{\"id\":\"EDOtvZmzxkbAHad\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/religious-and-spiritual-fiction-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/religious-and-spiritual-fiction-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/religious-and-spiritual-fiction-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13034,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T16:13:24.842Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

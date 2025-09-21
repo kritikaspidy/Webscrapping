@@ -1,5 +1,6 @@
-import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany } from 'typeorm';
 import { Category } from './category.entity';
+import { Review } from './review.entity';
 
 @Entity()
 export class Product {
@@ -23,4 +24,7 @@ export class Product {
 
   @ManyToOne(() => Category, (category) => category.products, { eager: true, onDelete: 'CASCADE' })
   category: Category;
+
+  @OneToMany(() => Review, review => review.product, { cascade: true })
+reviews: Review[];
 }

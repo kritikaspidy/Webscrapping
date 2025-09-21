@@ -1,6 +1,6 @@
 {
 	"id": "TNe00kWqThlZtwO",
-	"json": "{\"id\":\"TNe00kWqThlZtwO\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/family-and-health-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/family-and-health-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/family-and-health-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13053,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T01:52:43.547Z\"}",
+	"json": "{\"id\":\"TNe00kWqThlZtwO\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/family-and-health-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/family-and-health-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/family-and-health-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13053,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T16:11:33.480Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,
