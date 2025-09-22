@@ -1,6 +1,6 @@
 {
 	"id": "dHRGiXdOgfhOXkT",
-	"json": "{\"id\":\"dHRGiXdOgfhOXkT\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-other\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-other\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-other\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7812,\"categoryId\":13142,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:30:31.934Z\"}",
+	"json": "{\"id\":\"dHRGiXdOgfhOXkT\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-other\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-other\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-other\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7812,\"categoryId\":13142,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:49:27.604Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

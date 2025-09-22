@@ -1,6 +1,6 @@
 {
 	"id": "1Upjzdt2olZMbQ2",
-	"json": "{\"id\":\"1Upjzdt2olZMbQ2\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/economics-and-finance-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/economics-and-finance-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/economics-and-finance-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13020,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:20:39.024Z\"}",
+	"json": "{\"id\":\"1Upjzdt2olZMbQ2\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/economics-and-finance-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/economics-and-finance-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/economics-and-finance-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13020,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:39:01.399Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

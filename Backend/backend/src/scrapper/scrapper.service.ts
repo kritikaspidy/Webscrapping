@@ -5,7 +5,7 @@ import { CategoryService } from '../category/category.service';
 import { ProductService } from '../product/product.service';
 import { ReviewService } from '../review/review.service';
 
-type UserData =
+type UserData = 
   | { type: 'HOME' }
   | { type: 'HEADING'; headingId: number; headingName: string }
   | { type: 'CATEGORY'; headingId: number; categoryId: number }

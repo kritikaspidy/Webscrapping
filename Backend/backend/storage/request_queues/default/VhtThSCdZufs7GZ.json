@@ -1,6 +1,6 @@
 {
 	"id": "VhtThSCdZufs7GZ",
-	"json": "{\"id\":\"VhtThSCdZufs7GZ\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/politics-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/politics-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/politics-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13070,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:22:19.107Z\"}",
+	"json": "{\"id\":\"VhtThSCdZufs7GZ\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/politics-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/politics-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/politics-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13070,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:44:48.202Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

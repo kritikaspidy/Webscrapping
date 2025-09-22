@@ -1,6 +1,6 @@
 {
 	"id": "tK6mZ2jO1fjuv9W",
-	"json": "{\"id\":\"tK6mZ2jO1fjuv9W\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-holly-jackson\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-holly-jackson\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-holly-jackson\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13045,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:19:37.683Z\"}",
+	"json": "{\"id\":\"tK6mZ2jO1fjuv9W\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-holly-jackson\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-holly-jackson\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-holly-jackson\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13045,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:42:09.058Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

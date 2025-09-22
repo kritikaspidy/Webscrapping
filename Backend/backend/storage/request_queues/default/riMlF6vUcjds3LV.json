@@ -1,6 +1,6 @@
 {
 	"id": "riMlF6vUcjds3LV",
-	"json": "{\"id\":\"riMlF6vUcjds3LV\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-thriller-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-thriller-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-thriller-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13074,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:22:34.270Z\"}",
+	"json": "{\"id\":\"riMlF6vUcjds3LV\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-thriller-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-thriller-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-thriller-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13074,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:45:17.656Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

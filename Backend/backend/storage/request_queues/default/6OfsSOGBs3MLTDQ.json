@@ -1,6 +1,6 @@
 {
 	"id": "6OfsSOGBs3MLTDQ",
-	"json": "{\"id\":\"6OfsSOGBs3MLTDQ\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-colleen-hoover\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-colleen-hoover\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-colleen-hoover\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13065,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:17:59.980Z\"}",
+	"json": "{\"id\":\"6OfsSOGBs3MLTDQ\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-colleen-hoover\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-colleen-hoover\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-colleen-hoover\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13065,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:44:31.131Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

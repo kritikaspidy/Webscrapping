@@ -1,6 +1,6 @@
 {
 	"id": "wFULhOJENgC02tS",
-	"json": "{\"id\":\"wFULhOJENgC02tS\",\"url\":\"https://www.worldofbooks.com/en-gb/pages/celebrating-black-authors\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/pages/celebrating-black-authors\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/pages/celebrating-black-authors\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13052,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:17:37.687Z\"}",
+	"json": "{\"id\":\"wFULhOJENgC02tS\",\"url\":\"https://www.worldofbooks.com/en-gb/pages/celebrating-black-authors\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/pages/celebrating-black-authors\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/pages/celebrating-black-authors\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13052,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:43:12.678Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

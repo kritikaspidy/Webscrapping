@@ -1,6 +1,6 @@
 {
 	"id": "tsbD5jN7QtP6ss4",
-	"json": "{\"id\":\"tsbD5jN7QtP6ss4\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-alice-oseman\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-alice-oseman\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-alice-oseman\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13042,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:19:35.106Z\"}",
+	"json": "{\"id\":\"tsbD5jN7QtP6ss4\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-alice-oseman\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-alice-oseman\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-alice-oseman\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13042,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:41:42.525Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

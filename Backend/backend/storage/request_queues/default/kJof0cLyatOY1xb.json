@@ -1,6 +1,6 @@
 {
 	"id": "kJof0cLyatOY1xb",
-	"json": "{\"id\":\"kJof0cLyatOY1xb\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-jennifer-lynn-barnes\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-jennifer-lynn-barnes\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-jennifer-lynn-barnes\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13051,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:19:56.724Z\"}",
+	"json": "{\"id\":\"kJof0cLyatOY1xb\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-jennifer-lynn-barnes\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-jennifer-lynn-barnes\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-jennifer-lynn-barnes\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13051,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:42:56.887Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -1,6 +1,6 @@
 {
 	"id": "k8Kbar3xl6wlnnP",
-	"json": "{\"id\":\"k8Kbar3xl6wlnnP\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-agatha-christie\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-agatha-christie\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-agatha-christie\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13060,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:17:52.435Z\"}",
+	"json": "{\"id\":\"k8Kbar3xl6wlnnP\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-agatha-christie\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-agatha-christie\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-agatha-christie\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13060,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:43:56.799Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

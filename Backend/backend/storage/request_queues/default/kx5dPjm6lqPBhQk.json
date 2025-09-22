@@ -1,6 +1,6 @@
 {
 	"id": "kx5dPjm6lqPBhQk",
-	"json": "{\"id\":\"kx5dPjm6lqPBhQk\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-sci-fi-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-sci-fi-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-sci-fi-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13075,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:22:47.749Z\"}",
+	"json": "{\"id\":\"kx5dPjm6lqPBhQk\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-sci-fi-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-sci-fi-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-sci-fi-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13075,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:45:13.685Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

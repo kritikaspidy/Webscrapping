@@ -1,6 +1,6 @@
 {
 	"id": "0bWRZnr7PEt50QV",
-	"json": "{\"id\":\"0bWRZnr7PEt50QV\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-myths-legends-supernatural-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-myths-legends-supernatural-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-myths-legends-supernatural-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13094,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:23:57.106Z\"}",
+	"json": "{\"id\":\"0bWRZnr7PEt50QV\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-myths-legends-supernatural-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-myths-legends-supernatural-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-myths-legends-supernatural-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13094,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:46:44.643Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -1,6 +1,6 @@
 {
 	"id": "6zaMvRM4GHU81tp",
-	"json": "{\"id\":\"6zaMvRM4GHU81tp\",\"url\":\"https://www.worldofbooks.com/en-gb/pages/childrens-favourite-characters\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/pages/childrens-favourite-characters\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/pages/childrens-favourite-characters\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13025,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:19:06.561Z\"}",
+	"json": "{\"id\":\"6zaMvRM4GHU81tp\",\"url\":\"https://www.worldofbooks.com/en-gb/pages/childrens-favourite-characters\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/pages/childrens-favourite-characters\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/pages/childrens-favourite-characters\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13025,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:39:36.746Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,
