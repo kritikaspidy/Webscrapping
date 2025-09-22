@@ -6,6 +6,7 @@ import Card from './Card';
 import ErrorMessage from '../ErrorMessage';
 import { useQuery, keepPreviousData } from '@tanstack/react-query';
 import Pagination from './Pagination';
+import Loader from '../Loader';
 
 
 export type Product = {
@@ -58,14 +59,17 @@ export default function ProductList({ selectedHeading, selectedCategory }: Produ
   const totalPages = data ? Math.ceil(data.total / limit) : 1;
 
   if (isLoading) {
-    return (
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-        {Array.from({ length: 8 }).map((_, i) => (
-          <div key={i} className="animate-pulse bg-white p-4 rounded shadow h-80"></div>
-        ))}
-      </div>
-    );
-  }
+  return (
+    <div className="grid gap-4 [grid-template-columns:repeat(auto-fit,minmax(200px,1fr))]">
+
+      {Array.from({ length: 8 }).map((_, i) => (
+        <div key={i} className="flex flex-col min-h-[300px] rounded shadow">
+          <Loader />
+        </div>
+      ))}
+    </div>
+  );
+}
 
   if (error) return <ErrorMessage message={error.message} />;
 
@@ -74,24 +78,30 @@ export default function ProductList({ selectedHeading, selectedCategory }: Produ
 
   return (
     <>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-        {products.map((product: Product) => (
+      <div className="grid gap-4 [grid-template-columns:repeat(auto-fit,minmax(200px,1fr))]">
+        {products.map((product) => (
           <Card
             key={product.id}
-            title={product.title}
             id={product.id}
+            title={product.title}
             imageSrc={product.imageUrl}
             price={product.price}
           />
         ))}
       </div>
 
+
+
       {totalPages > 1 && (
         <Pagination
-          currentPage={page}
-          totalPages={totalPages}
-          onPageChange={setPage}
-        />
+  currentPage={page}
+  totalPages={totalPages}
+  onPageChange={(newPage) => {
+    setPage(newPage);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }}
+/>
+
       )}
     </>
   );

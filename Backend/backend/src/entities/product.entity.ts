@@ -21,6 +21,8 @@ export class Product {
 
   @Column()
   productUrl: string;
+  @Column({ type: 'text', nullable: true })
+  description?: string;
 
   @ManyToOne(() => Category, (category) => category.products, { eager: true, onDelete: 'CASCADE' })
   category: Category;

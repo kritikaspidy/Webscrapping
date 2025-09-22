@@ -1,6 +1,6 @@
 {
 	"id": "9sVDxUMR0zsHGK5",
-	"json": "{\"id\":\"9sVDxUMR0zsHGK5\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/childrens-reference-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/childrens-reference-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/childrens-reference-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13002,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T16:14:10.329Z\"}",
+	"json": "{\"id\":\"9sVDxUMR0zsHGK5\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/childrens-reference-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/childrens-reference-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/childrens-reference-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13002,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:18:27.421Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

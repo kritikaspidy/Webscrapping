@@ -1,6 +1,6 @@
 {
 	"id": "pFqu3K8sT7jOIOK",
-	"json": "{\"id\":\"pFqu3K8sT7jOIOK\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/arts-and-crafts-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/arts-and-crafts-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/arts-and-crafts-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13061,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T16:11:46.997Z\"}",
+	"json": "{\"id\":\"pFqu3K8sT7jOIOK\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/arts-and-crafts-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/arts-and-crafts-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/arts-and-crafts-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13061,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:21:51.104Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

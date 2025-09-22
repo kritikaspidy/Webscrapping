@@ -1,6 +1,6 @@
 {
 	"id": "XOMDxkOrHs7Bq48",
-	"json": "{\"id\":\"XOMDxkOrHs7Bq48\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/teaching-and-learning-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/teaching-and-learning-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/teaching-and-learning-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13062,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-21T16:11:51.912Z\"}",
+	"json": "{\"id\":\"XOMDxkOrHs7Bq48\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/teaching-and-learning-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/teaching-and-learning-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/teaching-and-learning-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13062,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:21:52.379Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

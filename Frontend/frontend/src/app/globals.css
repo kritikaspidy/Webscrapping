@@ -4,20 +4,25 @@
 
 
 
-/* Product Card */
 .product-card {
   background-color: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 1px 8px rgba(209, 213, 219, 0.7); /* gray shadow */
+  box-shadow: 0 1px 8px rgba(209, 213, 219, 0.7);
   display: flex;
+  flex: 1;
   flex-direction: column;
   padding: 1rem;
   transition: transform 0.2s, box-shadow 0.2s;
+  /* max-width: 20px; */
+  min-height: 300px; 
 }
+
 .product-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(209, 213, 219, 0.9);
 }
+
+
 
 .product-image {
   height: 128px;

@@ -1,8 +1,8 @@
 {
 	"id": "HJS7si4ui9QK0Hz",
-	"json": "{\"id\":\"HJS7si4ui9QK0Hz\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-childrens-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-childrens-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13090}}",
+	"json": "{\"id\":\"HJS7si4ui9QK0Hz\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-childrens-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-childrens-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-childrens-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13090,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:23:37.018Z\"}",
 	"method": "GET",
-	"orderNo": 1758470999894,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/rare-childrens-books",
 	"url": "https://www.worldofbooks.com/en-gb/collections/rare-childrens-books"

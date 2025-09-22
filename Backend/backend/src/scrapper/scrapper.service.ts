@@ -3,12 +3,11 @@ import { PlaywrightCrawler, RequestQueue } from 'crawlee';
 import { NavigationService } from '../navigation/navigation.service';
 import { CategoryService } from '../category/category.service';
 import { ProductService } from '../product/product.service';
-import { Navigation } from 'src/entities/navigation.entity';
-import { ReviewService } from 'src/review/review.service';
+import { ReviewService } from '../review/review.service';
 
 type UserData =
   | { type: 'HOME' }
-  | { type: 'HEADING'; headingId: number, headingName: string }
+  | { type: 'HEADING'; headingId: number; headingName: string }
   | { type: 'CATEGORY'; headingId: number; categoryId: number }
   | { type: 'PRODUCT'; headingId: number; categoryId: number };
 
@@ -20,13 +19,9 @@ export class ScraperService {
     private readonly navigationService: NavigationService,
     private readonly categoryService: CategoryService,
     private readonly productService: ProductService,
-    private readonly reviewService : ReviewService,
+    private readonly reviewService: ReviewService,
   ) {}
-  
 
-  /**
-   * Entry point: call run('https://www.worldofbooks.com')
-   */
   async run(startUrl: string) {
     const requestQueue = await RequestQueue.open();
 
@@ -43,7 +38,6 @@ export class ScraperService {
         const userData = request.userData as UserData;
         log.info(`Handling ${request.url} (${userData.type})`);
 
-        // ---------- HOME ----------
         if (userData.type === 'HOME') {
           try {
             await page.waitForSelector('a.header__menu-item', { timeout: 10000 });
@@ -52,8 +46,9 @@ export class ScraperService {
             return;
           }
 
-          const headings = await page.$$eval('a.header__menu-item[data-menu_subcategory=""]', nodes =>
-            nodes.map(n => ({
+          const headings = await page.$$eval(
+            'a.header__menu-item[data-menu_subcategory=""]',
+            nodes => nodes.map(n => ({
               name: (n.textContent || '').trim(),
               href: (n as HTMLAnchorElement).href,
             })),
@@ -78,23 +73,20 @@ export class ScraperService {
               userData: { type: 'HEADING', headingId, headingName: h.name },
             });
           }
-        }
-
-        // ---------- HEADING ----------
-        else if (userData.type === 'HEADING') {
+        } else if (userData.type === 'HEADING') {
           const { headingId, headingName } = userData;
 
           const categories = await page.$$eval(
-          'a.header__menu-item[data-menu_subcategory]:not([data-menu_subcategory=""])',
-          (nodes, headingName) => nodes
-            .filter(n => n.getAttribute('data-menu_category') === headingName)
-            .map(n => ({
-              name: n.getAttribute('data-menu_subcategory'),
-              href: (n as HTMLAnchorElement).href,
-            })),
-            headingName
-        );
-
+            'a.header__menu-item[data-menu_subcategory]:not([data-menu_subcategory=""])',
+            (nodes, headingName) =>
+              nodes
+                .filter(n => n.getAttribute('data-menu_category') === headingName)
+                .map(n => ({
+                  name: n.getAttribute('data-menu_subcategory'),
+                  href: (n as HTMLAnchorElement).href,
+                })),
+            headingName,
+          );
 
           for (const c of categories) {
             if (!c.href || !c.name) continue;
@@ -121,108 +113,131 @@ export class ScraperService {
               userData: { type: 'CATEGORY', headingId, categoryId },
             });
           }
-        }
-
-        // ---------- CATEGORY ----------
-        else if (userData.type === 'CATEGORY') {
+        } else if (userData.type === 'CATEGORY') {
           const { categoryId, headingId } = userData;
 
           const productCards = await page.$$eval('div.card.card--standard', cards =>
-  cards.map(card => {
-    const anchor = card.querySelector('a.product-card');
-    const titleEl = card.querySelector('a.product-card');
-    const authorEl = card.querySelector('p.author');
-    const priceEl = card.querySelector('.price-item');
-    const imgEl = card.querySelector('img');
+            cards.map(card => {
+              const anchor = card.querySelector('a.product-card');
+              const titleEl = card.querySelector('a.product-card');
+              const authorEl = card.querySelector('p.author');
+              const priceEl = card.querySelector('.price-item');
+              const imgEl = card.querySelector('img');
 
-    return {
-      title: titleEl?.textContent?.trim() || '',
-      href: anchor ? (anchor as HTMLAnchorElement).href : '',
-      author: authorEl?.textContent?.trim() || '',
-      price: priceEl?.textContent?.trim() || '',
-      imageUrl: imgEl ? (imgEl as HTMLImageElement).src : '',
-    };
-  }),
+              return {
+                title: titleEl?.textContent?.trim() || '',
+                href: anchor ? (anchor as HTMLAnchorElement).href : '',
+                author: authorEl?.textContent?.trim() || '',
+                price: priceEl?.textContent?.trim() || '',
+                imageUrl: imgEl ? (imgEl as HTMLImageElement).src : '',
+              };
+            }),
+          );
+
+          for (const p of productCards) {
+            if (!p.href) continue;
+            const category = await this.categoryService.findOne(categoryId);
+            await this.productService.create?.({
+              title: p.title,
+              author: p.author,
+              price: parseFloat(p.price.replace(/[^0-9.]/g, '')) || 0,
+              imageUrl: p.imageUrl,
+              productUrl: p.href,
+              category,
+            });
+          }
+
+          // Pagination
+          const nextHref = await page.$eval('a.next', (a: HTMLAnchorElement) => a?.href || '').catch(() => '');
+          if (nextHref) {
+            await requestQueue.addRequest({
+              url: nextHref,
+              userData: { type: 'CATEGORY', headingId, categoryId },
+            });
+          }
+        } else if (userData.type === 'PRODUCT') {
+          const { categoryId } = userData;
+
+          const title = await page.$eval('h1[itemprop="name"]', el => el.textContent?.trim() ?? '').catch(() => '');
+          if (!title) {
+            this.logger.warn(`Product page missing title, skipping`);
+            return;
+          }
+
+          const author = await page.$eval('.author', el => el.textContent?.trim() ?? '').catch(() => '');
+          const priceText = await page.$eval('.price-item', el => el.textContent?.trim() ?? '').catch(() => '');
+          const price = parseFloat(priceText.replace(/[^0-9.]/g, '')) || 0;
+          const imageUrl = await page.$eval('.product__images-main img', el => (el as HTMLImageElement).src).catch(() => '');
+          const productUrl = page.url();
+
+          const category = await this.categoryService.findOne(categoryId);
+
+          // Get product description (text)
+          const description = await page.$eval('.product-description .panel', el => el.textContent?.trim() ?? '').catch(() => '');
+
+          const savedProduct = await this.productService.create({
+            title,
+            author,
+            price,
+            imageUrl,
+            productUrl,
+            category,
+            description,
+          });
+
+          // Extract reviews (multiple paragraphs inside reviews panel)
+          const reviewTexts = await page.$$eval('.outer-accordion .panel p', nodes =>
+            nodes.map(n => n.textContent?.trim() ?? '').filter(t => t.length > 0)
+          );
+
+          const reviews = reviewTexts.map(text => ({
+            reviewerName: 'Reviewer',
+            rating: null,
+            reviewText: text,
+          }));
+
+          for (const reviewData of reviews) {
+            try {
+              await this.reviewService.createReview(savedProduct.id, reviewData);
+              this.logger.log(`Saved a review for product ${savedProduct.id}`);
+            } catch (err) {
+              this.logger.error(`Error saving review for product ${savedProduct.id}: ${err.message}`);
+            }
+          }
+
+          // Extract metadata key-value pairs
+          const metadataEntries = await page.$$eval('.additional-info-table tr', rows =>
+            rows.map(row => {
+              const cells = row.querySelectorAll('td');
+              return {
+                key: cells[0]?.textContent?.trim(),
+                value: cells[1]?.textContent?.trim(),
+              };
+            })
+          );
+
+          // Here you can process metadataEntries as needed or store in product metadata column
+
+          // Extract related products
+          const relatedProducts = await page.$$eval(
+  '#relatedProducts .product-card',
+  (cards) =>
+    cards.map((card) => {
+      const anchor = card.querySelector('h3 a') as HTMLAnchorElement | null;
+      return {
+        title: anchor?.textContent?.trim() ?? '',
+        url: anchor?.href ?? '',
+        author: (card.querySelector('.author')?.textContent ?? '').trim(),
+        price: (card.querySelector('.price-item')?.textContent ?? '').trim(),
+        imageUrl: (card.querySelector('img') as HTMLImageElement)?.src ?? '',
+      };
+    })
 );
 
 
-for (const p of productCards) {
-  if (!p.href) continue;
-  const category = await this.categoryService.findOne(categoryId);
-  await this.productService.create?.({
-    title: p.title,
-    author: p.author,
-    price: parseFloat(p.price.replace(/[^0-9.]/g, '')) || 0,
-    imageUrl: p.imageUrl,
-    productUrl: p.href,
-    category,
-  });
-}
+          // Save or handle related products as necessary
 
-
-          // Pagination
-         const nextHref = await page.$eval('a.next', (a: HTMLAnchorElement) => a?.href || '').catch(() => '');
-if (nextHref) {
-  await requestQueue.addRequest({
-    url: nextHref,
-    userData: { type: 'CATEGORY', headingId, categoryId },
-  });
-}
-
-        }
-
-        // ---------- PRODUCT ----------
-        else if (userData.type === 'PRODUCT') {
-          const { categoryId } = userData;
-
-          const title =
-  (await page.$eval('h1[itemprop="name"]', n => (n.textContent || '').trim()).catch(() => '')) || '';
-
-
-          const author =
-            (await page
-              .$eval('.product-author', n => (n.textContent || '').trim())
-              .catch(() => '')) || '';
-
-          const priceText = await page
-            .$eval('.product-price', n => n.textContent?.trim() ?? '')
-            .catch(() => '');
-          const price = parseFloat(priceText.replace(/[^0-9.]/g, '')) || 0;
-
-          const reviews = await page.$$eval('.review-selector', nodes =>
-            nodes.map(node => ({
-              reviewerName: node.querySelector('.reviewer-name')?.textContent?.trim() || '',
-              rating: parseInt(node.querySelector('.rating')?.textContent?.trim() || '0', 10),
-              reviewText: node.querySelector('.review-text')?.textContent?.trim() || '',
-            }))
-          );
-
-
-          const imageUrl =
-            (await page
-              .$eval('.product-image img', n => (n as HTMLImageElement).src)
-              .catch(() => '')) || '';
-
-          const productUrl = page.url();
-
-          if (!title) {
-            this.logger.warn(`Product page ${productUrl} missing title — skipping save.`);
-          } else {
-            const category = await this.categoryService.findOne(categoryId);
-            const savedProduct = await this.productService.upsertProduct({
-              title,
-              author,
-              price,
-              imageUrl,
-              productUrl,
-              category,
-            });
-
-            for (const reviewData of reviews) {
-              await this.reviewService.createReview(savedProduct.id, reviewData);
-            }
-            this.logger.log(`Saved product: ${title}`);
-          }
+          this.logger.log(`Finished scraping product: ${title}`);
         }
       },
 

@@ -1,8 +1,8 @@
 {
 	"id": "f8IVf4cVKu80zHo",
-	"json": "{\"id\":\"f8IVf4cVKu80zHo\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-sports\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-sports\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7812,\"categoryId\":13147}}",
+	"json": "{\"id\":\"f8IVf4cVKu80zHo\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-sports\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-sports\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-sports\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7812,\"categoryId\":13147,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T01:30:47.634Z\"}",
 	"method": "GET",
-	"orderNo": 1758471008572,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/video-games-sports",
 	"url": "https://www.worldofbooks.com/en-gb/collections/video-games-sports"
