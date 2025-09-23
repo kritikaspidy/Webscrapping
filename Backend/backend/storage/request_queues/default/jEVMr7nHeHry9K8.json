@@ -1,8 +1,8 @@
 {
 	"id": "jEVMr7nHeHry9K8",
-	"json": "{\"id\":\"jEVMr7nHeHry9K8\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/technology-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/technology-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7855,\"categoryId\":13988}}",
+	"json": "{\"id\":\"jEVMr7nHeHry9K8\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/technology-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/technology-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/technology-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7855,\"categoryId\":13988,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:16:50.896Z\"}",
 	"method": "GET",
-	"orderNo": 1758644326906,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/technology-books",
 	"url": "https://www.worldofbooks.com/en-gb/collections/technology-books"

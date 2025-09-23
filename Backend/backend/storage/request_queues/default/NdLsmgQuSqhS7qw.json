@@ -1,8 +1,8 @@
 {
 	"id": "NdLsmgQuSqhS7qw",
-	"json": "{\"id\":\"NdLsmgQuSqhS7qw\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-music\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-music\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7860,\"categoryId\":14095}}",
+	"json": "{\"id\":\"NdLsmgQuSqhS7qw\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-music\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-music\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-music\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7860,\"categoryId\":14095,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:23:19.719Z\"}",
 	"method": "GET",
-	"orderNo": 1758644070443,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/video-games-music",
 	"url": "https://www.worldofbooks.com/en-gb/collections/video-games-music"

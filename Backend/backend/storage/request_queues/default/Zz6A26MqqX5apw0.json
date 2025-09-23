@@ -1,8 +1,8 @@
 {
 	"id": "Zz6A26MqqX5apw0",
-	"json": "{\"id\":\"Zz6A26MqqX5apw0\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/music-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/music-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7855,\"categoryId\":13994}}",
+	"json": "{\"id\":\"Zz6A26MqqX5apw0\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/music-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/music-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/music-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7855,\"categoryId\":13994,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:17:07.916Z\"}",
 	"method": "GET",
-	"orderNo": 1758644058039,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/music-books",
 	"url": "https://www.worldofbooks.com/en-gb/collections/music-books"

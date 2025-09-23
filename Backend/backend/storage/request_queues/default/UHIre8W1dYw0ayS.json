@@ -1,8 +1,8 @@
 {
 	"id": "UHIre8W1dYw0ayS",
-	"json": "{\"id\":\"UHIre8W1dYw0ayS\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/reference-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/reference-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7855,\"categoryId\":13976}}",
+	"json": "{\"id\":\"UHIre8W1dYw0ayS\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/reference-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/reference-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/reference-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7855,\"categoryId\":13976,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:16:07.005Z\"}",
 	"method": "GET",
-	"orderNo": 1758644326906,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/reference-books",
 	"url": "https://www.worldofbooks.com/en-gb/collections/reference-books"
