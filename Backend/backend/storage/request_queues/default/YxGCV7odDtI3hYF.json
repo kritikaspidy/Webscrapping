@@ -1,6 +1,6 @@
 {
 	"id": "YxGCV7odDtI3hYF",
-	"json": "{\"id\":\"YxGCV7odDtI3hYF\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/modern-fiction-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/modern-fiction-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/modern-fiction-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":12999,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:29:37.006Z\"}",
+	"json": "{\"id\":\"YxGCV7odDtI3hYF\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/modern-fiction-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/modern-fiction-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/modern-fiction-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7814,\"categoryId\":13152,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T06:56:39.602Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -1,40 +1,29 @@
 {
-  "requestsFinished": 167,
+  "requestsFinished": 13,
   "requestsFailed": 0,
-  "requestsRetries": 3,
+  "requestsRetries": 0,
   "requestsFailedPerMinute": 0,
-  "requestsFinishedPerMinute": 12,
-  "requestMinDurationMillis": 4772,
-  "requestMaxDurationMillis": 56837,
+  "requestsFinishedPerMinute": 13,
+  "requestMinDurationMillis": 6184,
+  "requestMaxDurationMillis": 17328,
   "requestTotalFailedDurationMillis": 0,
-  "requestTotalFinishedDurationMillis": 1756909,
-  "crawlerStartedAt": "2025-09-23T00:28:38.887Z",
-  "crawlerFinishedAt": "2025-09-23T00:42:22.864Z",
-  "statsPersistedAt": "2025-09-23T00:42:22.864Z",
-  "crawlerRuntimeMillis": 824176,
-  "crawlerLastStartTimestamp": 1758587318688,
+  "requestTotalFinishedDurationMillis": 130898,
+  "crawlerStartedAt": "2025-09-23T06:55:42.231Z",
+  "crawlerFinishedAt": null,
+  "statsPersistedAt": "2025-09-23T06:56:42.225Z",
+  "crawlerRuntimeMillis": 60123,
+  "crawlerLastStartTimestamp": 1758610542102,
   "requestRetryHistogram": [
-    164,
-    3
+    13
   ],
   "statsId": 0,
   "requestAvgFailedDurationMillis": null,
-  "requestAvgFinishedDurationMillis": 10520,
-  "requestTotalDurationMillis": 1756909,
-  "requestsTotal": 167,
+  "requestAvgFinishedDurationMillis": 10069,
+  "requestTotalDurationMillis": 130898,
+  "requestsTotal": 13,
   "requestsWithStatusCode": {
-    "200": 167
+    "200": 13
   },
   "errors": {},
-  "retryErrors": {
-    "D:\\webscrapping\\Backend\\backend\\node_modules\\@crawlee\\src\\crawlers\\crawler_utils.ts:13:11": {
-      "missing error code": {
-        "Error": {
-          "Navigation timed out after 120 seconds.": {
-            "count": 3
-          }
-        }
-      }
-    }
-  }
+  "retryErrors": {}
 }

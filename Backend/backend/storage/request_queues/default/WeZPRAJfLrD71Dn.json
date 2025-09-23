@@ -1,6 +1,6 @@
 {
 	"id": "WeZPRAJfLrD71Dn",
-	"json": "{\"id\":\"WeZPRAJfLrD71Dn\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/adventure-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/adventure-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/adventure-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13006,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:29:46.834Z\"}",
+	"json": "{\"id\":\"WeZPRAJfLrD71Dn\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/adventure-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/adventure-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/adventure-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7814,\"categoryId\":13154,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T06:56:45.462Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

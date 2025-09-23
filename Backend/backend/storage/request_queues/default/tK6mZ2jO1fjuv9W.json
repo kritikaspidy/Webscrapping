@@ -1,9 +1,9 @@
 {
 	"id": "tK6mZ2jO1fjuv9W",
-	"json": "{\"id\":\"tK6mZ2jO1fjuv9W\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-holly-jackson\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-holly-jackson\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-holly-jackson\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"Error: Navigation timed out after 120 seconds.\\n    at handleRequestTimeout (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@crawlee\\\\src\\\\crawlers\\\\crawler_utils.ts:13:11)\\n    at PlaywrightCrawler._handleNavigationTimeout (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@crawlee\\\\src\\\\internals\\\\browser-crawler.ts:695:33)\\n    at PlaywrightCrawler._handleNavigation (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@crawlee\\\\src\\\\internals\\\\browser-crawler.ts:658:24)\\n    at async PlaywrightCrawler._runRequestHandler (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@crawlee\\\\src\\\\internals\\\\browser-crawler.ts:553:13)\\n    at async PlaywrightCrawler._runRequestHandler (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@crawlee\\\\src\\\\internals\\\\playwright-crawler.ts:243:9)\\n    at async wrap (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@apify\\\\src\\\\index.ts:77:27)\"],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13045,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:35:43.324Z\"}",
+	"json": "{\"id\":\"tK6mZ2jO1fjuv9W\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-holly-jackson\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-holly-jackson\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7816,\"categoryId\":13227}}",
 	"method": "GET",
-	"orderNo": null,
-	"retryCount": 1,
+	"orderNo": 1758610564478,
+	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/author-books-by-holly-jackson",
 	"url": "https://www.worldofbooks.com/en-gb/collections/author-books-by-holly-jackson"
 }
