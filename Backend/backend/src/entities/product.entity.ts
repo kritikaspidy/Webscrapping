@@ -1,6 +1,6 @@
-import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany, ManyToMany, JoinTable } from 'typeorm';
 import { Category } from './category.entity';
-import { Review } from './review.entity';
+// import { Review } from './review.entity';
 
 @Entity()
 export class Product {
@@ -21,12 +21,26 @@ export class Product {
 
   @Column()
   productUrl: string;
+
   @Column({ type: 'text', nullable: true })
   description?: string;
+
+  @Column({ type: 'jsonb', nullable: true })
+  metadata?: Record<string, string>;
+
 
   @ManyToOne(() => Category, (category) => category.products, { eager: true, onDelete: 'CASCADE' })
   category: Category;
 
-  @OneToMany(() => Review, review => review.product, { cascade: true })
-reviews: Review[];
+  @ManyToMany(() => Product)
+  @JoinTable({
+  name: 'product_related_products',
+  joinColumn: { name: 'product_id' },
+  inverseJoinColumn: { name: 'related_product_id' },
+})
+relatedProducts: Product[];
+
+
+// @OneToMany(() => Review, review => review.product, { cascade: true })
+// reviews: Review[];
 }

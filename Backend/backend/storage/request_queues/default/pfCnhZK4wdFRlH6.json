@@ -1,6 +1,6 @@
 {
 	"id": "pfCnhZK4wdFRlH6",
-	"json": "{\"id\":\"pfCnhZK4wdFRlH6\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-fiction-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-fiction-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-fiction-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13071,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:44:52.971Z\"}",
+	"json": "{\"id\":\"pfCnhZK4wdFRlH6\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-fiction-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-fiction-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-fiction-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13071,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:37:14.518Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

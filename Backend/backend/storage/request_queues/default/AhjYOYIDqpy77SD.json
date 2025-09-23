@@ -1,6 +1,6 @@
 {
 	"id": "AhjYOYIDqpy77SD",
-	"json": "{\"id\":\"AhjYOYIDqpy77SD\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/mathematics-and-science-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/mathematics-and-science-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/mathematics-and-science-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13035,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:40:45.507Z\"}",
+	"json": "{\"id\":\"AhjYOYIDqpy77SD\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/mathematics-and-science-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/mathematics-and-science-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/mathematics-and-science-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13035,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:36:19.463Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

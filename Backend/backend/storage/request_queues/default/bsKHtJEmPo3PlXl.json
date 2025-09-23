@@ -1,6 +1,6 @@
 {
 	"id": "bsKHtJEmPo3PlXl",
-	"json": "{\"id\":\"bsKHtJEmPo3PlXl\",\"url\":\"https://www.worldofbooks.com/en-gb/pages/international-booker-prize\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/pages/international-booker-prize\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/pages/international-booker-prize\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13057,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:43:20.164Z\"}",
+	"json": "{\"id\":\"bsKHtJEmPo3PlXl\",\"url\":\"https://www.worldofbooks.com/en-gb/pages/international-booker-prize\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/pages/international-booker-prize\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/pages/international-booker-prize\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7807,\"categoryId\":13057,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:36:38.202Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

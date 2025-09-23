@@ -1,6 +1,6 @@
 {
 	"id": "jDj6s8ttlVS7LlR",
-	"json": "{\"id\":\"jDj6s8ttlVS7LlR\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-strategy\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-strategy\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-strategy\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7812,\"categoryId\":13148,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:49:44.516Z\"}",
+	"json": "{\"id\":\"jDj6s8ttlVS7LlR\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-strategy\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-strategy\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-strategy\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7812,\"categoryId\":13148,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:42:21.781Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

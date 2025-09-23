@@ -37,18 +37,24 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <Header />
+      <Header
+        onSelectHeading={setSelectedHeading}
+        onSelectCategory={setSelectedCategory}
+        selectedHeading={selectedHeading}
+        selectedCategory={selectedCategory}
+      />
+
 
       <main className="flex flex-col md:flex-row flex-1">
         {/* Sidebar */}
-        <div className="w-full md:w-64 bg-green-200 p-4 flex-shrink-0 rounded-lg shadow-md mb-4 md:mb-0">
+        {/* <div className="w-full md:w-64 bg-green-200 p-4 flex-shrink-0 rounded-lg shadow-md mb-4 md:mb-0">
           <Navigation
             onSelectHeading={setSelectedHeading}
             onSelectCategory={setSelectedCategory}
             selectedHeading={selectedHeading}
             selectedCategory={selectedCategory}
           />
-        </div>
+        </div> */}
 
         {/* Content */}
         <section className="flex-1 p-4 md:p-6 overflow-x-hidden bg-gray-50">

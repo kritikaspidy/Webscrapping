@@ -1,6 +1,6 @@
 {
 	"id": "8FIntGlKHXG4nGp",
-	"json": "{\"id\":\"8FIntGlKHXG4nGp\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-medicine-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-medicine-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-medicine-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13091,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:46:29.230Z\"}",
+	"json": "{\"id\":\"8FIntGlKHXG4nGp\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-medicine-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-medicine-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-medicine-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13091,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:38:16.287Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

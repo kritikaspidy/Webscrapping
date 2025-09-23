@@ -3,7 +3,7 @@ import { PlaywrightCrawler, RequestQueue } from 'crawlee';
 import { NavigationService } from '../navigation/navigation.service';
 import { CategoryService } from '../category/category.service';
 import { ProductService } from '../product/product.service';
-import { ReviewService } from '../review/review.service';
+// import { ReviewService } from '../review/review.service';
 
 type UserData = 
   | { type: 'HOME' }
@@ -19,7 +19,7 @@ export class ScraperService {
     private readonly navigationService: NavigationService,
     private readonly categoryService: CategoryService,
     private readonly productService: ProductService,
-    private readonly reviewService: ReviewService,
+    // private readonly reviewService: ReviewService,
   ) {}
 
   async run(startUrl: string) {
@@ -61,16 +61,15 @@ export class ScraperService {
           for (const h of headings) {
             if (!h.href || !h.name) continue;
 
-            const nav =
+            const nav = 
               (await this.navigationService.findByName?.(h.name)) ??
               (await this.navigationService.create?.({ title: h.name, url: h.href }));
 
-            const headingId = nav?.id;
-            if (!headingId) continue;
+            if (!nav?.id) continue;
 
             await requestQueue.addRequest({
               url: h.href,
-              userData: { type: 'HEADING', headingId, headingName: h.name },
+              userData: { type: 'HEADING', headingId: nav.id, headingName: h.name },
             });
           }
         } else if (userData.type === 'HEADING') {
@@ -97,7 +96,7 @@ export class ScraperService {
               continue;
             }
 
-            const existing =
+            const existing = 
               (await this.categoryService.findByNameAndHeading?.(c.name, headingId)) ??
               (await this.categoryService.create?.({
                 name: c.name,
@@ -105,12 +104,11 @@ export class ScraperService {
                 url: c.href,
               }));
 
-            const categoryId = existing?.id;
-            if (!categoryId) continue;
+            if (!existing?.id) continue;
 
             await requestQueue.addRequest({
               url: c.href,
-              userData: { type: 'CATEGORY', headingId, categoryId },
+              userData: { type: 'CATEGORY', headingId, categoryId: existing.id },
             });
           }
         } else if (userData.type === 'CATEGORY') {
@@ -134,9 +132,15 @@ export class ScraperService {
             }),
           );
 
+          const category = await this.categoryService.findOne(categoryId);
+          if (!category) {
+            this.logger.warn(`Category with ID ${categoryId} not found, skipping products scraping`);
+            return;
+          }
+
           for (const p of productCards) {
             if (!p.href) continue;
-            const category = await this.categoryService.findOne(categoryId);
+
             await this.productService.create?.({
               title: p.title,
               author: p.author,
@@ -147,7 +151,7 @@ export class ScraperService {
             });
           }
 
-          // Pagination
+          // Pagination handling
           const nextHref = await page.$eval('a.next', (a: HTMLAnchorElement) => a?.href || '').catch(() => '');
           if (nextHref) {
             await requestQueue.addRequest({
@@ -172,8 +176,43 @@ export class ScraperService {
 
           const category = await this.categoryService.findOne(categoryId);
 
-          // Get product description (text)
-          const description = await page.$eval('.product-description .panel', el => el.textContent?.trim() ?? '').catch(() => '');
+          await page.waitForSelector('table.product-details, table.additional-info'); // wait for table containing metadata
+          const metadataEntries = await page.$$eval('table.product-details tr, table.additional-info tr', rows => {
+            return rows.map(row => {
+              const cells = row.querySelectorAll('td');
+              return {
+                key: cells[0]?.textContent?.trim() ?? '',
+                value: cells[1]?.textContent?.trim() ?? '',
+              };
+            });
+          });
+
+
+          const metadata: Record<string, string> = {};
+          for (const entry of metadataEntries) {
+            if (entry.key && entry.value) metadata[entry.key] = entry.value;
+          }
+
+          await page.waitForSelector('.product-description, .product-accordion-summary', { timeout: 10000 });
+          const description = await page.$eval('.product-description, .product-accordion-summary', el => el.textContent?.trim() ?? '');
+
+
+
+          // Related products extraction
+          const relatedProducts = await page.$$eval(
+          '.related-products .product-card, #relatedProducts .product-card',
+          cards => cards.map(card => {
+            const anchor = card.querySelector('h3 a, a');
+            return {
+              title: anchor?.textContent?.trim() || '',
+              url: (anchor as HTMLAnchorElement)?.href || '',
+              author: (card.querySelector('.author')?.textContent ?? '').trim(),
+              price: (card.querySelector('.price-item')?.textContent ?? '').trim(),
+              imageUrl: (card.querySelector('img')?.src) ?? '',
+            };
+          }),
+        );
+
 
           const savedProduct = await this.productService.create({
             title,
@@ -183,59 +222,26 @@ export class ScraperService {
             productUrl,
             category,
             description,
+            metadata,
           });
 
-          // Extract reviews (multiple paragraphs inside reviews panel)
-          const reviewTexts = await page.$$eval('.outer-accordion .panel p', nodes =>
-            nodes.map(n => n.textContent?.trim() ?? '').filter(t => t.length > 0)
-          );
-
-          const reviews = reviewTexts.map(text => ({
-            reviewerName: 'Reviewer',
-            rating: null,
-            reviewText: text,
-          }));
-
-          for (const reviewData of reviews) {
-            try {
-              await this.reviewService.createReview(savedProduct.id, reviewData);
-              this.logger.log(`Saved a review for product ${savedProduct.id}`);
-            } catch (err) {
-              this.logger.error(`Error saving review for product ${savedProduct.id}: ${err.message}`);
+          for (const related of relatedProducts) {
+            let relatedProduct = await this.productService.findByUrl(related.url);
+            if (!relatedProduct) {
+              relatedProduct = await this.productService.create({
+                title: related.title,
+                author: related.author,
+                price: parseFloat(related.price.replace(/[^0-9.]/g, '')) || 0,
+                imageUrl: related.imageUrl,
+                productUrl: related.url,
+              });
             }
+
+            if (!savedProduct.relatedProducts) savedProduct.relatedProducts = [];
+            savedProduct.relatedProducts.push(relatedProduct);
           }
 
-          // Extract metadata key-value pairs
-          const metadataEntries = await page.$$eval('.additional-info-table tr', rows =>
-            rows.map(row => {
-              const cells = row.querySelectorAll('td');
-              return {
-                key: cells[0]?.textContent?.trim(),
-                value: cells[1]?.textContent?.trim(),
-              };
-            })
-          );
-
-          // Here you can process metadataEntries as needed or store in product metadata column
-
-          // Extract related products
-          const relatedProducts = await page.$$eval(
-  '#relatedProducts .product-card',
-  (cards) =>
-    cards.map((card) => {
-      const anchor = card.querySelector('h3 a') as HTMLAnchorElement | null;
-      return {
-        title: anchor?.textContent?.trim() ?? '',
-        url: anchor?.href ?? '',
-        author: (card.querySelector('.author')?.textContent ?? '').trim(),
-        price: (card.querySelector('.price-item')?.textContent ?? '').trim(),
-        imageUrl: (card.querySelector('img') as HTMLImageElement)?.src ?? '',
-      };
-    })
-);
-
-
-          // Save or handle related products as necessary
+          await this.productService.update(savedProduct.id, { relatedProducts: savedProduct.relatedProducts });
 
           this.logger.log(`Finished scraping product: ${title}`);
         }

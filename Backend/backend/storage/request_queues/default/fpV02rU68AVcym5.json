@@ -1,6 +1,6 @@
 {
 	"id": "fpV02rU68AVcym5",
-	"json": "{\"id\":\"fpV02rU68AVcym5\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/pop-cds\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/pop-cds\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/pop-cds\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7810,\"categoryId\":13109,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:47:34.880Z\"}",
+	"json": "{\"id\":\"fpV02rU68AVcym5\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/pop-cds\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/pop-cds\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/pop-cds\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7810,\"categoryId\":13109,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:40:11.081Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

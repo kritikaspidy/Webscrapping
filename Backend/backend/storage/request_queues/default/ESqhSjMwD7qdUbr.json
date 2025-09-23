@@ -1,6 +1,6 @@
 {
 	"id": "ESqhSjMwD7qdUbr",
-	"json": "{\"id\":\"ESqhSjMwD7qdUbr\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-fitness\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-fitness\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-fitness\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7811,\"categoryId\":13125,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:48:15.205Z\"}",
+	"json": "{\"id\":\"ESqhSjMwD7qdUbr\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-fitness\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-fitness\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-fitness\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7811,\"categoryId\":13125,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:41:12.199Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

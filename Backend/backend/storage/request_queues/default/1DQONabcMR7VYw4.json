@@ -1,6 +1,6 @@
 {
 	"id": "1DQONabcMR7VYw4",
-	"json": "{\"id\":\"1DQONabcMR7VYw4\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/fiction-special-features-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/fiction-special-features-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/fiction-special-features-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13021,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:39:25.679Z\"}",
+	"json": "{\"id\":\"1DQONabcMR7VYw4\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/fiction-special-features-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/fiction-special-features-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/fiction-special-features-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7806,\"categoryId\":13021,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:30:08.161Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

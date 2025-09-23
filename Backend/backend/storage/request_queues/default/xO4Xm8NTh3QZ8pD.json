@@ -1,6 +1,6 @@
 {
 	"id": "xO4Xm8NTh3QZ8pD",
-	"json": "{\"id\":\"xO4Xm8NTh3QZ8pD\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-simulation\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-simulation\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-simulation\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7812,\"categoryId\":13146,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:49:42.273Z\"}",
+	"json": "{\"id\":\"xO4Xm8NTh3QZ8pD\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-simulation\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-simulation\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-simulation\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7812,\"categoryId\":13146,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:42:17.581Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

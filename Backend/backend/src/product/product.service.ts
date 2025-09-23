@@ -72,6 +72,10 @@ export class ProductService {
     }
   }
 
+  async findByUrl(productUrl: string): Promise<Product | null> {
+    return this.productRepository.findOne({ where: { productUrl } });
+  }
+
   async filterProducts(heading?: string, category?: string): Promise<Product[]> {
     const queryBuilder = this.productRepository.createQueryBuilder('product')
       .leftJoinAndSelect('product.category', 'category')
@@ -94,7 +98,19 @@ console.log(queryBuilder.getParameters());
   async upsertProduct(productData: Partial<Product>): Promise<Product> {
   let product = await this.productRepository.findOne({ where: { productUrl: productData.productUrl } });
   if (product) {
-    Object.assign(product, productData); // update existing
+    // Selectively update fields to prevent overwriting with null or empty values
+    if (productData.title) product.title = productData.title;
+    if (productData.author) product.author = productData.author;
+    if (productData.price) product.price = productData.price;
+    if (productData.imageUrl) product.imageUrl = productData.imageUrl;
+    if (productData.description) product.description = productData.description;
+    if (productData.metadata && Object.keys(productData.metadata).length > 0) {
+      product.metadata = productData.metadata;
+    }
+    if (productData.category) {
+      product.category = productData.category;
+    }
+    // Add other fields similarly if needed
   } else {
     product = this.productRepository.create(productData); // create new
   }

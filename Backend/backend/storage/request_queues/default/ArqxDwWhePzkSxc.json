@@ -1,6 +1,6 @@
 {
 	"id": "ArqxDwWhePzkSxc",
-	"json": "{\"id\":\"ArqxDwWhePzkSxc\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-karen-m-mcmanus\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-karen-m-mcmanus\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-karen-m-mcmanus\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13048,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:42:35.351Z\"}",
+	"json": "{\"id\":\"ArqxDwWhePzkSxc\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-karen-m-mcmanus\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-karen-m-mcmanus\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-karen-m-mcmanus\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7808,\"categoryId\":13048,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:34:37.472Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

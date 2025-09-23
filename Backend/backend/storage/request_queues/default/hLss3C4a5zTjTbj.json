@@ -1,6 +1,6 @@
 {
 	"id": "hLss3C4a5zTjTbj",
-	"json": "{\"id\":\"hLss3C4a5zTjTbj\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-economics-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-economics-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-economics-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13092,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:46:31.794Z\"}",
+	"json": "{\"id\":\"hLss3C4a5zTjTbj\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-economics-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-economics-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-economics-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7809,\"categoryId\":13092,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:38:23.010Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

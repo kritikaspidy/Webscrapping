@@ -1,6 +1,6 @@
 {
 	"id": "FevhAM8q0uf8PAE",
-	"json": "{\"id\":\"FevhAM8q0uf8PAE\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-shooter\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-shooter\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-shooter\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7812,\"categoryId\":13145,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:49:38.361Z\"}",
+	"json": "{\"id\":\"FevhAM8q0uf8PAE\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-shooter\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-shooter\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-shooter\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7812,\"categoryId\":13145,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:42:16.548Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

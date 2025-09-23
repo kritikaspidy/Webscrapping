@@ -1,6 +1,6 @@
 {
 	"id": "kYPTDCqV6xVurjR",
-	"json": "{\"id\":\"kYPTDCqV6xVurjR\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-thriller-films\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-thriller-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-thriller-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7811,\"categoryId\":13134,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-22T21:48:55.441Z\"}",
+	"json": "{\"id\":\"kYPTDCqV6xVurjR\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-thriller-films\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-thriller-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-thriller-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7811,\"categoryId\":13134,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T00:41:42.043Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

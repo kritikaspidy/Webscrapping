@@ -9,8 +9,8 @@ import { ScraperModule } from './scrapper/scrapper.module';
 import { NavigationModule } from './navigation/navigation.module';
 import { CategoryModule } from './category/category.module';
 import { ProductModule } from './product/product.module';
-import { Review } from './entities/review.entity';
-import { ReviewModule } from './review/review.module';
+// import { Review } from './entities/review.entity';
+// import { ReviewModule } from './review/review.module';
 
 @Module({
   imports: [
@@ -21,14 +21,13 @@ import { ReviewModule } from './review/review.module';
       username: 'postgres',
       password: '',
       database: 'Products',
-      entities: [Navigation, Category, Product, Review],
+      entities: [Navigation, Category, Product],
       synchronize: true, // For development only; disable in production
     }),
     ScraperModule,
     NavigationModule,
     CategoryModule,
     ProductModule,
-    ReviewModule,
   ],
   controllers: [AppController],
   providers: [AppService],
