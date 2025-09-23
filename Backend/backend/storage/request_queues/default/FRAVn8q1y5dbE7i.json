@@ -1,6 +1,6 @@
 {
 	"id": "FRAVn8q1y5dbE7i",
-	"json": "{\"id\":\"FRAVn8q1y5dbE7i\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/romance-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/romance-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/romance-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7854,\"categoryId\":13948,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:14:43.525Z\"}",
+	"json": "{\"id\":\"FRAVn8q1y5dbE7i\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/romance-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/romance-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/romance-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7854,\"categoryId\":13948,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:17:20.045Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

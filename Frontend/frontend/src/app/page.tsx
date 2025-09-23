@@ -2,12 +2,13 @@
 
 import React, { useState, useEffect } from 'react';
 import Header from '@/app/components/header';
-import Navigation from '@/app/components/Navigation';
 import ProductList from '@/app/components/product/productlist';
+import Footer from '@/app/components/footer';
 
 export default function LandingPage() {
   const [selectedHeading, setSelectedHeading] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
 
   // Load from localStorage
   useEffect(() => {
@@ -34,29 +35,23 @@ export default function LandingPage() {
     selectedCategory && { label: selectedCategory, href: '#' },
   ].filter(Boolean) as { label: string; href: string }[];
 
+  const handleSearch = (query: string) => {
+    setSearchQuery(query);
+    setSelectedHeading(null);
+    setSelectedCategory(null);
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
       <Header
         onSelectHeading={setSelectedHeading}
         onSelectCategory={setSelectedCategory}
+        onSearch={handleSearch}
         selectedHeading={selectedHeading}
         selectedCategory={selectedCategory}
       />
-
-
-      <main className="flex flex-col md:flex-row flex-1">
-        {/* Sidebar */}
-        {/* <div className="w-full md:w-64 bg-green-200 p-4 flex-shrink-0 rounded-lg shadow-md mb-4 md:mb-0">
-          <Navigation
-            onSelectHeading={setSelectedHeading}
-            onSelectCategory={setSelectedCategory}
-            selectedHeading={selectedHeading}
-            selectedCategory={selectedCategory}
-          />
-        </div> */}
-
-        {/* Content */}
+      <main className="flex-1 p-4 md:p-6 overflow-x-hidden bg-gray-50">
         <section className="flex-1 p-4 md:p-6 overflow-x-hidden bg-gray-50">
           {/* Breadcrumb */}
           <nav aria-label="breadcrumb" className="mb-4 text-sm text-gray-600">
@@ -85,11 +80,11 @@ export default function LandingPage() {
               </span>
             ))}
           </nav>
-
           {/* Product Grid */}
-          <ProductList selectedHeading={selectedHeading} selectedCategory={selectedCategory} />
+          <ProductList selectedHeading={selectedHeading} selectedCategory={selectedCategory} searchQuery={searchQuery} />
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

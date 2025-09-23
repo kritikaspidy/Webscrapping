@@ -1,6 +1,6 @@
 {
 	"id": "kxE5YVpjpeX0MWY",
-	"json": "{\"id\":\"kxE5YVpjpeX0MWY\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-technology-engineering-agriculture-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-technology-engineering-agriculture-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-technology-engineering-agriculture-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7857,\"categoryId\":14081,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:22:20.033Z\"}",
+	"json": "{\"id\":\"kxE5YVpjpeX0MWY\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-technology-engineering-agriculture-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-technology-engineering-agriculture-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-technology-engineering-agriculture-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7857,\"categoryId\":14081,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:23:12.251Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

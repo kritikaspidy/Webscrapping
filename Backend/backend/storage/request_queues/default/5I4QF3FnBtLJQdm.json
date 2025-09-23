@@ -1,6 +1,6 @@
 {
 	"id": "5I4QF3FnBtLJQdm",
-	"json": "{\"id\":\"5I4QF3FnBtLJQdm\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-action-adventure\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-action-adventure\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-action-adventure\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7860,\"categoryId\":14091,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:23:00.870Z\"}",
+	"json": "{\"id\":\"5I4QF3FnBtLJQdm\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-action-adventure\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-action-adventure\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-action-adventure\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7860,\"categoryId\":14091,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:24:35.230Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -1,6 +1,6 @@
 {
 	"id": "iwd1ViPtQG35HpM",
-	"json": "{\"id\":\"iwd1ViPtQG35HpM\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/literature-and-literary-studies-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/literature-and-literary-studies-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/literature-and-literary-studies-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7855,\"categoryId\":13984,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:16:33.776Z\"}",
+	"json": "{\"id\":\"iwd1ViPtQG35HpM\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/literature-and-literary-studies-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/literature-and-literary-studies-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/literature-and-literary-studies-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7855,\"categoryId\":13984,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:20:22.975Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

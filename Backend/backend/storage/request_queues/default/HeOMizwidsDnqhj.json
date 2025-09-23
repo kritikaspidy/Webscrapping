@@ -1,6 +1,6 @@
 {
 	"id": "HeOMizwidsDnqhj",
-	"json": "{\"id\":\"HeOMizwidsDnqhj\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-sci-fi-and-fantasy-films\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-sci-fi-and-fantasy-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-sci-fi-and-fantasy-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7859,\"categoryId\":14057,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:21:05.118Z\"}",
+	"json": "{\"id\":\"HeOMizwidsDnqhj\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-sci-fi-and-fantasy-films\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-sci-fi-and-fantasy-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-sci-fi-and-fantasy-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7859,\"categoryId\":14057,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:24:20.107Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

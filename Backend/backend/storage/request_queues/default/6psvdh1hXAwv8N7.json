@@ -1,6 +1,6 @@
 {
 	"id": "6psvdh1hXAwv8N7",
-	"json": "{\"id\":\"6psvdh1hXAwv8N7\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-horror-films\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-horror-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-horror-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7859,\"categoryId\":14052,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:20:48.633Z\"}",
+	"json": "{\"id\":\"6psvdh1hXAwv8N7\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-horror-films\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-horror-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-horror-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7859,\"categoryId\":14052,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:24:01.037Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

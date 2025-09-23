@@ -1,6 +1,6 @@
 {
 	"id": "HZ7jH1M0O0TDPnT",
-	"json": "{\"id\":\"HZ7jH1M0O0TDPnT\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-foreign-language-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-foreign-language-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-foreign-language-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7857,\"categoryId\":14064,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:21:33.547Z\"}",
+	"json": "{\"id\":\"HZ7jH1M0O0TDPnT\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-foreign-language-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-foreign-language-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-foreign-language-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7857,\"categoryId\":14064,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:21:56.762Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -1,6 +1,6 @@
 {
 	"id": "hxW3gKJs5UsI9E9",
-	"json": "{\"id\":\"hxW3gKJs5UsI9E9\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/mind-body-and-spirit-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/mind-body-and-spirit-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/mind-body-and-spirit-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7855,\"categoryId\":13999,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:17:33.909Z\"}",
+	"json": "{\"id\":\"hxW3gKJs5UsI9E9\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/mind-body-and-spirit-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/mind-body-and-spirit-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/mind-body-and-spirit-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7855,\"categoryId\":13999,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:21:39.869Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

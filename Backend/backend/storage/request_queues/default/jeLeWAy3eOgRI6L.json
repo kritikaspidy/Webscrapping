@@ -1,6 +1,6 @@
 {
 	"id": "jeLeWAy3eOgRI6L",
-	"json": "{\"id\":\"jeLeWAy3eOgRI6L\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-other-films\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-other-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-other-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7859,\"categoryId\":14055,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:20:58.196Z\"}",
+	"json": "{\"id\":\"jeLeWAy3eOgRI6L\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-other-films\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-other-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-other-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7859,\"categoryId\":14055,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:24:15.358Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

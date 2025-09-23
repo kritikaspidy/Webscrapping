@@ -76,7 +76,15 @@ export class ProductService {
     return this.productRepository.findOne({ where: { productUrl } });
   }
 
-  async filterProducts(heading?: string, category?: string): Promise<Product[]> {
+  async filterProducts(
+    page = 1,
+    limit = 20,
+    heading?: string,
+    category?: string,
+    searchQuery?: string
+  ): Promise<{ products: Product[]; total: number }> {
+    const skip = (page - 1) * limit;
+
     const queryBuilder = this.productRepository.createQueryBuilder('product')
       .leftJoinAndSelect('product.category', 'category')
       .leftJoinAndSelect('category.navigation', 'navigation');
@@ -88,8 +96,20 @@ export class ProductService {
     if (heading) {
       queryBuilder.andWhere('navigation.title ILIKE :heading', { heading: `%${heading}%` });
     }
-
-    return queryBuilder.getMany();
+    
+    if (searchQuery) {
+      queryBuilder.andWhere(
+        '(product.title ILIKE :searchQuery OR product.author ILIKE :searchQuery)',
+        { searchQuery: `%${searchQuery}%` }
+      );
+    }
+    
+    const [products, total] = await queryBuilder
+      .skip(skip)
+      .take(limit)
+      .getManyAndCount();
+    
+    return { products, total };
   }
 
   async upsertProduct(productData: Partial<Product>): Promise<Product> {

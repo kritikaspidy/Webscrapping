@@ -8,13 +8,19 @@ export class ProductController {
 
   @Get()
   async getProducts(
+    @Query('page') page: number = 1,
+    @Query('limit') limit: number = 20,
     @Query('heading') heading?: string,
     @Query('category') category?: string,
-  ): Promise<Product[]> {
-    if (!heading && !category) {
-      return this.productService.findAll();
-    }
-    return this.productService.filterProducts(heading, category);
+    @Query('searchQuery') searchQuery?: string,
+  ): Promise<{ products: Product[]; total: number }> {
+    return this.productService.filterProducts(
+      page,
+      limit,
+      heading,
+      category,
+      searchQuery,
+    );
   }
 
   @Get('category/:categoryId')

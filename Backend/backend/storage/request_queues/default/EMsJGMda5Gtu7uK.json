@@ -1,6 +1,6 @@
 {
 	"id": "EMsJGMda5Gtu7uK",
-	"json": "{\"id\":\"EMsJGMda5Gtu7uK\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/fiction-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/fiction-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/fiction-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7854,\"categoryId\":13944,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:14:33.677Z\"}",
+	"json": "{\"id\":\"EMsJGMda5Gtu7uK\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/fiction-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/fiction-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/fiction-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7854,\"categoryId\":13944,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:17:03.117Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

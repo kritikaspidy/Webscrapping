@@ -1,6 +1,6 @@
 {
 	"id": "cxD0SVdh24LPzQf",
-	"json": "{\"id\":\"cxD0SVdh24LPzQf\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/world-cds\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/world-cds\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/world-cds\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7858,\"categoryId\":14041,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:20:23.338Z\"}",
+	"json": "{\"id\":\"cxD0SVdh24LPzQf\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/world-cds\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/world-cds\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/world-cds\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7858,\"categoryId\":14041,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:24:34.021Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -1,6 +1,6 @@
 {
 	"id": "e8npbLweusAyTba",
-	"json": "{\"id\":\"e8npbLweusAyTba\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/metal-cds\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/metal-cds\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/metal-cds\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7858,\"categoryId\":14033,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:19:56.413Z\"}",
+	"json": "{\"id\":\"e8npbLweusAyTba\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/metal-cds\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/metal-cds\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/metal-cds\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7858,\"categoryId\":14033,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:24:06.759Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -1,6 +1,6 @@
 {
 	"id": "eHAhOyTdHIkPH5P",
-	"json": "{\"id\":\"eHAhOyTdHIkPH5P\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-stephen-king\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-stephen-king\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-stephen-king\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7854,\"categoryId\":13967,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:15:37.311Z\"}",
+	"json": "{\"id\":\"eHAhOyTdHIkPH5P\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-stephen-king\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-stephen-king\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-stephen-king\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7854,\"categoryId\":13967,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:20:44.573Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

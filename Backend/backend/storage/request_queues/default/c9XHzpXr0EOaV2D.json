@@ -1,6 +1,6 @@
 {
 	"id": "c9XHzpXr0EOaV2D",
-	"json": "{\"id\":\"c9XHzpXr0EOaV2D\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-role-playing\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-role-playing\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-role-playing\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7860,\"categoryId\":14098,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:23:33.128Z\"}",
+	"json": "{\"id\":\"c9XHzpXr0EOaV2D\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-role-playing\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-role-playing\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-role-playing\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7860,\"categoryId\":14098,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:25:00.641Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

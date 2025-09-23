@@ -1,6 +1,6 @@
 {
 	"id": "thwdgwrf48uAN1n",
-	"json": "{\"id\":\"thwdgwrf48uAN1n\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-sarah-j-maas\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-sarah-j-maas\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-sarah-j-maas\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7854,\"categoryId\":13971,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:15:44.058Z\"}",
+	"json": "{\"id\":\"thwdgwrf48uAN1n\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-sarah-j-maas\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-sarah-j-maas\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/author-books-by-sarah-j-maas\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7854,\"categoryId\":13971,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:21:19.238Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

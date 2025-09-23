@@ -1,6 +1,6 @@
 {
 	"id": "a3Rdw2UmhfJB0GW",
-	"json": "{\"id\":\"a3Rdw2UmhfJB0GW\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-racing\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-racing\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-racing\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7860,\"categoryId\":14097,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:23:24.390Z\"}",
+	"json": "{\"id\":\"a3Rdw2UmhfJB0GW\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games-racing\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games-racing\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games-racing\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7860,\"categoryId\":14097,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:24:54.180Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

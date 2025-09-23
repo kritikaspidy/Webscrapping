@@ -1,6 +1,6 @@
 {
 	"id": "qZwR3y1DCaKx6kr",
-	"json": "{\"id\":\"qZwR3y1DCaKx6kr\",\"url\":\"https://www.worldofbooks.com/en-gb/pages/pride-month\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/pages/pride-month\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/pages/pride-month\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7854,\"categoryId\":13966,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:15:34.136Z\"}",
+	"json": "{\"id\":\"qZwR3y1DCaKx6kr\",\"url\":\"https://www.worldofbooks.com/en-gb/pages/pride-month\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/pages/pride-month\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/pages/pride-month\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7854,\"categoryId\":13966,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:20:39.099Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

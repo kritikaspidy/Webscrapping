@@ -1,6 +1,6 @@
 {
 	"id": "9FktfDMJuTeAy1A",
-	"json": "{\"id\":\"9FktfDMJuTeAy1A\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-lifestyle-sport-leisure-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-lifestyle-sport-leisure-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-lifestyle-sport-leisure-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7857,\"categoryId\":14075,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:22:03.636Z\"}",
+	"json": "{\"id\":\"9FktfDMJuTeAy1A\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-lifestyle-sport-leisure-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-lifestyle-sport-leisure-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-lifestyle-sport-leisure-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7857,\"categoryId\":14075,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:22:14.834Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

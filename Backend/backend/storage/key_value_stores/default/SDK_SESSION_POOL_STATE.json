@@ -3,7 +3,7 @@
   "retiredSessionsCount": 3,
   "sessions": [
     {
-      "id": "session_qngZOwE0YL",
+      "id": "session_rs5803Pimj",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -16,14 +16,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:04.019Z",
-      "createdAt": "2025-09-23T16:14:04.019Z",
+      "expiresAt": "2025-09-23T18:05:49.607Z",
+      "createdAt": "2025-09-23T17:15:49.607Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_LNREzlXOOj",
+      "id": "session_FrskJktLaD",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -35,249 +35,249 @@
           {
             "key": "localization",
             "value": "IN",
-            "expires": "2026-09-23T16:16:34.589Z",
+            "expires": "2026-09-23T17:19:44.376Z",
             "domain": "www.worldofbooks.com",
             "path": "/en-gb",
             "hostOnly": true,
-            "creation": "2025-09-23T16:14:10.409Z",
-            "lastAccessed": "2025-09-23T16:16:45.946Z"
+            "creation": "2025-09-23T17:16:05.380Z",
+            "lastAccessed": "2025-09-23T17:19:49.120Z"
           },
           {
             "key": "_shopify_y",
-            "value": "5fdc0666-1061-4736-b3c8-398de8f48480",
-            "expires": "2026-09-23T22:16:40.731Z",
+            "value": "24a3b1cd-91b5-4ef4-aaf6-490fba56ab5a",
+            "expires": "2026-09-23T23:19:45.737Z",
             "domain": "worldofbooks.com",
             "path": "/",
             "hostOnly": false,
-            "creation": "2025-09-23T16:14:10.411Z",
-            "lastAccessed": "2025-09-23T16:16:45.946Z"
+            "creation": "2025-09-23T17:16:05.385Z",
+            "lastAccessed": "2025-09-23T17:19:49.120Z"
           },
           {
             "key": "_tracking_consent",
-            "value": "3.AMPS_INPB_f_f_FhhWYChkTKWdrBb6HKjkbA",
-            "expires": "2026-09-23T22:14:06.163Z",
+            "value": "3.AMPS_INPB_f_f_t12h1nwKTQS1kynffRtDdg",
+            "expires": "2026-09-23T23:15:54.595Z",
             "domain": "worldofbooks.com",
             "path": "/",
             "hostOnly": false,
-            "creation": "2025-09-23T16:14:10.421Z",
-            "lastAccessed": "2025-09-23T16:16:45.946Z"
+            "creation": "2025-09-23T17:16:05.401Z",
+            "lastAccessed": "2025-09-23T17:19:49.121Z"
           },
           {
             "key": "_orig_referrer",
-            "expires": "2025-10-07T16:14:06.163Z",
+            "expires": "2025-10-07T17:15:54.595Z",
             "domain": "worldofbooks.com",
             "path": "/",
             "httpOnly": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:14:10.424Z",
-            "lastAccessed": "2025-09-23T16:16:45.946Z"
+            "creation": "2025-09-23T17:16:05.407Z",
+            "lastAccessed": "2025-09-23T17:19:49.121Z"
           },
           {
             "key": "_landing_page",
             "value": "%2Fen-gb",
-            "expires": "2025-10-07T16:14:06.163Z",
+            "expires": "2025-10-07T17:15:54.595Z",
             "domain": "worldofbooks.com",
             "path": "/",
             "httpOnly": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:14:10.424Z",
-            "lastAccessed": "2025-09-23T16:16:45.946Z"
+            "creation": "2025-09-23T17:16:05.407Z",
+            "lastAccessed": "2025-09-23T17:19:49.121Z"
           },
           {
             "key": "__eventn_id",
-            "value": "vak7xua1xx.1758644046",
-            "expires": "2026-10-28T16:14:06.539Z",
+            "value": "mz7fvn9w6y.1758647755",
+            "expires": "2026-10-28T17:15:55.309Z",
             "domain": "worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:14:10.425Z",
-            "lastAccessed": "2025-09-23T16:16:45.946Z"
-          },
-          {
-            "key": "cart_currency",
-            "value": "GBP",
-            "expires": "2025-10-07T16:16:40.731Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "hostOnly": true,
-            "creation": "2025-09-23T16:14:10.425Z",
-            "lastAccessed": "2025-09-23T16:16:45.947Z"
+            "creation": "2025-09-23T17:16:05.408Z",
+            "lastAccessed": "2025-09-23T17:19:49.121Z"
           },
           {
             "key": "_shopify_s",
-            "value": "8f3c5da5-c28e-418e-91ca-12a7e1a85299",
-            "expires": "2025-09-23T16:46:40.731Z",
+            "value": "b886daca-195f-46cc-97b6-67b8fd081902",
+            "expires": "2025-09-23T17:49:45.000Z",
             "domain": "worldofbooks.com",
             "path": "/",
             "hostOnly": false,
-            "creation": "2025-09-23T16:14:10.425Z",
-            "lastAccessed": "2025-09-23T16:16:45.948Z"
-          },
-          {
-            "key": "keep_alive",
-            "value": "eyJ2IjoyLCJ0cyI6MTc1ODY0NDIwMjEwNiwiZW52Ijp7IndkIjowLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0IjoyMCwibm0iOjAsIm1zIjowLCJtaiI6MCwibXNwIjowLCJ2YyI6MCwiY3AiOjAsInJjIjowLCJraiI6MCwia2kiOjAsInNzIjowLCJzaiI6MCwic3NtIjowLCJzcCI6MCwidHMiOjAsInRqIjowLCJ0cCI6MCwidHNtIjowfSwic2VzIjp7InAiOjMxLCJzIjoxNzU4NjQ0MDQ4ODU4LCJkIjoxMzV9fQ%3D%3D",
-            "expires": "2025-09-23T17:06:45.946Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": true,
-            "creation": "2025-09-23T16:14:10.426Z",
-            "lastAccessed": "2025-09-23T16:16:45.948Z"
+            "creation": "2025-09-23T17:16:05.408Z",
+            "lastAccessed": "2025-09-23T17:19:49.122Z"
           },
           {
             "key": "swym-session-id",
-            "value": "\"076j0v8231eg56vl8key75ag4wsd9klbvqmuhjepb4zx3meney85og3uom59fmh6\"",
-            "expires": "2025-09-23T16:46:40.000Z",
+            "value": "\"jrw00oy7goasje35qcsnal0nfn3ur23e6jomvvy1aa3did6woz1nnyve8d9d5vp9\"",
+            "expires": "2025-09-23T17:49:49.000Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:14:10.426Z",
-            "lastAccessed": "2025-09-23T16:16:45.946Z"
+            "creation": "2025-09-23T17:16:05.409Z",
+            "lastAccessed": "2025-09-23T17:19:49.121Z"
           },
           {
             "key": "swym-pid",
             "value": "\"rTqgRVolwLgMEf6yEmnpwLNUailSACsmlQlC0eL5Bfw=\"",
-            "expires": "2026-09-23T16:16:40.000Z",
+            "expires": "2026-09-23T17:19:49.000Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:14:10.427Z",
-            "lastAccessed": "2025-09-23T16:16:45.947Z"
+            "creation": "2025-09-23T17:16:05.409Z",
+            "lastAccessed": "2025-09-23T17:19:49.121Z"
+          },
+          {
+            "key": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Tue+Sep+23+2025+22%3A49%3A42+GMT%2B0530+(India+Standard+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=0249838b-897f-4434-9592-8bfa632c405b&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0003%3A0%2CC0004%3A0%2CC0002%3A0%2CC0001%3A1&AwaitingReconsent=false",
+            "expires": "2026-09-23T17:19:42.000Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-09-23T17:16:05.410Z",
+            "lastAccessed": "2025-09-23T17:19:49.122Z"
+          },
+          {
+            "key": "cart",
+            "value": "hWN3JeFAT5DPhvRptlYgDe0i%3Fkey%3Dca3cba2e40a589badab5c2afc64aa16c",
+            "expires": "2025-10-24T17:16:08.738Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2025-09-23T17:16:05.411Z",
+            "lastAccessed": "2025-09-23T17:19:49.121Z"
+          },
+          {
+            "key": "cart_currency",
+            "value": "GBP",
+            "expires": "2025-10-07T17:19:45.737Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2025-09-23T17:16:05.411Z",
+            "lastAccessed": "2025-09-23T17:19:49.121Z"
+          },
+          {
+            "key": "swym-v-ckd",
+            "value": "1",
+            "expires": "2025-09-23T17:46:02.000Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-09-23T17:16:05.412Z",
+            "lastAccessed": "2025-09-23T17:19:49.121Z"
+          },
+          {
+            "key": "swym-swymRegid",
+            "value": "\"msaH5-CeEaZCk_-RKcEA8oKS_YzDFmt_x_Yq4svRhr0m7kUTXIF9OvW65PdnQxXN5CpKEnc3QYIHNbhdxpS13VUi0_oBbLpaohdYn9aFJuCQ7THhpadpkZmu6x3LzItVRAw9CvljUXvP8iTxVsAzV1PMMd-rxwSEUCUuEgI-rvI\"",
+            "expires": "2026-09-23T17:19:43.000Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-09-23T17:16:05.412Z",
+            "lastAccessed": "2025-09-23T17:19:49.121Z"
+          },
+          {
+            "key": "swym-email",
+            "value": "null",
+            "expires": "2026-09-23T17:19:43.000Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-09-23T17:16:05.412Z",
+            "lastAccessed": "2025-09-23T17:19:49.121Z"
+          },
+          {
+            "key": "swym-o_s",
+            "value": "{\"wishlist-app_app-embed_178656379153\":\"2025-09-23T17:16:02.506Z\",\"mktenabled\":false}",
+            "expires": "2025-09-23T17:49:43.000Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-09-23T17:16:05.412Z",
+            "lastAccessed": "2025-09-23T17:19:49.121Z"
+          },
+          {
+            "key": "keep_alive",
+            "value": "eyJ2IjoyLCJ0cyI6MTc1ODY0Nzk4ODgyMCwiZW52Ijp7IndkIjowLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0IjowLCJubSI6MCwibXMiOjAsIm1qIjowLCJtc3AiOjAsInZjIjowLCJjcCI6MCwicmMiOjAsImtqIjowLCJraSI6MCwic3MiOjAsInNqIjowLCJzc20iOjAsInNwIjowLCJ0cyI6MCwidGoiOjAsInRwIjowLCJ0c20iOjB9LCJzZXMiOnsicCI6MzgsInMiOjE3NTg2NDc3NTg5NjcsImQiOjIxMH19",
+            "expires": "2025-09-23T18:09:49.120Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-09-23T17:16:05.412Z",
+            "lastAccessed": "2025-09-23T17:19:49.122Z"
           },
           {
             "key": "_shopify_essential",
-            "value": ":AZl3WoVRAAEAGtaRFmM--6ikHNGKJGzLflCxqeozdCJk_38dIyqzj3klloOWWKNUzmvJuuK5pULjO2y24pYFyGwYhzrGdH_hPrVVKdgrvpFeZTYwAAAKHZpUIwEWp1VXGjQl-tRA25MqlTh4r3g_5Beubicycq9lqLLSFoHJoOw2C82ucxOgis-TfdQ-akqtIqlt0vMfy-B2xBRQ_SX5W68_6gCwJFEb_ZKaS2Md6CbqxFhgi4fszm0egscnAMxkoA-FNvllVF8N:",
-            "expires": "2026-09-23T16:15:19.563Z",
+            "value": ":AZl3kxsGAAEAuiqNXE2E1I1XlxJ0lo_K-YxfBQ-S7lcvifBxY9aF2ZKoPf2yn8hqDKvUZJc-Pos9r9POk-Z_GtNplp1fYpH0_kHIhyx0psc8rcd0JqrjExNVpzLs_xpeiBX8LSiKY_723V8Bn5Zbr5ZHbvmxHIjLjhbDOSjI60vtxixpvV4wfUEz3jHzrIbeJCPDeWkP7TF6Lt_8rwK9sjQ5p2d35RNtw76LmPmxGz40corTJuWj_z61rkFHdbThAG_3JPjXd-RFPQgT:",
+            "expires": "2026-09-23T17:17:10.501Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "httpOnly": true,
             "hostOnly": true,
-            "creation": "2025-09-23T16:14:10.427Z",
-            "lastAccessed": "2025-09-23T16:16:45.948Z"
-          },
-          {
-            "key": "OptanonConsent",
-            "value": "isGpcEnabled=0&datestamp=Tue+Sep+23+2025+21%3A46%3A40+GMT%2B0530+(India+Standard+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=5b24a5a0-ca45-4d29-8d2e-b25bc9094ffe&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0003%3A0%2CC0004%3A0%2CC0002%3A0%2CC0001%3A1&AwaitingReconsent=false",
-            "expires": "2026-09-23T16:16:40.000Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "hostOnly": false,
-            "creation": "2025-09-23T16:14:10.428Z",
-            "lastAccessed": "2025-09-23T16:16:45.948Z"
-          },
-          {
-            "key": "swym-v-ckd",
-            "value": "1",
-            "expires": "2025-09-23T16:44:16.000Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:14:16.294Z",
-            "lastAccessed": "2025-09-23T16:16:45.947Z"
-          },
-          {
-            "key": "swym-swymRegid",
-            "value": "\"uC6t-TjTZr9GpyO_yhUWH7IKNjPF9Nv9p7yHtBipbL2tm7eKiISl2jpjUK4jOgA4Au3_OmwpuCoEduH1ytZVHQpS2EQQ8ar6oic5EOuCw29SRM96suFIjfvZoJiP5z9CJiQxx5lj8c4CNkc8r5XAsVoesGL5tA9T9UFvsH5-18M\"",
-            "expires": "2026-09-23T16:16:09.000Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:14:16.294Z",
-            "lastAccessed": "2025-09-23T16:16:45.947Z"
-          },
-          {
-            "key": "swym-email",
-            "value": "null",
-            "expires": "2026-09-23T16:16:09.000Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:14:16.294Z",
-            "lastAccessed": "2025-09-23T16:16:45.947Z"
-          },
-          {
-            "key": "swym-o_s",
-            "value": "{\"wishlist-app_app-embed_178656379153\":\"2025-09-23T16:14:16.627Z\",\"mktenabled\":false}",
-            "expires": "2025-09-23T16:46:09.000Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:14:19.415Z",
-            "lastAccessed": "2025-09-23T16:16:45.947Z"
-          },
-          {
-            "key": "cart",
-            "value": "hWN3JXzItdBp85X3iKtwyzTg%3Fkey%3D72954b909fe780a27297274b4bb0267c",
-            "expires": "2025-10-24T16:14:26.071Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "hostOnly": true,
-            "creation": "2025-09-23T16:14:19.415Z",
-            "lastAccessed": "2025-09-23T16:16:45.947Z"
+            "creation": "2025-09-23T17:16:05.412Z",
+            "lastAccessed": "2025-09-23T17:19:49.122Z"
           },
           {
             "key": "authTokenGB",
-            "value": "01K5VNNSQC8HXB7NX93490AV4X",
-            "expires": "2025-09-23T17:04:40.505Z",
+            "value": "01K5VS7FGDBZG2NNEAE62CFMVB",
+            "expires": "2025-09-23T18:06:44.965Z",
             "domain": "sell.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": true,
-            "creation": "2025-09-23T16:14:40.506Z",
-            "lastAccessed": "2025-09-23T16:14:40.506Z"
+            "creation": "2025-09-23T17:16:44.978Z",
+            "lastAccessed": "2025-09-23T17:16:44.978Z"
           },
           {
             "key": "localePrefix",
             "value": "%2Fen-gb",
-            "expires": "2025-09-23T17:04:40.505Z",
+            "expires": "2025-09-23T18:06:44.965Z",
             "domain": "sell.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": true,
-            "creation": "2025-09-23T16:14:40.506Z",
-            "lastAccessed": "2025-09-23T16:14:40.506Z"
+            "creation": "2025-09-23T17:16:44.978Z",
+            "lastAccessed": "2025-09-23T17:16:44.978Z"
           },
           {
             "key": "forcedLocale",
             "value": "en-gb",
-            "expires": "2026-09-23T16:14:34.341Z",
+            "expires": "2026-09-23T17:16:37.733Z",
             "domain": "sell.worldofbooks.com",
             "path": "/",
             "hostOnly": true,
-            "creation": "2025-09-23T16:14:40.506Z",
-            "lastAccessed": "2025-09-23T16:14:40.506Z"
+            "creation": "2025-09-23T17:16:44.978Z",
+            "lastAccessed": "2025-09-23T17:16:44.978Z"
           },
           {
             "key": "OptanonConsent",
-            "value": "isGpcEnabled=0&datestamp=Tue+Sep+23+2025+21%3A44%3A34+GMT%2B0530+(India+Standard+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=5b24a5a0-ca45-4d29-8d2e-b25bc9094ffe&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0003%3A0%2CC0004%3A0%2CC0002%3A0%2CC0001%3A1&AwaitingReconsent=false",
-            "expires": "2026-09-23T16:14:34.000Z",
+            "value": "isGpcEnabled=0&datestamp=Tue+Sep+23+2025+22%3A46%3A38+GMT%2B0530+(India+Standard+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=0249838b-897f-4434-9592-8bfa632c405b&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0003%3A0%2CC0004%3A0%2CC0002%3A0%2CC0001%3A1&AwaitingReconsent=false",
+            "expires": "2026-09-23T17:16:38.000Z",
             "domain": "sell.worldofbooks.com",
             "path": "/",
             "hostOnly": false,
-            "creation": "2025-09-23T16:14:40.506Z",
-            "lastAccessed": "2025-09-23T16:14:40.506Z"
+            "creation": "2025-09-23T17:16:44.978Z",
+            "lastAccessed": "2025-09-23T17:16:44.978Z"
           }
         ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:04.023Z",
-      "createdAt": "2025-09-23T16:14:04.023Z",
+      "expiresAt": "2025-09-23T18:05:49.618Z",
+      "createdAt": "2025-09-23T17:15:49.618Z",
       "usageCount": 55,
       "maxUsageCount": 50,
       "errorScore": 8
     },
     {
-      "id": "session_Sws5khsXQS",
+      "id": "session_zWEiqMdmbm",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -290,14 +290,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:10.784Z",
-      "createdAt": "2025-09-23T16:14:10.784Z",
+      "expiresAt": "2025-09-23T18:06:06.163Z",
+      "createdAt": "2025-09-23T17:16:06.163Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_DEode57o1j",
+      "id": "session_W4erLpKhaC",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -310,14 +310,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:10.786Z",
-      "createdAt": "2025-09-23T16:14:10.786Z",
+      "expiresAt": "2025-09-23T18:06:06.166Z",
+      "createdAt": "2025-09-23T17:16:06.166Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_Fts5mgCUrF",
+      "id": "session_ta1QmnANzk",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -330,14 +330,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:14.297Z",
-      "createdAt": "2025-09-23T16:14:14.297Z",
+      "expiresAt": "2025-09-23T18:06:06.174Z",
+      "createdAt": "2025-09-23T17:16:06.174Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_4dwCNrK0gT",
+      "id": "session_x5WCKjtZm2",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -350,14 +350,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:17.574Z",
-      "createdAt": "2025-09-23T16:14:17.573Z",
+      "expiresAt": "2025-09-23T18:06:21.612Z",
+      "createdAt": "2025-09-23T17:16:21.612Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_mENlCTpiA9",
+      "id": "session_7kHDhFmXv3",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -370,14 +370,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:18.218Z",
-      "createdAt": "2025-09-23T16:14:18.218Z",
+      "expiresAt": "2025-09-23T18:06:24.693Z",
+      "createdAt": "2025-09-23T17:16:24.693Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_7Y9huYymbH",
+      "id": "session_hbHlEuikeE",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -390,14 +390,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:21.348Z",
-      "createdAt": "2025-09-23T16:14:21.348Z",
+      "expiresAt": "2025-09-23T18:06:24.698Z",
+      "createdAt": "2025-09-23T17:16:24.698Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_UPBt74Ulax",
+      "id": "session_ORCtFPaYxw",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -410,14 +410,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:24.435Z",
-      "createdAt": "2025-09-23T16:14:24.435Z",
+      "expiresAt": "2025-09-23T18:06:33.812Z",
+      "createdAt": "2025-09-23T17:16:33.812Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_ehSDkhf2QL",
+      "id": "session_h2qIAP2J6K",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -430,14 +430,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:28.800Z",
-      "createdAt": "2025-09-23T16:14:28.800Z",
+      "expiresAt": "2025-09-23T18:06:34.100Z",
+      "createdAt": "2025-09-23T17:16:34.100Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_hQ7sITHeZz",
+      "id": "session_zkY8zoOJUh",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -450,14 +450,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:28.804Z",
-      "createdAt": "2025-09-23T16:14:28.804Z",
+      "expiresAt": "2025-09-23T18:06:37.832Z",
+      "createdAt": "2025-09-23T17:16:37.832Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_ENByWA5b5y",
+      "id": "session_a57McI9mpv",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -470,14 +470,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:30.746Z",
-      "createdAt": "2025-09-23T16:14:30.746Z",
+      "expiresAt": "2025-09-23T18:06:42.437Z",
+      "createdAt": "2025-09-23T17:16:42.437Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_R0XNMHNMZ6",
+      "id": "session_KV4UEULEFv",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -490,14 +490,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:33.874Z",
-      "createdAt": "2025-09-23T16:14:33.874Z",
+      "expiresAt": "2025-09-23T18:06:46.097Z",
+      "createdAt": "2025-09-23T17:16:46.097Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_D46PSXmoMc",
+      "id": "session_GmzsBHfAh8",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -510,14 +510,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:35.745Z",
-      "createdAt": "2025-09-23T16:14:35.745Z",
+      "expiresAt": "2025-09-23T18:06:48.595Z",
+      "createdAt": "2025-09-23T17:16:48.595Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_r4dD8hov6O",
+      "id": "session_PVurBUXXWa",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -530,14 +530,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:38.457Z",
-      "createdAt": "2025-09-23T16:14:38.457Z",
+      "expiresAt": "2025-09-23T18:06:49.720Z",
+      "createdAt": "2025-09-23T17:16:49.720Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_YQbonDj1Xe",
+      "id": "session_kAAPuuCSFh",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -550,14 +550,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:40.655Z",
-      "createdAt": "2025-09-23T16:14:40.655Z",
+      "expiresAt": "2025-09-23T18:06:53.429Z",
+      "createdAt": "2025-09-23T17:16:53.429Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_cIEB53U2xk",
+      "id": "session_8i0l6C0ovs",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -570,14 +570,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:41.419Z",
-      "createdAt": "2025-09-23T16:14:41.419Z",
+      "expiresAt": "2025-09-23T18:06:56.473Z",
+      "createdAt": "2025-09-23T17:16:56.473Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_kHTTsvSwmL",
+      "id": "session_CT5PgmyEZw",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -590,14 +590,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:43.681Z",
-      "createdAt": "2025-09-23T16:14:43.681Z",
+      "expiresAt": "2025-09-23T18:06:57.132Z",
+      "createdAt": "2025-09-23T17:16:57.132Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_7iB2dJlflx",
+      "id": "session_H90o0kmM0p",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -610,14 +610,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:46.806Z",
-      "createdAt": "2025-09-23T16:14:46.806Z",
+      "expiresAt": "2025-09-23T18:07:04.576Z",
+      "createdAt": "2025-09-23T17:17:04.576Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_FhrDktBTIG",
+      "id": "session_xAQGiJFu61",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -630,14 +630,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:47.462Z",
-      "createdAt": "2025-09-23T16:14:47.462Z",
+      "expiresAt": "2025-09-23T18:07:05.631Z",
+      "createdAt": "2025-09-23T17:17:05.631Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_HxJhCyDOcl",
+      "id": "session_dfR2Hhpo2v",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -650,14 +650,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:48.945Z",
-      "createdAt": "2025-09-23T16:14:48.945Z",
+      "expiresAt": "2025-09-23T18:07:05.636Z",
+      "createdAt": "2025-09-23T17:17:05.636Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_SAAheCycev",
+      "id": "session_TjVR8WtabB",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -670,14 +670,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:52.655Z",
-      "createdAt": "2025-09-23T16:14:52.655Z",
+      "expiresAt": "2025-09-23T18:07:11.225Z",
+      "createdAt": "2025-09-23T17:17:11.225Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_EitldaJfXX",
+      "id": "session_Z3uQvZVr7p",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -690,14 +690,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:58.264Z",
-      "createdAt": "2025-09-23T16:14:58.264Z",
+      "expiresAt": "2025-09-23T18:07:14.669Z",
+      "createdAt": "2025-09-23T17:17:14.669Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_h4qDyGS81B",
+      "id": "session_XsHmoL9hHH",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -710,14 +710,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:04:58.423Z",
-      "createdAt": "2025-09-23T16:14:58.423Z",
+      "expiresAt": "2025-09-23T18:07:18.990Z",
+      "createdAt": "2025-09-23T17:17:18.990Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_ncLk0vRlnk",
+      "id": "session_rSondh1HkY",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -730,14 +730,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:07.886Z",
-      "createdAt": "2025-09-23T16:15:07.886Z",
+      "expiresAt": "2025-09-23T18:07:18.997Z",
+      "createdAt": "2025-09-23T17:17:18.997Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_H9sdpf1jb4",
+      "id": "session_KkLPitHUMK",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -750,14 +750,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:07.889Z",
-      "createdAt": "2025-09-23T16:15:07.889Z",
+      "expiresAt": "2025-09-23T18:07:20.087Z",
+      "createdAt": "2025-09-23T17:17:20.087Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_JraExUlgxO",
+      "id": "session_ZuDzPYcCfN",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -770,14 +770,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:12.589Z",
-      "createdAt": "2025-09-23T16:15:12.589Z",
+      "expiresAt": "2025-09-23T18:07:29.484Z",
+      "createdAt": "2025-09-23T17:17:29.484Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_Jhhvw5LpXQ",
+      "id": "session_LBtyuMnW69",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -790,14 +790,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:14.856Z",
-      "createdAt": "2025-09-23T16:15:14.856Z",
+      "expiresAt": "2025-09-23T18:07:35.585Z",
+      "createdAt": "2025-09-23T17:17:35.585Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_ptBZ8IXpDk",
+      "id": "session_bSt7HuS2Vv",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -810,14 +810,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:20.027Z",
-      "createdAt": "2025-09-23T16:15:20.027Z",
+      "expiresAt": "2025-09-23T18:07:35.589Z",
+      "createdAt": "2025-09-23T17:17:35.589Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_cgLRnW8VkS",
+      "id": "session_XzHT6hpUDE",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -830,14 +830,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:20.304Z",
-      "createdAt": "2025-09-23T16:15:20.304Z",
+      "expiresAt": "2025-09-23T18:07:52.686Z",
+      "createdAt": "2025-09-23T17:17:52.686Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_vgrUJW8daf",
+      "id": "session_DM9OquxzDU",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -850,14 +850,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:23.235Z",
-      "createdAt": "2025-09-23T16:15:23.235Z",
+      "expiresAt": "2025-09-23T18:08:00.398Z",
+      "createdAt": "2025-09-23T17:18:00.398Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_wLodJtYo4K",
+      "id": "session_8KtFx7gn1U",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -870,14 +870,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:25.757Z",
-      "createdAt": "2025-09-23T16:15:25.757Z",
+      "expiresAt": "2025-09-23T18:08:07.954Z",
+      "createdAt": "2025-09-23T17:18:07.954Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_eLSLc0z5Cc",
+      "id": "session_jcoadPjuBi",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -890,14 +890,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:26.035Z",
-      "createdAt": "2025-09-23T16:15:26.035Z",
+      "expiresAt": "2025-09-23T18:08:14.167Z",
+      "createdAt": "2025-09-23T17:18:14.167Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_byJXujLueR",
+      "id": "session_UoUSG3ogNA",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -910,14 +910,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:31.186Z",
-      "createdAt": "2025-09-23T16:15:31.186Z",
+      "expiresAt": "2025-09-23T18:08:20.442Z",
+      "createdAt": "2025-09-23T17:18:20.442Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_pwCC45dCLw",
+      "id": "session_bUDCmyRnLG",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -930,14 +930,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:32.020Z",
-      "createdAt": "2025-09-23T16:15:32.020Z",
+      "expiresAt": "2025-09-23T18:08:21.500Z",
+      "createdAt": "2025-09-23T17:18:21.500Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_liSu6Dbt3u",
+      "id": "session_xNSZyeL5xs",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -950,14 +950,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:34.166Z",
-      "createdAt": "2025-09-23T16:15:34.166Z",
+      "expiresAt": "2025-09-23T18:08:29.359Z",
+      "createdAt": "2025-09-23T17:18:29.358Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_OHByS1k2Re",
+      "id": "session_vdZ0HZmGVG",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -970,14 +970,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:37.394Z",
-      "createdAt": "2025-09-23T16:15:37.394Z",
+      "expiresAt": "2025-09-23T18:08:29.841Z",
+      "createdAt": "2025-09-23T17:18:29.840Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_Fm0RfOUEsN",
+      "id": "session_QfhdBP4rgV",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -990,14 +990,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:38.214Z",
-      "createdAt": "2025-09-23T16:15:38.214Z",
+      "expiresAt": "2025-09-23T18:08:37.036Z",
+      "createdAt": "2025-09-23T17:18:37.036Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_up5HQ7WCqZ",
+      "id": "session_HJ4E5n4txt",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1010,14 +1010,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:43.191Z",
-      "createdAt": "2025-09-23T16:15:43.191Z",
+      "expiresAt": "2025-09-23T18:08:37.095Z",
+      "createdAt": "2025-09-23T17:18:37.095Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_j5dHCJ04Vi",
+      "id": "session_k73ZzaZ8lP",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1030,14 +1030,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:44.181Z",
-      "createdAt": "2025-09-23T16:15:44.181Z",
+      "expiresAt": "2025-09-23T18:08:37.268Z",
+      "createdAt": "2025-09-23T17:18:37.268Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_p7K6ycEKmW",
+      "id": "session_2S4RnLZW1o",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1050,14 +1050,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:49.778Z",
-      "createdAt": "2025-09-23T16:15:49.778Z",
+      "expiresAt": "2025-09-23T18:08:44.664Z",
+      "createdAt": "2025-09-23T17:18:44.664Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_2PFPZlG2el",
+      "id": "session_m6B9akM5TC",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1070,14 +1070,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:50.162Z",
-      "createdAt": "2025-09-23T16:15:50.162Z",
+      "expiresAt": "2025-09-23T18:08:47.487Z",
+      "createdAt": "2025-09-23T17:18:47.487Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_SKRY6fxrJU",
+      "id": "session_64tJ3h53Wr",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1090,14 +1090,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:53.024Z",
-      "createdAt": "2025-09-23T16:15:53.024Z",
+      "expiresAt": "2025-09-23T18:08:53.930Z",
+      "createdAt": "2025-09-23T17:18:53.930Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_RWekTi7dSP",
+      "id": "session_xXmReHVBwo",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1110,14 +1110,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:05:55.930Z",
-      "createdAt": "2025-09-23T16:15:55.930Z",
+      "expiresAt": "2025-09-23T18:08:54.725Z",
+      "createdAt": "2025-09-23T17:18:54.725Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_WZowGjSxYr",
+      "id": "session_lsm4TZb0mJ",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1130,14 +1130,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:01.882Z",
-      "createdAt": "2025-09-23T16:16:01.882Z",
+      "expiresAt": "2025-09-23T18:09:01.151Z",
+      "createdAt": "2025-09-23T17:19:01.151Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_IaUmREKDrv",
+      "id": "session_c7mNfA52fM",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1150,14 +1150,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:07.060Z",
-      "createdAt": "2025-09-23T16:16:07.060Z",
+      "expiresAt": "2025-09-23T18:09:22.104Z",
+      "createdAt": "2025-09-23T17:19:22.104Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_vSuJjgIhPb",
+      "id": "session_Ijrjoic8LN",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1170,14 +1170,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:07.767Z",
-      "createdAt": "2025-09-23T16:16:07.767Z",
+      "expiresAt": "2025-09-23T18:09:22.533Z",
+      "createdAt": "2025-09-23T17:19:22.533Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_Kk9xNWaGPE",
+      "id": "session_tIJ5g0xKyg",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1190,14 +1190,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:14.795Z",
-      "createdAt": "2025-09-23T16:16:14.795Z",
+      "expiresAt": "2025-09-23T18:09:22.618Z",
+      "createdAt": "2025-09-23T17:19:22.618Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_wQWabKFIpT",
+      "id": "session_LqvunWlC90",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1210,14 +1210,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:15.128Z",
-      "createdAt": "2025-09-23T16:16:15.128Z",
+      "expiresAt": "2025-09-23T18:09:29.764Z",
+      "createdAt": "2025-09-23T17:19:29.764Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_LvNz2MGHcy",
+      "id": "session_u9LavTJZ22",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1230,14 +1230,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:15.131Z",
-      "createdAt": "2025-09-23T16:16:15.131Z",
+      "expiresAt": "2025-09-23T18:09:36.354Z",
+      "createdAt": "2025-09-23T17:19:36.354Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_pY3YFFIehf",
+      "id": "session_XatNRqerX4",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1250,14 +1250,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:24.300Z",
-      "createdAt": "2025-09-23T16:16:24.300Z",
+      "expiresAt": "2025-09-23T18:09:36.362Z",
+      "createdAt": "2025-09-23T17:19:36.362Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_S6otoByzpu",
+      "id": "session_mTpNEkbbBy",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1270,14 +1270,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:25.429Z",
-      "createdAt": "2025-09-23T16:16:25.429Z",
+      "expiresAt": "2025-09-23T18:09:36.369Z",
+      "createdAt": "2025-09-23T17:19:36.369Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_0GeL2Ij9SX",
+      "id": "session_0Lohk3hBWd",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1290,14 +1290,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:33.637Z",
-      "createdAt": "2025-09-23T16:16:33.637Z",
+      "expiresAt": "2025-09-23T18:09:44.206Z",
+      "createdAt": "2025-09-23T17:19:44.206Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_R8X91lEyn9",
+      "id": "session_IfkHPRFYLP",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1310,14 +1310,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:33.852Z",
-      "createdAt": "2025-09-23T16:16:33.852Z",
+      "expiresAt": "2025-09-23T18:09:44.868Z",
+      "createdAt": "2025-09-23T17:19:44.868Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_kFXbY87jpa",
+      "id": "session_EiqOYbhdDB",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1329,207 +1329,207 @@
           {
             "key": "localization",
             "value": "IN",
-            "expires": "2026-09-23T16:20:01.757Z",
+            "expires": "2026-09-23T17:22:16.536Z",
             "domain": "www.worldofbooks.com",
             "path": "/en-gb",
             "hostOnly": true,
-            "creation": "2025-09-23T16:16:42.531Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
-          },
-          {
-            "key": "_shopify_y",
-            "value": "d09d8754-0160-4bb3-9d33-a84b0676f6b8",
-            "expires": "2026-09-23T22:20:07.768Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "hostOnly": false,
-            "creation": "2025-09-23T16:16:42.531Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
-          },
-          {
-            "key": "_tracking_consent",
-            "value": "3.AMPS_INPB_f_f_-jkvFd-xR82LiyfhKCE0gQ",
-            "expires": "2026-09-23T22:16:34.331Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "hostOnly": false,
-            "creation": "2025-09-23T16:16:42.531Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
+            "creation": "2025-09-23T17:19:56.711Z",
+            "lastAccessed": "2025-09-23T17:22:28.896Z"
           },
           {
             "key": "_orig_referrer",
-            "expires": "2025-10-07T16:16:34.331Z",
+            "expires": "2025-10-07T17:19:46.628Z",
             "domain": "worldofbooks.com",
             "path": "/",
             "httpOnly": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:16:42.531Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
+            "creation": "2025-09-23T17:19:56.711Z",
+            "lastAccessed": "2025-09-23T17:22:28.897Z"
+          },
+          {
+            "key": "_shopify_y",
+            "value": "d47886f1-dede-4cf7-a012-6370be5c8079",
+            "expires": "2026-09-23T23:22:20.706Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-09-23T17:19:56.711Z",
+            "lastAccessed": "2025-09-23T17:22:28.897Z"
+          },
+          {
+            "key": "_tracking_consent",
+            "value": "3.AMPS_INPB_f_f_NIsz-1RYQMqCqw9dODQzJQ",
+            "expires": "2026-09-23T23:19:46.628Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-09-23T17:19:56.711Z",
+            "lastAccessed": "2025-09-23T17:22:28.897Z"
           },
           {
             "key": "_landing_page",
-            "value": "%2Fen-gb%2Fcollections%2Fsocial-science-books",
-            "expires": "2025-10-07T16:16:34.331Z",
+            "value": "%2Fen-gb%2Fcollections%2Feconomics-and-finance-books",
+            "expires": "2025-10-07T17:19:46.628Z",
             "domain": "worldofbooks.com",
             "path": "/",
             "httpOnly": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:16:42.531Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
+            "creation": "2025-09-23T17:19:56.711Z",
+            "lastAccessed": "2025-09-23T17:22:28.897Z"
           },
           {
             "key": "__eventn_id",
-            "value": "9dw802103z.1758644195",
-            "expires": "2026-10-28T16:16:35.759Z",
+            "value": "ey3ni0kp4g.1758647986",
+            "expires": "2026-10-28T17:19:46.752Z",
             "domain": "worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:16:42.531Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
-          },
-          {
-            "key": "_shopify_s",
-            "value": "6f567c4e-8d3e-4615-a689-1a6580ad705a",
-            "expires": "2025-09-23T16:50:07.768Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "hostOnly": false,
-            "creation": "2025-09-23T16:16:42.532Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
-          },
-          {
-            "key": "keep_alive",
-            "value": "eyJ2IjoyLCJ0cyI6MTc1ODY0NDQwNzQxNCwiZW52Ijp7IndkIjowLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0IjowLCJubSI6MCwibXMiOjAsIm1qIjowLCJtc3AiOjAsInZjIjowLCJjcCI6MCwicmMiOjAsImtqIjowLCJraSI6MCwic3MiOjAsInNqIjowLCJzc20iOjAsInNwIjowLCJ0cyI6MCwidGoiOjAsInRwIjowLCJ0c20iOjB9LCJzZXMiOnsicCI6MzMsInMiOjE3NTg2NDQyMDE2NzcsImQiOjE4NX19",
-            "expires": "2025-09-23T17:10:07.884Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": true,
-            "creation": "2025-09-23T16:16:42.532Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
-          },
-          {
-            "key": "_shopify_essential",
-            "value": ":AZl3XMyYAAEALz-3dowbYeksAfFV7E1yp8T81Dl38eyVVHIrZ1lbuWG3NHsbm0yyIYiEi6zJ5lGMtbgZzC68JVKaxn9bSgnggJmywLm6l6AXVsHg9CL0LARTHMKjLjEZpV6s0vRtfwsUgy7RWaKqjPjr_EtzN_k5PX_UMPhihoGBuhWlM1y5SEnHaTJqgsCD0urJS6nRP_4t9_Epz8rCYVLCq6_FfKjaZa8bATdJEdEkfZ_g4pDNSlOpg4h1bIIHlYfod7mYsLjL0mk:",
-            "expires": "2026-09-23T16:17:53.832Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "httpOnly": true,
-            "hostOnly": true,
-            "creation": "2025-09-23T16:16:42.532Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
-          },
-          {
-            "key": "OptanonConsent",
-            "value": "isGpcEnabled=0&datestamp=Tue+Sep+23+2025+21%3A49%3A54+GMT%2B0530+(India+Standard+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a86db53a-1df2-4268-aa34-1e6b4636db50&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&AwaitingReconsent=false&groups=C0003%3A0%2CC0004%3A0%2CC0002%3A0%2CC0001%3A1",
-            "expires": "2026-09-23T16:19:54.000Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "hostOnly": false,
-            "creation": "2025-09-23T16:16:42.532Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
-          },
-          {
-            "key": "cart_currency",
-            "value": "GBP",
-            "expires": "2025-10-07T16:20:07.768Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "hostOnly": true,
-            "creation": "2025-09-23T16:16:42.532Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
+            "creation": "2025-09-23T17:19:56.711Z",
+            "lastAccessed": "2025-09-23T17:22:28.897Z"
           },
           {
             "key": "swym-session-id",
-            "value": "\"hpys5riypc584pnt7xsbsl76pj5k094kk4xew8q3v6l57x0j4le8y9twuniuv9nr\"",
-            "expires": "2025-09-23T16:50:07.000Z",
+            "value": "\"22xb9owily1zvbm5swkzgm81bk4do8pfyu3c7k9ri8bnzpoi4nmmwkesymhvd2w5\"",
+            "expires": "2025-09-23T17:52:21.000Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:16:42.532Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
+            "creation": "2025-09-23T17:19:56.711Z",
+            "lastAccessed": "2025-09-23T17:22:28.897Z"
           },
           {
             "key": "swym-pid",
             "value": "\"rTqgRVolwLgMEf6yEmnpwLNUailSACsmlQlC0eL5Bfw=\"",
-            "expires": "2026-09-23T16:20:07.000Z",
+            "expires": "2026-09-23T17:22:20.000Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:16:42.532Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
+            "creation": "2025-09-23T17:19:56.711Z",
+            "lastAccessed": "2025-09-23T17:22:28.897Z"
           },
           {
-            "key": "cart",
-            "value": "hWN3JYH53POAqPmctE1a0CNY%3Fkey%3D9a90b5ef457de250e90f6b465725b07f",
-            "expires": "2025-10-24T16:17:21.146Z",
+            "key": "cart_currency",
+            "value": "GBP",
+            "expires": "2025-10-07T17:22:20.706Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "hostOnly": true,
-            "creation": "2025-09-23T16:17:09.340Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
+            "creation": "2025-09-23T17:19:56.711Z",
+            "lastAccessed": "2025-09-23T17:22:28.897Z"
+          },
+          {
+            "key": "cart",
+            "value": "hWN3JedTECMpfO2fKL4rf8js%3Fkey%3Dade522f4ad12e0a1dddcce17be7d9aec",
+            "expires": "2025-10-24T17:19:59.519Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2025-09-23T17:19:56.711Z",
+            "lastAccessed": "2025-09-23T17:22:28.897Z"
+          },
+          {
+            "key": "_shopify_s",
+            "value": "dedb321b-8e78-45e6-b3b0-b73cf5de92f9",
+            "expires": "2025-09-23T17:52:20.706Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-09-23T17:19:56.711Z",
+            "lastAccessed": "2025-09-23T17:22:28.898Z"
+          },
+          {
+            "key": "keep_alive",
+            "value": "eyJ2IjoyLCJ0cyI6MTc1ODY0ODE0NjM3OSwiZW52Ijp7IndkIjowLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0IjoxNSwibm0iOjAsIm1zIjowLCJtaiI6MCwibXNwIjowLCJ2YyI6MCwiY3AiOjAsInJjIjowLCJraiI6MCwia2kiOjAsInNzIjowLCJzaiI6MCwic3NtIjowLCJzcCI6MCwidHMiOjAsInRqIjowLCJ0cCI6MCwidHNtIjowfSwic2VzIjp7InAiOjMzLCJzIjoxNzU4NjQ3OTkwMjg5LCJkIjoxMzZ9fQ%3D%3D",
+            "expires": "2025-09-23T18:12:28.896Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-09-23T17:19:56.711Z",
+            "lastAccessed": "2025-09-23T17:22:28.898Z"
+          },
+          {
+            "key": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Tue+Sep+23+2025+22%3A52%3A20+GMT%2B0530+(India+Standard+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=c92b2673-e43a-4dd0-929b-9cad6a412375&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&AwaitingReconsent=false&groups=C0003%3A0%2CC0004%3A0%2CC0002%3A0%2CC0001%3A1",
+            "expires": "2026-09-23T17:22:20.000Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-09-23T17:19:56.711Z",
+            "lastAccessed": "2025-09-23T17:22:28.898Z"
+          },
+          {
+            "key": "_shopify_essential",
+            "value": ":AZl3lqW3AAEAkeR6K7iIDCG9hxwfDSwkWgiVvmLkiBwMmOoyOgwpJQyouYbhb4NBLKURAZJRiaZfRAFKc6tvGqAQb0ltI-ZHX-BPR9N6S0zVnbVqwD20FU1sBWYw7RFytTs9pdcwkd9OmbVN9jKPm-Q3SLAma1RMNzOCBRN-juMnYeZpio6qvWDwx8MyELX3bYWlY5NytwJR1OOex1BFei84RDzZ-RFzN6Pb_5MctsewAZ2DPbTF26pHCUfKl1QXD4JFJ-EixbdZPvO1:",
+            "expires": "2026-09-23T17:21:11.019Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2025-09-23T17:19:56.711Z",
+            "lastAccessed": "2025-09-23T17:22:28.898Z"
           },
           {
             "key": "swym-v-ckd",
             "value": "1",
-            "expires": "2025-09-23T16:47:21.000Z",
+            "expires": "2025-09-23T17:50:06.000Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:17:28.688Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
+            "creation": "2025-09-23T17:20:06.794Z",
+            "lastAccessed": "2025-09-23T17:22:28.897Z"
           },
           {
             "key": "swym-swymRegid",
-            "value": "\"sWw5N8JgsOuEXUUqVyDhMu7LpYqdeAR7AjMbXXFTuM0tF1zXLnllct_KzjUWfABBhNQDsrUhe3Zg7coIW19zyVvihRckDsaq_GP69jdUdqCi5imnoGSAE2ZGIMIQ--nk3kZSGW_FZCY297PZqgYJoCH0uTK-fcMGrq5NYTYSjm8\"",
-            "expires": "2026-09-23T16:19:49.000Z",
+            "value": "\"exVZ70S8Z-j-m3HiEyB5m0R0iKqtHyEekRM6xHqv408OwzVzrne8sGiAadkzqm_lrskaTOUf5GNNMNox1fV31y0kncvKmK9OokznvpThu0uMKcVbGaYCYapWGc3uhIqFLPR8CbcmehoAm913EN5Yf0-0KxhySwJozOngf-SOufY\"",
+            "expires": "2026-09-23T17:22:21.000Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:17:28.688Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
+            "creation": "2025-09-23T17:20:06.794Z",
+            "lastAccessed": "2025-09-23T17:22:28.897Z"
           },
           {
             "key": "swym-email",
             "value": "null",
-            "expires": "2026-09-23T16:19:49.000Z",
+            "expires": "2026-09-23T17:22:21.000Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:17:28.688Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
+            "creation": "2025-09-23T17:20:06.794Z",
+            "lastAccessed": "2025-09-23T17:22:28.897Z"
           },
           {
             "key": "swym-o_s",
-            "value": "{\"wishlist-app_app-embed_178656379153\":\"2025-09-23T16:17:22.081Z\",\"mktenabled\":false}",
-            "expires": "2025-09-23T16:49:49.000Z",
+            "value": "{\"wishlist-app_app-embed_178656379153\":\"2025-09-23T17:20:06.554Z\",\"mktenabled\":false}",
+            "expires": "2025-09-23T17:52:21.000Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:17:28.688Z",
-            "lastAccessed": "2025-09-23T16:20:07.884Z"
+            "creation": "2025-09-23T17:20:06.794Z",
+            "lastAccessed": "2025-09-23T17:22:28.897Z"
           }
         ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:33.862Z",
-      "createdAt": "2025-09-23T16:16:33.862Z",
+      "expiresAt": "2025-09-23T18:09:44.878Z",
+      "createdAt": "2025-09-23T17:19:44.878Z",
       "usageCount": 55,
       "maxUsageCount": 50,
       "errorScore": 8
     },
     {
-      "id": "session_gdZ8u4xpSE",
+      "id": "session_g4ugGR7iHs",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1542,14 +1542,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:42.930Z",
-      "createdAt": "2025-09-23T16:16:42.930Z",
+      "expiresAt": "2025-09-23T18:09:45.525Z",
+      "createdAt": "2025-09-23T17:19:45.525Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_t7nxUWKjXr",
+      "id": "session_ZlTJ2PFWTa",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1562,14 +1562,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:42.935Z",
-      "createdAt": "2025-09-23T16:16:42.935Z",
+      "expiresAt": "2025-09-23T18:09:49.524Z",
+      "createdAt": "2025-09-23T17:19:49.524Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_tgSYtA4nLS",
+      "id": "session_up8s3oqZ6Z",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1582,14 +1582,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:46.589Z",
-      "createdAt": "2025-09-23T16:16:46.589Z",
+      "expiresAt": "2025-09-23T18:09:57.515Z",
+      "createdAt": "2025-09-23T17:19:57.515Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_1ScbTFlFWU",
+      "id": "session_vypcPun95b",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1602,14 +1602,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:51.034Z",
-      "createdAt": "2025-09-23T16:16:51.034Z",
+      "expiresAt": "2025-09-23T18:09:58.040Z",
+      "createdAt": "2025-09-23T17:19:58.040Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_SpXWEloAOo",
+      "id": "session_w8L6l75YzZ",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1622,14 +1622,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:51.556Z",
-      "createdAt": "2025-09-23T16:16:51.556Z",
+      "expiresAt": "2025-09-23T18:09:58.046Z",
+      "createdAt": "2025-09-23T17:19:58.046Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_etGknK53tv",
+      "id": "session_ds3B9q4EQK",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1642,14 +1642,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:58.403Z",
-      "createdAt": "2025-09-23T16:16:58.403Z",
+      "expiresAt": "2025-09-23T18:10:07.125Z",
+      "createdAt": "2025-09-23T17:20:07.125Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_P9r3lyq9eu",
+      "id": "session_r15XWk76bX",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1662,14 +1662,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:06:59.888Z",
-      "createdAt": "2025-09-23T16:16:59.888Z",
+      "expiresAt": "2025-09-23T18:10:07.127Z",
+      "createdAt": "2025-09-23T17:20:07.127Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_nfoJlnSdVQ",
+      "id": "session_csSjcQa4fR",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1682,14 +1682,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:07:03.458Z",
-      "createdAt": "2025-09-23T16:17:03.458Z",
+      "expiresAt": "2025-09-23T18:10:07.443Z",
+      "createdAt": "2025-09-23T17:20:07.443Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_0ugFVJiAxV",
+      "id": "session_JyaJa2mYEs",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1702,14 +1702,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:07:07.977Z",
-      "createdAt": "2025-09-23T16:17:07.977Z",
+      "expiresAt": "2025-09-23T18:10:11.972Z",
+      "createdAt": "2025-09-23T17:20:11.972Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_8SiPft9uy2",
+      "id": "session_C5U1uCZMqv",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1722,14 +1722,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:07:07.980Z",
-      "createdAt": "2025-09-23T16:17:07.980Z",
+      "expiresAt": "2025-09-23T18:10:13.939Z",
+      "createdAt": "2025-09-23T17:20:13.939Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_IAPA1fyLcS",
+      "id": "session_EYF4NQSAYG",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1742,14 +1742,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:07:10.451Z",
-      "createdAt": "2025-09-23T16:17:10.451Z",
+      "expiresAt": "2025-09-23T18:10:14.447Z",
+      "createdAt": "2025-09-23T17:20:14.447Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_ExCcqLvcAq",
+      "id": "session_ezeO21kfjZ",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1762,14 +1762,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:07:18.957Z",
-      "createdAt": "2025-09-23T16:17:18.957Z",
+      "expiresAt": "2025-09-23T18:10:18.884Z",
+      "createdAt": "2025-09-23T17:20:18.884Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_UE5dFjJaxq",
+      "id": "session_ca9EEMQGxi",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1782,14 +1782,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:07:19.123Z",
-      "createdAt": "2025-09-23T16:17:19.123Z",
+      "expiresAt": "2025-09-23T18:10:19.360Z",
+      "createdAt": "2025-09-23T17:20:19.360Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_ij6C6KbfzC",
+      "id": "session_Vj9Pfb7Pkm",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1802,14 +1802,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:07:25.131Z",
-      "createdAt": "2025-09-23T16:17:25.131Z",
+      "expiresAt": "2025-09-23T18:10:23.003Z",
+      "createdAt": "2025-09-23T17:20:23.003Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_gR4IvSnuGq",
+      "id": "session_aDgtC0y9HZ",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1822,14 +1822,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:07:29.140Z",
-      "createdAt": "2025-09-23T16:17:29.140Z",
+      "expiresAt": "2025-09-23T18:10:24.263Z",
+      "createdAt": "2025-09-23T17:20:24.263Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_sTT3N9LVSG",
+      "id": "session_dwJlWxuYHy",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1842,14 +1842,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:07:33.995Z",
-      "createdAt": "2025-09-23T16:17:33.995Z",
+      "expiresAt": "2025-09-23T18:10:25.988Z",
+      "createdAt": "2025-09-23T17:20:25.988Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_b90L8mzP6g",
+      "id": "session_nWOpJ1ons1",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1862,14 +1862,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:07:41.375Z",
-      "createdAt": "2025-09-23T16:17:41.375Z",
+      "expiresAt": "2025-09-23T18:10:29.730Z",
+      "createdAt": "2025-09-23T17:20:29.730Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_7qQns2D2bt",
+      "id": "session_LMRzg72505",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1882,14 +1882,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:07:44.845Z",
-      "createdAt": "2025-09-23T16:17:44.845Z",
+      "expiresAt": "2025-09-23T18:10:31.843Z",
+      "createdAt": "2025-09-23T17:20:31.843Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_cmR69P9dom",
+      "id": "session_nxfb0btjaB",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1902,14 +1902,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:07:50.190Z",
-      "createdAt": "2025-09-23T16:17:50.190Z",
+      "expiresAt": "2025-09-23T18:10:35.222Z",
+      "createdAt": "2025-09-23T17:20:35.222Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_IvbonTvg3x",
+      "id": "session_UWcuWDZA0e",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1922,14 +1922,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:07:58.077Z",
-      "createdAt": "2025-09-23T16:17:58.077Z",
+      "expiresAt": "2025-09-23T18:10:36.271Z",
+      "createdAt": "2025-09-23T17:20:36.271Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_Adj5TxROC5",
+      "id": "session_NeVKxRpGhd",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1942,14 +1942,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:08:05.316Z",
-      "createdAt": "2025-09-23T16:18:05.316Z",
+      "expiresAt": "2025-09-23T18:10:39.137Z",
+      "createdAt": "2025-09-23T17:20:39.137Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_4oRI22zvof",
+      "id": "session_856WBDrnv8",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1962,14 +1962,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:08:06.416Z",
-      "createdAt": "2025-09-23T16:18:06.416Z",
+      "expiresAt": "2025-09-23T18:10:40.049Z",
+      "createdAt": "2025-09-23T17:20:40.049Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_X9TLI5JQJi",
+      "id": "session_3fpdC6zfoq",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -1982,14 +1982,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:08:06.809Z",
-      "createdAt": "2025-09-23T16:18:06.809Z",
+      "expiresAt": "2025-09-23T18:10:44.670Z",
+      "createdAt": "2025-09-23T17:20:44.670Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_dBVhqv0Dax",
+      "id": "session_stOEPNPOnR",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2002,14 +2002,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:08:28.029Z",
-      "createdAt": "2025-09-23T16:18:28.029Z",
+      "expiresAt": "2025-09-23T18:10:46.768Z",
+      "createdAt": "2025-09-23T17:20:46.768Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_XuD1GassaF",
+      "id": "session_gvqqbvA7pM",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2022,14 +2022,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:08:28.693Z",
-      "createdAt": "2025-09-23T16:18:28.693Z",
+      "expiresAt": "2025-09-23T18:10:53.416Z",
+      "createdAt": "2025-09-23T17:20:53.416Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_tCWzt5vDly",
+      "id": "session_F8QlVmyvrE",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2042,14 +2042,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:08:32.673Z",
-      "createdAt": "2025-09-23T16:18:32.673Z",
+      "expiresAt": "2025-09-23T18:10:53.623Z",
+      "createdAt": "2025-09-23T17:20:53.623Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_7h0jL4MMaO",
+      "id": "session_Q5cztj8cFj",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2062,14 +2062,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:08:41.531Z",
-      "createdAt": "2025-09-23T16:18:41.531Z",
+      "expiresAt": "2025-09-23T18:11:04.592Z",
+      "createdAt": "2025-09-23T17:21:04.592Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_hVtu2RQelq",
+      "id": "session_XrhSzJ8keA",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2082,14 +2082,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:08:41.576Z",
-      "createdAt": "2025-09-23T16:18:41.576Z",
+      "expiresAt": "2025-09-23T18:11:04.595Z",
+      "createdAt": "2025-09-23T17:21:04.595Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_CKjysC7ZTZ",
+      "id": "session_v8Giyth4YD",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2102,14 +2102,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:08:49.130Z",
-      "createdAt": "2025-09-23T16:18:49.130Z",
+      "expiresAt": "2025-09-23T18:11:16.724Z",
+      "createdAt": "2025-09-23T17:21:16.724Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_FwsxSdU2Xc",
+      "id": "session_bx3uUdCP4O",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2122,14 +2122,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:08:49.135Z",
-      "createdAt": "2025-09-23T16:18:49.135Z",
+      "expiresAt": "2025-09-23T18:11:19.275Z",
+      "createdAt": "2025-09-23T17:21:19.275Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_d6SVF0vt2F",
+      "id": "session_wBivyHtTcJ",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2142,14 +2142,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:08:49.527Z",
-      "createdAt": "2025-09-23T16:18:49.527Z",
+      "expiresAt": "2025-09-23T18:11:27.412Z",
+      "createdAt": "2025-09-23T17:21:27.412Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_0Pl60MOoyA",
+      "id": "session_UyDd0nk7rr",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2162,14 +2162,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:08:56.836Z",
-      "createdAt": "2025-09-23T16:18:56.836Z",
+      "expiresAt": "2025-09-23T18:11:31.030Z",
+      "createdAt": "2025-09-23T17:21:31.030Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_hRdhdiqocJ",
+      "id": "session_E9RMHkDyTZ",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2182,14 +2182,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:03.963Z",
-      "createdAt": "2025-09-23T16:19:03.963Z",
+      "expiresAt": "2025-09-23T18:11:35.105Z",
+      "createdAt": "2025-09-23T17:21:35.105Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_jd0HdVvG42",
+      "id": "session_3UdU0dkrvw",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2202,14 +2202,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:07.887Z",
-      "createdAt": "2025-09-23T16:19:07.887Z",
+      "expiresAt": "2025-09-23T18:11:35.269Z",
+      "createdAt": "2025-09-23T17:21:35.269Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_2iZaBoDQ4h",
+      "id": "session_WB7360Ecfg",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2222,14 +2222,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:08.221Z",
-      "createdAt": "2025-09-23T16:19:08.221Z",
+      "expiresAt": "2025-09-23T18:11:39.912Z",
+      "createdAt": "2025-09-23T17:21:39.912Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_SBZfU7yplc",
+      "id": "session_i3cc0oF7uW",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2242,14 +2242,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:12.847Z",
-      "createdAt": "2025-09-23T16:19:12.847Z",
+      "expiresAt": "2025-09-23T18:11:40.034Z",
+      "createdAt": "2025-09-23T17:21:40.034Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_cOvMPHXOfy",
+      "id": "session_6wcaffesjT",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2262,14 +2262,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:20.012Z",
-      "createdAt": "2025-09-23T16:19:20.012Z",
+      "expiresAt": "2025-09-23T18:11:40.806Z",
+      "createdAt": "2025-09-23T17:21:40.806Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_g9XymgVFmd",
+      "id": "session_QYSkXDzz5r",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2282,14 +2282,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:20.803Z",
-      "createdAt": "2025-09-23T16:19:20.803Z",
+      "expiresAt": "2025-09-23T18:11:44.330Z",
+      "createdAt": "2025-09-23T17:21:44.330Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_xk7zGwizFV",
+      "id": "session_KgBEcBu1dT",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2302,14 +2302,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:24.642Z",
-      "createdAt": "2025-09-23T16:19:24.642Z",
+      "expiresAt": "2025-09-23T18:11:45.339Z",
+      "createdAt": "2025-09-23T17:21:45.339Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_ezrZTHvNxI",
+      "id": "session_CyrBrCeXdU",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2322,14 +2322,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:27.106Z",
-      "createdAt": "2025-09-23T16:19:27.106Z",
+      "expiresAt": "2025-09-23T18:11:47.617Z",
+      "createdAt": "2025-09-23T17:21:47.617Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_0EOvwlexsc",
+      "id": "session_SFxhkyyMwu",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2342,14 +2342,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:28.202Z",
-      "createdAt": "2025-09-23T16:19:28.202Z",
+      "expiresAt": "2025-09-23T18:11:53.381Z",
+      "createdAt": "2025-09-23T17:21:53.381Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_FDaHtnYXzD",
+      "id": "session_MftNtcQBt4",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2362,14 +2362,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:32.806Z",
-      "createdAt": "2025-09-23T16:19:32.806Z",
+      "expiresAt": "2025-09-23T18:11:55.128Z",
+      "createdAt": "2025-09-23T17:21:55.128Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_28kO1HAnWO",
+      "id": "session_hDh9QoJP1m",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2382,14 +2382,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:33.732Z",
-      "createdAt": "2025-09-23T16:19:33.732Z",
+      "expiresAt": "2025-09-23T18:11:56.807Z",
+      "createdAt": "2025-09-23T17:21:56.807Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_IIfKieILrT",
+      "id": "session_1Nn2UQHl95",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2402,14 +2402,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:38.042Z",
-      "createdAt": "2025-09-23T16:19:38.042Z",
+      "expiresAt": "2025-09-23T18:11:59.775Z",
+      "createdAt": "2025-09-23T17:21:59.775Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_z4jJidKkLn",
+      "id": "session_hXkSCXd2F1",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2422,14 +2422,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:39.625Z",
-      "createdAt": "2025-09-23T16:19:39.625Z",
+      "expiresAt": "2025-09-23T18:12:02.256Z",
+      "createdAt": "2025-09-23T17:22:02.256Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_K0FnQY0dZX",
+      "id": "session_XX8KM1bMeG",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2442,14 +2442,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:43.754Z",
-      "createdAt": "2025-09-23T16:19:43.754Z",
+      "expiresAt": "2025-09-23T18:12:04.787Z",
+      "createdAt": "2025-09-23T17:22:04.787Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_MZyVIKI6Ny",
+      "id": "session_2rlIP8XPLm",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2462,14 +2462,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:48.134Z",
-      "createdAt": "2025-09-23T16:19:48.134Z",
+      "expiresAt": "2025-09-23T18:12:04.919Z",
+      "createdAt": "2025-09-23T17:22:04.919Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_clbzGwhsuA",
+      "id": "session_LKbh0WtsNb",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2482,14 +2482,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:51.969Z",
-      "createdAt": "2025-09-23T16:19:51.969Z",
+      "expiresAt": "2025-09-23T18:12:07.017Z",
+      "createdAt": "2025-09-23T17:22:07.017Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_ecI8RVm6nr",
+      "id": "session_1x0gGaaadj",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2502,14 +2502,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:09:56.714Z",
-      "createdAt": "2025-09-23T16:19:56.714Z",
+      "expiresAt": "2025-09-23T18:12:10.042Z",
+      "createdAt": "2025-09-23T17:22:10.042Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_fXyaGoGUST",
+      "id": "session_VFUN3Z9Y2J",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2522,14 +2522,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:00.850Z",
-      "createdAt": "2025-09-23T16:20:00.850Z",
+      "expiresAt": "2025-09-23T18:12:10.580Z",
+      "createdAt": "2025-09-23T17:22:10.580Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_23021QcY4U",
+      "id": "session_3ScZZg0tXX",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2542,14 +2542,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:00.852Z",
-      "createdAt": "2025-09-23T16:20:00.852Z",
+      "expiresAt": "2025-09-23T18:12:14.863Z",
+      "createdAt": "2025-09-23T17:22:14.863Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_aXzcH7jqm4",
+      "id": "session_86Ij6oLCGq",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2562,14 +2562,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:02.296Z",
-      "createdAt": "2025-09-23T16:20:02.296Z",
+      "expiresAt": "2025-09-23T18:12:29.800Z",
+      "createdAt": "2025-09-23T17:22:29.800Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_1mBzmr9Nwt",
+      "id": "session_W3FG2HgiNQ",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -2581,1481 +2581,1470 @@
           {
             "key": "localization",
             "value": "IN",
-            "expires": "2026-09-23T16:22:53.453Z",
+            "expires": "2026-09-23T17:24:31.163Z",
             "domain": "www.worldofbooks.com",
             "path": "/en-gb",
             "hostOnly": true,
-            "creation": "2025-09-23T16:20:13.096Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
-          },
-          {
-            "key": "_shopify_y",
-            "value": "0b03cba0-b320-44ea-9f27-589584c9fdbf",
-            "expires": "2026-09-23T22:22:59.104Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "hostOnly": false,
-            "creation": "2025-09-23T16:20:13.096Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
-          },
-          {
-            "key": "_tracking_consent",
-            "value": "3.AMPS_INPB_f_f_ogHLc344QWCOmJcxc5YQCg",
-            "expires": "2026-09-23T22:20:05.198Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "hostOnly": false,
-            "creation": "2025-09-23T16:20:13.096Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
+            "creation": "2025-09-23T17:22:52.744Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
           },
           {
             "key": "_orig_referrer",
-            "expires": "2025-10-07T16:20:05.198Z",
+            "expires": "2025-10-07T17:22:33.836Z",
             "domain": "worldofbooks.com",
             "path": "/",
             "httpOnly": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:20:13.096Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
+          },
+          {
+            "key": "_shopify_y",
+            "value": "93095e04-8973-4e02-8760-ebb7cf86c458",
+            "expires": "2026-09-23T23:24:34.816Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
+          },
+          {
+            "key": "_tracking_consent",
+            "value": "3.AMPS_INPB_f_f_nrlpomX6RRWyF6ThwydzsA",
+            "expires": "2026-09-23T23:22:33.836Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
           },
           {
             "key": "_landing_page",
-            "value": "%2Fen-gb%2Fcollections%2Frock-cds",
-            "expires": "2025-10-07T16:20:05.198Z",
+            "value": "%2Fen-gb%2Fcollections%2Frare-social-sciences-books",
+            "expires": "2025-10-07T17:22:33.836Z",
             "domain": "worldofbooks.com",
             "path": "/",
             "httpOnly": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:20:13.096Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
           },
           {
             "key": "__eventn_id",
-            "value": "oh5bc3i07x.1758644405",
-            "expires": "2026-10-28T16:20:05.414Z",
+            "value": "witf9tzxgx.1758648153",
+            "expires": "2026-10-28T17:22:33.970Z",
             "domain": "worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:20:13.096Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
-          },
-          {
-            "key": "cart_currency",
-            "value": "GBP",
-            "expires": "2025-10-07T16:22:59.104Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "hostOnly": true,
-            "creation": "2025-09-23T16:20:13.096Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
           },
           {
             "key": "_shopify_s",
-            "value": "a144bf76-e626-48ee-8540-a52a468821af",
-            "expires": "2025-09-23T16:52:59.104Z",
+            "value": "670469a9-45a2-4a0e-9f51-598e581acfbe",
+            "expires": "2025-09-23T17:54:34.817Z",
             "domain": "worldofbooks.com",
             "path": "/",
             "hostOnly": false,
-            "creation": "2025-09-23T16:20:13.096Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
-          },
-          {
-            "key": "keep_alive",
-            "value": "eyJ2IjoyLCJ0cyI6MTc1ODY0NDU3ODc4NCwiZW52Ijp7IndkIjowLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0IjowLCJubSI6MCwibXMiOjAsIm1qIjowLCJtc3AiOjAsInZjIjowLCJjcCI6MCwicmMiOjAsImtqIjowLCJraSI6MCwic3MiOjAsInNqIjowLCJzc20iOjAsInNwIjowLCJ0cyI6MCwidGoiOjAsInRwIjowLCJ0c20iOjB9LCJzZXMiOnsicCI6MzUsInMiOjE3NTg2NDQ0MDk5NTgsImQiOjE0Nn19",
-            "expires": "2025-09-23T17:12:59.196Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": true,
-            "creation": "2025-09-23T16:20:13.096Z",
-            "lastAccessed": "2025-09-23T16:22:59.197Z"
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
           },
           {
             "key": "swym-session-id",
-            "value": "\"uyec88rbgj1d6kmrb8lbc6kvpx0u805vhtlc3tsd6kp5i35mj3r8b5tdwzfff8o6\"",
-            "expires": "2025-09-23T16:52:59.000Z",
+            "value": "\"zfawjpseow60nrfz48c365u7ro7r11qu3c4klxtdv9gkcj5hyzxmooj7ah3ax5gg\"",
+            "expires": "2025-09-23T17:54:34.000Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:20:13.096Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
           },
           {
             "key": "swym-pid",
             "value": "\"rTqgRVolwLgMEf6yEmnpwLNUailSACsmlQlC0eL5Bfw=\"",
-            "expires": "2026-09-23T16:22:59.000Z",
+            "expires": "2026-09-23T17:24:34.000Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:20:13.096Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
-          },
-          {
-            "key": "OptanonConsent",
-            "value": "isGpcEnabled=0&datestamp=Tue+Sep+23+2025+21%3A52%3A53+GMT%2B0530+(India+Standard+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=cfd4b7a8-ae81-44f3-b0c0-0d749fa0af9b&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0003%3A0%2CC0004%3A0%2CC0002%3A0%2CC0001%3A1&AwaitingReconsent=false",
-            "expires": "2026-09-23T16:22:53.000Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "hostOnly": false,
-            "creation": "2025-09-23T16:20:13.096Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
           },
           {
             "key": "swym-v-ckd",
             "value": "1",
-            "expires": "2025-09-23T16:50:12.000Z",
+            "expires": "2025-09-23T17:52:39.000Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:20:13.096Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
-          },
-          {
-            "key": "swym-swymRegid",
-            "value": "\"blx1XNtxsea-pjErMGC69Eih14BcrisuDZ9hXfgzALA-nE78eGH9VtvtKL8L9CaHX7ewjgITevB2jznPITvAxKi9T3H6EQnP2cx35KDmucgPd0tjRFmkPFV3PzBxF7_tKa-E9byozSyTMcl50AoRqIi0CxL8cb5_yk4puqxro9I\"",
-            "expires": "2026-09-23T16:22:52.000Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:20:13.096Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
           },
           {
             "key": "swym-email",
             "value": "null",
-            "expires": "2026-09-23T16:22:52.000Z",
+            "expires": "2026-09-23T17:24:34.000Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:20:13.097Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
+          },
+          {
+            "key": "swym-swymRegid",
+            "value": "\"R-W-qu1BQuEAjtJ9bkXGNMe8PyOxQrjjVt6Zf1jyYGyh5gMqd6aumX1ymxA_4X8g_575oZ3etmTLgB4QIbgotX4RWJFupiFoM9q7bOyNJZB2nYF_wuoAheBlj1YV0qpYjLGjT_JG29GWyNjSGjKWb8RL-tiN_ku7yUDHDhDNuqU\"",
+            "expires": "2026-09-23T17:24:34.000Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
+          },
+          {
+            "key": "cart",
+            "value": "hWN3JeusSLsErcB4nUJEcMM8%3Fkey%3D29588e70c256a2b0bd3a2ee5c2a42841",
+            "expires": "2025-10-24T17:23:04.865Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
+          },
+          {
+            "key": "cart_currency",
+            "value": "GBP",
+            "expires": "2025-10-07T17:24:34.816Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
           },
           {
             "key": "swym-o_s",
-            "value": "{\"wishlist-app_app-embed_178656379153\":\"2025-09-23T16:20:12.365Z\",\"mktenabled\":false}",
-            "expires": "2025-09-23T16:52:52.000Z",
+            "value": "{\"wishlist-app_app-embed_178656379153\":\"2025-09-23T17:22:40.654Z\",\"mktenabled\":false}",
+            "expires": "2025-09-23T17:54:34.000Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:20:13.097Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
+          },
+          {
+            "key": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Tue+Sep+23+2025+22%3A54%3A34+GMT%2B0530+(India+Standard+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=80de8f9c-5790-4968-a6d3-b80c10ef3aee&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&AwaitingReconsent=false&groups=C0003%3A0%2CC0004%3A0%2CC0002%3A0%2CC0001%3A1",
+            "expires": "2026-09-23T17:24:34.000Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
           },
           {
             "key": "_shopify_essential",
-            "value": ":AZl3X__3AAEAafgrsM4CEz97Lur1GFtrpHmda7ScLGWKOdBFet010wBdCNAaukYCZoQPsU-cHJqbJn6NCsN8Fsb1m7x2noddqBcqOucAj_jaqb5N4Zjg3RfiC_lwEqoHnxXR6LfKI0U_mNdsmClNKTeOfQ3uzQQrzt07Fv5RSVcJmFLnpB0Muk27dxqhJkNuD4auMmGC0mlDyQeIZxCuMIu7R26fKvW_XeEeTlC-eolWKtqQ_SPEuEsnAkUJqNXzLNVpucOsEitSxs8:",
-            "expires": "2026-09-23T16:21:20.753Z",
+            "value": ":AZl3mTLrAAEAoTw_33pxG4iTVZ9sG6PQNo1r9a6FtCk4oOWsNiR62RSo8YTOHieGnQgih88Oisaxie4KZ_5e3S2A4I9JHnhqtXjZ-S5XUvkfc1qrBQUG_zdEuoyOY0365EUX8ILCRJIN4wVxxVpxMGVRMLM4udkK06aGGltWcTPZ0qHZ6gAXbqMW_lXVLe2dCk-woSmO-rjkbtcvUDvcIRcbBSEpcl0oCByqwXkWMoYwPdA_l5uTHfAbN3f1O1fMKb8Wl7x4vKxcAEA:",
+            "expires": "2026-09-23T17:23:48.752Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "httpOnly": true,
             "hostOnly": true,
-            "creation": "2025-09-23T16:20:13.097Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
           },
           {
-            "key": "cart",
-            "value": "hWN3JYaSJjbBtHTDWM5BwZue%3Fkey%3Df7cd9bfc13ff546c3174059d09cbf589",
-            "expires": "2025-10-24T16:20:22.346Z",
+            "key": "keep_alive",
+            "value": "eyJ2IjoyLCJ0cyI6MTc1ODY0ODI3NDUwNywiZW52Ijp7IndkIjowLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0IjowLCJubSI6MCwibXMiOjAsIm1qIjowLCJtc3AiOjAsInZjIjowLCJjcCI6MCwicmMiOjAsImtqIjowLCJraSI6MCwic3MiOjAsInNqIjowLCJzc20iOjAsInNwIjowLCJ0cyI6MCwidGoiOjAsInRwIjowLCJ0c20iOjB9LCJzZXMiOnsicCI6MzQsInMiOjE3NTg2NDgxNTc1MzMsImQiOjEwMH19",
+            "expires": "2025-09-23T18:14:34.949Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-09-23T17:22:52.745Z",
+            "lastAccessed": "2025-09-23T17:24:34.949Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:12:29.801Z",
+      "createdAt": "2025-09-23T17:22:29.801Z",
+      "usageCount": 55,
+      "maxUsageCount": 50,
+      "errorScore": 8
+    },
+    {
+      "id": "session_bp7xrHswqL",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:12:31.428Z",
+      "createdAt": "2025-09-23T17:22:31.428Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_IVBghIkx1Y",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:12:32.131Z",
+      "createdAt": "2025-09-23T17:22:32.131Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_YtCohcStes",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:12:56.505Z",
+      "createdAt": "2025-09-23T17:22:56.505Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_oC3YqwBUu1",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:12:58.101Z",
+      "createdAt": "2025-09-23T17:22:58.101Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_8ba6wqxNCD",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:12:58.201Z",
+      "createdAt": "2025-09-23T17:22:58.201Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_oWwcucytRM",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:04.132Z",
+      "createdAt": "2025-09-23T17:23:04.132Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_Pqi85zNKOQ",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:04.299Z",
+      "createdAt": "2025-09-23T17:23:04.299Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_yHY2diGtrx",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:09.427Z",
+      "createdAt": "2025-09-23T17:23:09.427Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_bS2Dl2Rjlh",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:09.879Z",
+      "createdAt": "2025-09-23T17:23:09.879Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_pXuzvlxxCt",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:12.280Z",
+      "createdAt": "2025-09-23T17:23:12.280Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_LlrZfyyvKi",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:14.178Z",
+      "createdAt": "2025-09-23T17:23:14.178Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_97RsBPDFaG",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:19.258Z",
+      "createdAt": "2025-09-23T17:23:19.258Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_eXvQg0mMp9",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:20.073Z",
+      "createdAt": "2025-09-23T17:23:20.073Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_VWgnD95V7f",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:23.337Z",
+      "createdAt": "2025-09-23T17:23:23.337Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_wo1yTQvFso",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:23.379Z",
+      "createdAt": "2025-09-23T17:23:23.379Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_1bgClHtlCW",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:24.122Z",
+      "createdAt": "2025-09-23T17:23:24.122Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_piELYHnhrw",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:29.195Z",
+      "createdAt": "2025-09-23T17:23:29.195Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_X0d4qf8UAd",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:29.759Z",
+      "createdAt": "2025-09-23T17:23:29.759Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_bZOP9sHJY8",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:30.425Z",
+      "createdAt": "2025-09-23T17:23:30.425Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_kFBOG4WrKF",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:34.832Z",
+      "createdAt": "2025-09-23T17:23:34.832Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_TviH2Jld61",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:34.836Z",
+      "createdAt": "2025-09-23T17:23:34.836Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_MCBLH37hxL",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:35.111Z",
+      "createdAt": "2025-09-23T17:23:35.111Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_jMWsOrmX3k",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:39.573Z",
+      "createdAt": "2025-09-23T17:23:39.573Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_zBiAAXEH1m",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:40.122Z",
+      "createdAt": "2025-09-23T17:23:40.122Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_d9rtWYE9s3",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:40.274Z",
+      "createdAt": "2025-09-23T17:23:40.274Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_47atBUoEKP",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:46.346Z",
+      "createdAt": "2025-09-23T17:23:46.346Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_ey6nVUizXn",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:46.475Z",
+      "createdAt": "2025-09-23T17:23:46.475Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_wOEPXIL8LJ",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:50.727Z",
+      "createdAt": "2025-09-23T17:23:50.727Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_fChlsuwk1U",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:51.654Z",
+      "createdAt": "2025-09-23T17:23:51.654Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_Y8M5yVi7Mo",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:51.658Z",
+      "createdAt": "2025-09-23T17:23:51.658Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_lCcjYXkD6p",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:56.362Z",
+      "createdAt": "2025-09-23T17:23:56.362Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_hMxvMbJYdR",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:13:58.973Z",
+      "createdAt": "2025-09-23T17:23:58.973Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_evJwf65B8T",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:01.099Z",
+      "createdAt": "2025-09-23T17:24:01.099Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_HhlEiUCBzg",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:04.280Z",
+      "createdAt": "2025-09-23T17:24:04.280Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_W2td497g9G",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:04.592Z",
+      "createdAt": "2025-09-23T17:24:04.592Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_G40nmSDnEW",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:06.809Z",
+      "createdAt": "2025-09-23T17:24:06.809Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_92nB9e0OE3",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:10.052Z",
+      "createdAt": "2025-09-23T17:24:10.052Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_76cTA8vWuG",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:11.034Z",
+      "createdAt": "2025-09-23T17:24:11.034Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_hqzWz5Viql",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:11.988Z",
+      "createdAt": "2025-09-23T17:24:11.988Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_sXUIPbXQqs",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:15.541Z",
+      "createdAt": "2025-09-23T17:24:15.541Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_cLDMZsLJ0O",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:16.093Z",
+      "createdAt": "2025-09-23T17:24:16.093Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_ditUjtfRN7",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:16.954Z",
+      "createdAt": "2025-09-23T17:24:16.954Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_G52pgF042d",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:20.241Z",
+      "createdAt": "2025-09-23T17:24:20.241Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_3XsKUOTaiX",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:20.623Z",
+      "createdAt": "2025-09-23T17:24:20.623Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_nHFAHJe5cv",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:21.341Z",
+      "createdAt": "2025-09-23T17:24:21.341Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_a4LbHb2k5N",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:24.692Z",
+      "createdAt": "2025-09-23T17:24:24.692Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_OMYgfgWKJM",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:24.792Z",
+      "createdAt": "2025-09-23T17:24:24.792Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_oBCzCWHlA3",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:25.312Z",
+      "createdAt": "2025-09-23T17:24:25.312Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_9h2euqY7X6",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:29.035Z",
+      "createdAt": "2025-09-23T17:24:29.035Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_6LDjFWfOjy",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:29.845Z",
+      "createdAt": "2025-09-23T17:24:29.845Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_0NueSejt8Z",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:30.317Z",
+      "createdAt": "2025-09-23T17:24:30.317Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_gSIweII4HG",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-09-23T18:14:34.076Z",
+      "createdAt": "2025-09-23T17:24:34.076Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_IEyh97BSb9",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "localization",
+            "value": "IN",
+            "expires": "2026-09-23T17:25:01.856Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/en-gb",
+            "hostOnly": true,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.115Z"
+          },
+          {
+            "key": "_orig_referrer",
+            "expires": "2025-10-07T17:24:36.139Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.115Z"
+          },
+          {
+            "key": "__eventn_id",
+            "value": "z3dix12zqq.1758648276",
+            "expires": "2026-10-28T17:24:36.020Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.115Z"
+          },
+          {
+            "key": "_tracking_consent",
+            "value": "3.AMPS_INPB_f_f_DN1XcXiPSAylZD5l43Kt9Q",
+            "expires": "2026-09-23T23:24:36.139Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.115Z"
+          },
+          {
+            "key": "_landing_page",
+            "value": "%2Fen-gb%2Fcollections%2Fvideo-games-horror-and-sci-fi",
+            "expires": "2025-10-07T17:24:36.139Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.115Z"
+          },
+          {
+            "key": "_shopify_y",
+            "value": "cea99245-0820-485e-b738-027d579a3447",
+            "expires": "2026-09-23T23:25:13.299Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.115Z"
+          },
+          {
+            "key": "_shopify_s",
+            "value": "b5d7e23e-b1cc-4dec-b7ac-d3ad73160e3a",
+            "expires": "2025-09-23T17:55:13.299Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.116Z"
+          },
+          {
+            "key": "keep_alive",
+            "value": "eyJ2IjoyLCJ0cyI6MTc1ODY0ODMxNzgzMCwiZW52Ijp7IndkIjowLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0Ijo1LCJubSI6MCwibXMiOjAsIm1qIjowLCJtc3AiOjAsInZjIjowLCJjcCI6MCwicmMiOjAsImtqIjowLCJraSI6MCwic3MiOjAsInNqIjowLCJzc20iOjAsInNwIjowLCJ0cyI6MCwidGoiOjAsInRwIjowLCJ0c20iOjB9LCJzZXMiOnsicCI6NSwicyI6MTc1ODY0ODI3OTgwNSwiZCI6MzV9fQ%3D%3D",
+            "expires": "2025-09-23T18:15:20.115Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.116Z"
+          },
+          {
+            "key": "swym-session-id",
+            "value": "\"zdxhc0wqj2fmtg0efhvy3evtyvnfzjwj4l08ktq95ireb0bja3026pspjz5ths0a\"",
+            "expires": "2025-09-23T17:55:19.000Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.115Z"
+          },
+          {
+            "key": "swym-pid",
+            "value": "\"rTqgRVolwLgMEf6yEmnpwLNUailSACsmlQlC0eL5Bfw=\"",
+            "expires": "2026-09-23T17:25:13.000Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.115Z"
+          },
+          {
+            "key": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Tue+Sep+23+2025+22%3A55%3A19+GMT%2B0530+(India+Standard+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=f5d3cbf1-11e3-4222-ba22-309fcb4fb619&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&AwaitingReconsent=false&groups=C0003%3A0%2CC0004%3A0%2CC0002%3A0%2CC0001%3A1",
+            "expires": "2026-09-23T17:25:19.000Z",
+            "domain": "worldofbooks.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.116Z"
+          },
+          {
+            "key": "cart_currency",
+            "value": "GBP",
+            "expires": "2025-10-07T17:25:13.299Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "hostOnly": true,
-            "creation": "2025-09-23T16:20:13.097Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.115Z"
+          },
+          {
+            "key": "_shopify_essential",
+            "value": ":AZl3mxDRAAEA3YArW8xdlsjwWGtRtPXJOUJ0c6_6ChH59BtOxGbJqrpfZlWKB2HeBznnrpFtNlqD50WymsNvW2eYartEVoTLqsqlQueEy5vfE10crpe1skXRSuAFUiMIie5oLJ01wW4TmiYWp8qxdTrr71pP4NauTs2tF9VN6SHNQCwgr2f3Qa3tjpR4h_x3K836OjT6WbyajxAkKjbOHy_hjpgMgwPY9TpS25hK6g8oPQ5SUrFVs7UzqU4JeP880nFhtuba9l1yXQ:",
+            "expires": "2026-09-23T17:24:50.352Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.116Z"
+          },
+          {
+            "key": "cart",
+            "value": "hWN3Jf7jBN72pIhkOeZ74kQG%3Fkey%3Df7a7dd77a6e7dac4b8cac12e895d8b28",
+            "expires": "2025-10-24T17:24:46.318Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.115Z"
+          },
+          {
+            "key": "swym-v-ckd",
+            "value": "1",
+            "expires": "2025-09-23T17:54:43.000Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.115Z"
+          },
+          {
+            "key": "swym-swymRegid",
+            "value": "\"O3Gm2U0RENtD5l1CmHbQ2iRgKTWoJP7OCf_YaEpDi8lEiS4ojHcQn_Ud--EH7NMDFQvn2nyLgFqaQT7ck7suFGHh1_Ji909ViFlHHG_KNWntaV4hafPyYEP4db7pe3H2CrEetuNDyqSb-9j2BqJz5casvbF_dGMvWBOSQrj015M\"",
+            "expires": "2026-09-23T17:25:14.000Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.115Z"
+          },
+          {
+            "key": "swym-email",
+            "value": "null",
+            "expires": "2026-09-23T17:25:14.000Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.115Z"
+          },
+          {
+            "key": "swym-o_s",
+            "value": "{\"wishlist-app_app-embed_178656379153\":\"2025-09-23T17:24:43.850Z\",\"mktenabled\":false}",
+            "expires": "2025-09-23T17:55:14.000Z",
+            "domain": "www.worldofbooks.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-09-23T17:24:43.928Z",
+            "lastAccessed": "2025-09-23T17:25:20.116Z"
           },
           {
             "key": "swym-sflPopupShownCount",
-            "value": "2",
-            "expires": "2025-09-23T16:50:38.000Z",
+            "value": "1",
+            "expires": "2025-09-23T17:55:17.000Z",
             "domain": "www.worldofbooks.com",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2025-09-23T16:20:23.572Z",
-            "lastAccessed": "2025-09-23T16:22:59.196Z"
+            "creation": "2025-09-23T17:25:19.416Z",
+            "lastAccessed": "2025-09-23T17:25:20.116Z"
           }
         ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:02.302Z",
-      "createdAt": "2025-09-23T16:20:02.302Z",
-      "usageCount": 55,
-      "maxUsageCount": 50,
-      "errorScore": 8
-    },
-    {
-      "id": "session_mWoXY2cVqk",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:12.886Z",
-      "createdAt": "2025-09-23T16:20:12.886Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_bakTghX6zo",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:12.891Z",
-      "createdAt": "2025-09-23T16:20:12.891Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_WwZm3crkSf",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:13.729Z",
-      "createdAt": "2025-09-23T16:20:13.729Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_VUbKEH3dhq",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:23.978Z",
-      "createdAt": "2025-09-23T16:20:23.978Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_xk0VaYifKf",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:23.983Z",
-      "createdAt": "2025-09-23T16:20:23.983Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_nbY3GTBHbj",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:23.989Z",
-      "createdAt": "2025-09-23T16:20:23.989Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_o7J40ALxiF",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:30.887Z",
-      "createdAt": "2025-09-23T16:20:30.887Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_ORPWfSGD17",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:30.909Z",
-      "createdAt": "2025-09-23T16:20:30.909Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_RrAh6wsxag",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:30.992Z",
-      "createdAt": "2025-09-23T16:20:30.992Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_0CmfIcMy9w",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:37.346Z",
-      "createdAt": "2025-09-23T16:20:37.346Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_SB14KXKGR3",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:37.985Z",
-      "createdAt": "2025-09-23T16:20:37.985Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_KfDJuGhCze",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:41.993Z",
-      "createdAt": "2025-09-23T16:20:41.993Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_YdUoUCaUji",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:45.248Z",
-      "createdAt": "2025-09-23T16:20:45.248Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_1uVbJD4j0Q",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:49.437Z",
-      "createdAt": "2025-09-23T16:20:49.437Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_uZpwjW2OAL",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:49.440Z",
-      "createdAt": "2025-09-23T16:20:49.440Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_TIqjsd4fFZ",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:54.247Z",
-      "createdAt": "2025-09-23T16:20:54.247Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_OOTDfSFUqs",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:58.253Z",
-      "createdAt": "2025-09-23T16:20:58.253Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_CGgTscya9s",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:10:58.839Z",
-      "createdAt": "2025-09-23T16:20:58.839Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_SpaRucght1",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:01.624Z",
-      "createdAt": "2025-09-23T16:21:01.624Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_au7tjkDar0",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:05.165Z",
-      "createdAt": "2025-09-23T16:21:05.165Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_5sZbbFGekf",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:06.408Z",
-      "createdAt": "2025-09-23T16:21:06.408Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_Pzr86FLxkp",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:14.450Z",
-      "createdAt": "2025-09-23T16:21:14.450Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_dJV52j1VD7",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:14.452Z",
-      "createdAt": "2025-09-23T16:21:14.452Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_9ENnZEweHE",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:17.963Z",
-      "createdAt": "2025-09-23T16:21:17.963Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_QRVjzAl9Gh",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:24.166Z",
-      "createdAt": "2025-09-23T16:21:24.166Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_fjCpqmVpHG",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:24.169Z",
-      "createdAt": "2025-09-23T16:21:24.169Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_aYktjg1spM",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:33.780Z",
-      "createdAt": "2025-09-23T16:21:33.780Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_SzXOzXLxpg",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:34.762Z",
-      "createdAt": "2025-09-23T16:21:34.762Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_BOd9G8cWLD",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:35.177Z",
-      "createdAt": "2025-09-23T16:21:35.177Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_x4oCEO21qe",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:41.809Z",
-      "createdAt": "2025-09-23T16:21:41.809Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_D13wOLJ7uK",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:41.889Z",
-      "createdAt": "2025-09-23T16:21:41.889Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_qRptop9vYr",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:42.514Z",
-      "createdAt": "2025-09-23T16:21:42.514Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_oeFtbIfQsa",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:50.397Z",
-      "createdAt": "2025-09-23T16:21:50.397Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_NViIIyptXD",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:50.717Z",
-      "createdAt": "2025-09-23T16:21:50.717Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_r7SIDzzsKC",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:11:57.947Z",
-      "createdAt": "2025-09-23T16:21:57.947Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_s7hiirtmUI",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:03.710Z",
-      "createdAt": "2025-09-23T16:22:03.710Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_rdlv8cFNnz",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:05.352Z",
-      "createdAt": "2025-09-23T16:22:05.352Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_apKrlKfdGn",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:06.444Z",
-      "createdAt": "2025-09-23T16:22:06.444Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_R34pAZQT8K",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:10.202Z",
-      "createdAt": "2025-09-23T16:22:10.202Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_fdrAN9VGQ8",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:12.179Z",
-      "createdAt": "2025-09-23T16:22:12.179Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_Whjxyvk7Qb",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:13.586Z",
-      "createdAt": "2025-09-23T16:22:13.586Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_5YsK237myd",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:20.096Z",
-      "createdAt": "2025-09-23T16:22:20.096Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_LQPPbZqhVe",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:25.198Z",
-      "createdAt": "2025-09-23T16:22:25.198Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_vw6tMOKLJW",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:26.723Z",
-      "createdAt": "2025-09-23T16:22:26.723Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_3n1sCAMZ3n",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:27.722Z",
-      "createdAt": "2025-09-23T16:22:27.722Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_39H6DHY67A",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:30.972Z",
-      "createdAt": "2025-09-23T16:22:30.972Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_2LG6euSed3",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:45.301Z",
-      "createdAt": "2025-09-23T16:22:45.301Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_ici3gzifV5",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:45.987Z",
-      "createdAt": "2025-09-23T16:22:45.987Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_jnTRgqGJnx",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:46.345Z",
-      "createdAt": "2025-09-23T16:22:46.345Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_lushVniVJC",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:52.128Z",
-      "createdAt": "2025-09-23T16:22:52.128Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_ty9f6c8Uht",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:52.298Z",
-      "createdAt": "2025-09-23T16:22:52.298Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_q6HUix85ip",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": []
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:53.967Z",
-      "createdAt": "2025-09-23T16:22:53.967Z",
-      "usageCount": 0,
-      "maxUsageCount": 50,
-      "errorScore": 0
-    },
-    {
-      "id": "session_nw2nhXCdS3",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": [
-          {
-            "key": "localization",
-            "value": "IN",
-            "expires": "2026-09-23T16:23:38.719Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/en-gb",
-            "hostOnly": true,
-            "creation": "2025-09-23T16:23:09.669Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "_shopify_y",
-            "value": "5303d73c-5824-4fa3-bf01-c89a84994e8e",
-            "expires": "2026-09-23T22:23:43.018Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "hostOnly": false,
-            "creation": "2025-09-23T16:23:09.669Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "_tracking_consent",
-            "value": "3.AMPS_INPB_f_f_O78X3f4gTI6YL2UePyXHvw",
-            "expires": "2026-09-23T22:22:56.253Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "hostOnly": false,
-            "creation": "2025-09-23T16:23:09.669Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "_orig_referrer",
-            "expires": "2025-10-07T16:22:56.253Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "httpOnly": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:23:09.669Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "_landing_page",
-            "value": "%2Fen-gb%2Fcollections%2Fvideo-games-family-and-casual",
-            "expires": "2025-10-07T16:22:56.253Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "httpOnly": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:23:09.669Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "__eventn_id",
-            "value": "fyqyqsdi29.1758644576",
-            "expires": "2026-10-28T16:22:56.515Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:23:09.669Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "swym-session-id",
-            "value": "\"al04vu20phj5abni28k0oof4219mfzyuhfcbfrli2ge7wr3i1lpnocqf8vznar8k\"",
-            "expires": "2025-09-23T16:53:42.000Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:23:09.670Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "swym-pid",
-            "value": "\"rTqgRVolwLgMEf6yEmnpwLNUailSACsmlQlC0eL5Bfw=\"",
-            "expires": "2026-09-23T16:23:42.000Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:23:09.679Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "_shopify_s",
-            "value": "bdb000ec-4fe4-48bd-9044-385a6a1eff6a",
-            "expires": "2025-09-23T16:53:43.018Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "hostOnly": false,
-            "creation": "2025-09-23T16:23:09.679Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "swym-v-ckd",
-            "value": "1",
-            "expires": "2025-09-23T16:53:04.000Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:23:09.679Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "swym-swymRegid",
-            "value": "\"Wjvbq7CosA31J9waYkzsKU4eqll8CZGeH0IOgdFXXnlJXReMW9hkQqc8AzO05uOKKsIj-65X8iTs4gTsa8IMpJT-deKj9sdfPAlIY1sZ6_HUh0Ec-FGBG04KLbddC57Q9yJkHqyNDJneshb5R1ygXGI0puseC5F0bFFZrH4-qSI\"",
-            "expires": "2026-09-23T16:23:22.000Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:23:09.680Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "swym-email",
-            "value": "null",
-            "expires": "2026-09-23T16:23:22.000Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:23:09.680Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "cart",
-            "value": "hWN3JYsXZfoKhKPvu8zc3uAG%3Fkey%3D1b2703a236fb3c6d430a4d05608ac845",
-            "expires": "2025-10-24T16:23:11.392Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "hostOnly": true,
-            "creation": "2025-09-23T16:23:09.680Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "cart_currency",
-            "value": "GBP",
-            "expires": "2025-10-07T16:23:43.018Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "hostOnly": true,
-            "creation": "2025-09-23T16:23:09.680Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "swym-o_s",
-            "value": "{\"wishlist-app_app-embed_178656379153\":\"2025-09-23T16:23:04.522Z\",\"mktenabled\":false}",
-            "expires": "2025-09-23T16:53:22.000Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:23:09.680Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "keep_alive",
-            "value": "eyJ2IjoyLCJ0cyI6MTc1ODY0NDYyMjY3MywiZW52Ijp7IndkIjowLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0IjowLCJubSI6MCwibXMiOjAsIm1qIjowLCJtc3AiOjAsInZjIjowLCJjcCI6MCwicmMiOjAsImtqIjowLCJraSI6MCwic3MiOjAsInNqIjowLCJzc20iOjAsInNwIjowLCJ0cyI6MCwidGoiOjAsInRwIjowLCJ0c20iOjB9LCJzZXMiOnsicCI6OCwicyI6MTc1ODY0NDU4MTA3MCwiZCI6MzZ9fQ%3D%3D",
-            "expires": "2025-09-23T17:13:43.041Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": true,
-            "creation": "2025-09-23T16:23:09.680Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "swym-sflPopupShownCount",
-            "value": "1",
-            "expires": "2025-09-23T16:53:07.000Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "hostOnly": false,
-            "creation": "2025-09-23T16:23:09.680Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "_shopify_essential",
-            "value": ":AZl3YpwkAAEACVPADPdwCu6jV3Z3mIydrryA6D4uUziPfgLHhxzZZ_79p3p6S92xUX2W6ZX_XTpgKV2GAQMPTGxa4HOCCp-wt7ufmt9G8uu8D_pgKQ0LjJn_Si6WMM2zp_5j7-YdHZPHVwuLNCGek7cqIH_FDJGKSNoEe-kgxYoe3E42R0MvEYeH2MvMGb2O6I25PpnjG6lMFlAPQ11pJ8KPk7QrahEM0a_BbNIJavf6HZjZM2PMvB53vzGrMeu-5VDMb6edYlPU6Zc:",
-            "expires": "2026-09-23T16:23:12.391Z",
-            "domain": "www.worldofbooks.com",
-            "path": "/",
-            "secure": true,
-            "httpOnly": true,
-            "hostOnly": true,
-            "creation": "2025-09-23T16:23:09.682Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          },
-          {
-            "key": "OptanonConsent",
-            "value": "isGpcEnabled=0&datestamp=Tue+Sep+23+2025+21%3A53%3A40+GMT%2B0530+(India+Standard+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b85e4626-eaa0-4b0e-81ef-25e4addca75d&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0003%3A0%2CC0004%3A0%2CC0002%3A0%2CC0001%3A1&AwaitingReconsent=false",
-            "expires": "2026-09-23T16:23:40.000Z",
-            "domain": "worldofbooks.com",
-            "path": "/",
-            "hostOnly": false,
-            "creation": "2025-09-23T16:23:09.682Z",
-            "lastAccessed": "2025-09-23T16:23:43.041Z"
-          }
-        ]
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:53.977Z",
-      "createdAt": "2025-09-23T16:22:53.977Z",
+      "expiresAt": "2025-09-23T18:14:34.091Z",
+      "createdAt": "2025-09-23T17:24:34.091Z",
       "usageCount": 11,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_ZSFll2rcTP",
+      "id": "session_aQTbWhn6ia",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -4068,14 +4057,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:12:59.965Z",
-      "createdAt": "2025-09-23T16:22:59.965Z",
+      "expiresAt": "2025-09-23T18:14:34.670Z",
+      "createdAt": "2025-09-23T17:24:34.670Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_A0hDI1rYP5",
+      "id": "session_gekpxQTNFM",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -4088,14 +4077,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:13:01.188Z",
-      "createdAt": "2025-09-23T16:23:01.188Z",
+      "expiresAt": "2025-09-23T18:14:35.304Z",
+      "createdAt": "2025-09-23T17:24:35.304Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_EW1c99gGQu",
+      "id": "session_YSAv78SJ6E",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -4108,14 +4097,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:13:10.681Z",
-      "createdAt": "2025-09-23T16:23:10.681Z",
+      "expiresAt": "2025-09-23T18:14:44.345Z",
+      "createdAt": "2025-09-23T17:24:44.345Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_LPwID86UqO",
+      "id": "session_XhxwvFlUGD",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -4128,14 +4117,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:13:13.948Z",
-      "createdAt": "2025-09-23T16:23:13.948Z",
+      "expiresAt": "2025-09-23T18:14:44.732Z",
+      "createdAt": "2025-09-23T17:24:44.732Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_WaMxuwcUTB",
+      "id": "session_wz6vpDT9uu",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -4148,14 +4137,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:13:14.557Z",
-      "createdAt": "2025-09-23T16:23:14.557Z",
+      "expiresAt": "2025-09-23T18:14:45.117Z",
+      "createdAt": "2025-09-23T17:24:45.117Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_azhvzaN4xb",
+      "id": "session_pzyQbTTo79",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -4168,14 +4157,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:13:19.920Z",
-      "createdAt": "2025-09-23T16:23:19.920Z",
+      "expiresAt": "2025-09-23T18:14:53.189Z",
+      "createdAt": "2025-09-23T17:24:53.189Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_3uH4Fmh8fm",
+      "id": "session_h7dKr0NhdF",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -4188,14 +4177,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:13:29.367Z",
-      "createdAt": "2025-09-23T16:23:29.367Z",
+      "expiresAt": "2025-09-23T18:14:53.226Z",
+      "createdAt": "2025-09-23T17:24:53.226Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_gz1Luwv6Bt",
+      "id": "session_3xYihbwaUY",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -4208,14 +4197,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:13:29.372Z",
-      "createdAt": "2025-09-23T16:23:29.372Z",
+      "expiresAt": "2025-09-23T18:14:56.986Z",
+      "createdAt": "2025-09-23T17:24:56.986Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_hRiiDStbmx",
+      "id": "session_tLZOIs4zqB",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -4228,14 +4217,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:13:33.247Z",
-      "createdAt": "2025-09-23T16:23:33.247Z",
+      "expiresAt": "2025-09-23T18:14:58.476Z",
+      "createdAt": "2025-09-23T17:24:58.476Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_WVQEqAQWDc",
+      "id": "session_EQ1LHdOz0X",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -4248,8 +4237,8 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-09-23T17:13:37.815Z",
-      "createdAt": "2025-09-23T16:23:37.815Z",
+      "expiresAt": "2025-09-23T18:15:00.766Z",
+      "createdAt": "2025-09-23T17:25:00.766Z",
       "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0

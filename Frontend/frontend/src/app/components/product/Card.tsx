@@ -14,7 +14,7 @@ type CardProps = {
 export default function Card({ id, title, imageSrc, price, className = "" }: CardProps) {
   return (
     <Link href={`/products/${id}`} className={`product-card block ${className}`}>
-      <div className="rounded-lg shadow hover:shadow-md transition p-4 bg-white">
+      <div className="rounded-lg shadow hover:shadow-md transition p-4 bg-white h-full flex flex-col">
         <img
           src={imageSrc}
           alt={title}

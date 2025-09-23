@@ -1,6 +1,6 @@
 {
 	"id": "JZP7jJiUajSxbPD",
-	"json": "{\"id\":\"JZP7jJiUajSxbPD\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-animation-films\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-animation-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-animation-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7859,\"categoryId\":14044,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:20:30.737Z\"}",
+	"json": "{\"id\":\"JZP7jJiUajSxbPD\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-animation-films\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-animation-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-animation-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7859,\"categoryId\":14044,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:23:28.969Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

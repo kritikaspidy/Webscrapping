@@ -1,6 +1,6 @@
 {
 	"id": "qkPVRCeTJFxkcfa",
-	"json": "{\"id\":\"qkPVRCeTJFxkcfa\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/medical-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/medical-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/medical-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7855,\"categoryId\":13986,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T16:16:40.978Z\"}",
+	"json": "{\"id\":\"qkPVRCeTJFxkcfa\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/medical-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/medical-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/medical-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7855,\"categoryId\":13986,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:20:36.189Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

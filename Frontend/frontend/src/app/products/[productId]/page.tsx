@@ -17,5 +17,9 @@ export default function ProductDetailsPage() {
   if (error) return <p>Error loading product.</p>;
   if (!product) return <p>Product not found.</p>;
 
-  return <ProductDetails product={product} />;
+  return (
+    <main className="flex-grow p-6 bg-gray-50">
+      <ProductDetails product={product} />
+    </main>
+  );
 }
