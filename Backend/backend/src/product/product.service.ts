@@ -121,6 +121,14 @@ export class ProductService {
       if (productData.price) product.price = productData.price;
       if (productData.imageUrl) product.imageUrl = productData.imageUrl;
       if (productData.category) product.category = productData.category;
+
+    // if (productData.sourceId !== undefined) product.sourceId = productData.sourceId;
+    if (productData.description !== undefined) product.description = productData.description;
+    if (productData.reviews !== undefined) product.reviews = productData.reviews;
+    if (productData.aboutAuthor !== undefined) product.aboutAuthor = productData.aboutAuthor;
+    if (productData.additionalInfo !== undefined) product.additionalInfo = productData.additionalInfo;
+
+
     } else {
       product = this.productRepository.create(productData);
     }

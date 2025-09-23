@@ -9,8 +9,6 @@ import { ScraperModule } from './scrapper/scrapper.module';
 import { NavigationModule } from './navigation/navigation.module';
 import { CategoryModule } from './category/category.module';
 import { ProductModule } from './product/product.module';
-// import { Review } from './entities/review.entity';
-// import { ReviewModule } from './review/review.module';
 
 @Module({
   imports: [

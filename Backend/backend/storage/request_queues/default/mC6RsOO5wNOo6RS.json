@@ -1,6 +1,6 @@
 {
 	"id": "mC6RsOO5wNOo6RS",
-	"json": "{\"id\":\"mC6RsOO5wNOo6RS\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"HEADING\",\"headingId\":7860,\"headingName\":\"Video Games\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T17:16:42.314Z\"}",
+	"json": "{\"id\":\"mC6RsOO5wNOo6RS\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/video-games\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/video-games\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/video-games\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"HEADING\",\"headingId\":7876,\"headingName\":\"Video Games\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T22:01:45.620Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

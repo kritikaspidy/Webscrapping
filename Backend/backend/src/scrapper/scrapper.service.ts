@@ -197,6 +197,53 @@ export class ScraperService {
 
           const productUrl = page.url();
 
+          const description = await page.$eval('div.panel', n => n.textContent?.trim() || '')
+          .catch(() => '');
+
+
+          // Declare reviewsHtml before using it
+let reviewsHtml = '';
+try {
+  reviewsHtml = await page.$eval(
+    'div.outer-accordion .panel',
+    (n) => n.innerHTML
+  );
+} catch {
+  reviewsHtml = '';
+}
+
+
+          const reviews: { text: string; author: string }[] = [];
+  if (reviewsHtml) {
+    const reviewParts = reviewsHtml.split('<br>');
+    for (let i = 0; i < reviewParts.length; i++) {
+      const part = reviewParts[i].replace(/<[^>]+>/g, '').trim(); // remove any HTML tags
+      if (!part) continue;
+
+      // Look ahead for author in next <b> tag
+      const match = reviewParts[i].match(/<b>(.*?)<\/b>/);
+      if (match) {
+        reviews.push({ text: part.replace(match[0], '').trim(), author: match[1].trim() });
+      } else {
+        // Sometimes author may be inlined or missing
+        reviews.push({ text: part, author: '' });
+      }
+    }
+  }
+
+          const aboutAuthor = await page.$eval('.outer-accordion .panel', n => n.textContent?.trim() || '')
+          .catch(() => '');
+
+          const additionalInfo: Record<string, string> = await page.$$eval('.additional-info-table tr', rows => {
+            const info: Record<string, string> = {};
+            rows.forEach(row => {
+              const key = row.querySelector('td:first-child')?.textContent?.trim();
+              const value = row.querySelector('td:last-child')?.textContent?.trim();
+              if (key && value) info[key] = value;
+            });
+            return info;
+          });
+
           if (!title) {
             this.logger.warn(`Product page ${productUrl} missing title — skipping save.`);
           } else {
@@ -208,6 +255,10 @@ export class ScraperService {
               imageUrl,
               productUrl,
               category,
+              description,
+              reviews,
+              aboutAuthor,
+              additionalInfo,
             });
             this.logger.log(`Saved product: ${title}`);
           }

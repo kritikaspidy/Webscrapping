@@ -95,6 +95,7 @@ export default function Header({
                     if (e.key === 'Enter') {
                         handleSearchClick();
                     }
+                    
                 }}
                 className="w-full rounded-md px-4 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500"
             />
@@ -137,7 +138,9 @@ export default function Header({
 
               {/* Dropdown with categories */}
               {hoveredId === item.id && (
-                <div className="absolute top-full left-0 mt-2 bg-white text-gray-800 rounded-lg shadow-lg z-50 p-4 w-auto min-w-[800px]">
+                <div className="absolute top-full left-0 mt-2 
+             bg-white text-gray-800 rounded-lg shadow-lg z-50 p-4 
+             w-max max-w-screen-lg" >
                   {categoriesMap[item.id]?.length ? (
                     <div className="grid grid-cols-3 gap-x-8 gap-y-2">
                       {categoriesMap[item.id].map((cat) => (
