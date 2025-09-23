@@ -1,8 +1,8 @@
 {
 	"id": "MADmX2FFcsmIrf1",
-	"json": "{\"id\":\"MADmX2FFcsmIrf1\",\"url\":\"https://www.worldofbooks.com/en-gb/pages/new-in\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/pages/new-in\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7816,\"categoryId\":13217}}",
+	"json": "{\"id\":\"MADmX2FFcsmIrf1\",\"url\":\"https://www.worldofbooks.com/en-gb/pages/new-in\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/pages/new-in\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7856,\"categoryId\":14012}}",
 	"method": "GET",
-	"orderNo": 1758610564180,
+	"orderNo": 1758644059759,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/pages/new-in",
 	"url": "https://www.worldofbooks.com/en-gb/pages/new-in"

@@ -81,40 +81,29 @@ export class ProductService {
       .leftJoinAndSelect('product.category', 'category')
       .leftJoinAndSelect('category.navigation', 'navigation');
 
-      if (category) {
-  queryBuilder.andWhere('category.name ILIKE :category', { category: `%${category}%` });
-}
+    if (category) {
+      queryBuilder.andWhere('category.name ILIKE :category', { category: `%${category}%` });
+    }
 
-if (heading) {
-  queryBuilder.andWhere('navigation.title ILIKE :heading', { heading: `%${heading}%` });
-}
-
-console.log(queryBuilder.getSql());
-console.log(queryBuilder.getParameters());
+    if (heading) {
+      queryBuilder.andWhere('navigation.title ILIKE :heading', { heading: `%${heading}%` });
+    }
 
     return queryBuilder.getMany();
   }
 
   async upsertProduct(productData: Partial<Product>): Promise<Product> {
-  let product = await this.productRepository.findOne({ where: { productUrl: productData.productUrl } });
-  if (product) {
-    // Selectively update fields to prevent overwriting with null or empty values
-    if (productData.title) product.title = productData.title;
-    if (productData.author) product.author = productData.author;
-    if (productData.price) product.price = productData.price;
-    if (productData.imageUrl) product.imageUrl = productData.imageUrl;
-    if (productData.description) product.description = productData.description;
-    if (productData.metadata && Object.keys(productData.metadata).length > 0) {
-      product.metadata = productData.metadata;
+    let product = await this.productRepository.findOne({ where: { productUrl: productData.productUrl } });
+    if (product) {
+      // update only existing fields (no description/review/related handling anymore)
+      if (productData.title) product.title = productData.title;
+      if (productData.author) product.author = productData.author;
+      if (productData.price) product.price = productData.price;
+      if (productData.imageUrl) product.imageUrl = productData.imageUrl;
+      if (productData.category) product.category = productData.category;
+    } else {
+      product = this.productRepository.create(productData);
     }
-    if (productData.category) {
-      product.category = productData.category;
-    }
-    // Add other fields similarly if needed
-  } else {
-    product = this.productRepository.create(productData); // create new
+    return this.productRepository.save(product);
   }
-  return this.productRepository.save(product);
-}
-
 }
