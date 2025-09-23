@@ -6,6 +6,7 @@ import ErrorMessage from '../ErrorMessage';
 import { useQuery, keepPreviousData } from '@tanstack/react-query';
 import Pagination from './Pagination';
 import Loader from '../Loader';
+import { useSearchParams } from 'next/navigation';
 
 export type Product = {
   id: number;
@@ -18,7 +19,6 @@ export type Product = {
 type ProductListProps = {
   selectedHeading: string | null;
   selectedCategory: string | null;
-  searchQuery: string;
 };
 
 type ProductsResponse = {
@@ -26,9 +26,12 @@ type ProductsResponse = {
   total: number;
 };
 
-export default function ProductList({ selectedHeading, selectedCategory, searchQuery }: ProductListProps) {
+export default function ProductList({ selectedHeading, selectedCategory }: ProductListProps) {
   const [page, setPage] = useState(1);
   const limit = 20; // items per page
+  const searchParams = useSearchParams();
+  const searchQuery = searchParams.get('searchQuery') || '';
+
 
   const fetchProducts = async (): Promise<ProductsResponse> => {
     let apiUrl = `http://localhost:3000/products?page=${page}&limit=${limit}`;
@@ -36,16 +39,13 @@ export default function ProductList({ selectedHeading, selectedCategory, searchQ
 
     if (selectedHeading) params.push(`heading=${encodeURIComponent(selectedHeading)}`);
     if (selectedCategory) params.push(`category=${encodeURIComponent(selectedCategory)}`);
-    if (searchQuery) params.push(`title=${encodeURIComponent(searchQuery)}`); // search by title or author for simplicity
+    if (searchQuery) params.push(`searchQuery=${encodeURIComponent(searchQuery)}`);
     
     if (params.length > 0) apiUrl += '&' + params.join('&');
 
     const res = await fetch(apiUrl);
     if (!res.ok) throw new Error('Failed to fetch products');
     const data = await res.json();
-    if (Array.isArray(data)) {
-      return { products: data, total: data.length };
-    }
     return data;
   };
 

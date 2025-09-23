@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { Repository, Like } from 'typeorm';
 import { Product } from '../entities/product.entity';
 import { Category } from '../entities/category.entity';
 
@@ -125,5 +125,15 @@ export class ProductService {
       product = this.productRepository.create(productData);
     }
     return this.productRepository.save(product);
+  }
+
+  async findSuggestions(query: string, limit = 5): Promise<Product[]> {
+    if (!query) {
+      return [];
+    }
+    return this.productRepository.createQueryBuilder('product')
+      .where('product.title ILIKE :query OR product.author ILIKE :query', { query: `%${query}%` })
+      .take(limit)
+      .getMany();
   }
 }
