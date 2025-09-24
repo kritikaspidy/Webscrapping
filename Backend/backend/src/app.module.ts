@@ -10,6 +10,8 @@ import { NavigationModule } from './navigation/navigation.module';
 import { CategoryModule } from './category/category.module';
 import { ProductModule } from './product/product.module';
 import { CacheModule } from '@nestjs/cache-manager';
+import 'dotenv/config';
+
 
 @Module({
   imports: [
@@ -23,6 +25,9 @@ import { CacheModule } from '@nestjs/cache-manager';
       url: process.env.DATABASE_URL, // <-- use Render DATABASE_URL
       synchronize: false, // disable in production
       autoLoadEntities: true, // automatically loads entities
+      ssl: {
+    rejectUnauthorized: false, // ✅ allow self-signed certs (Render needs this)
+  },
     }),
     ScraperModule,
     NavigationModule,

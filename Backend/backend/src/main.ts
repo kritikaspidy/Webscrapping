@@ -3,6 +3,8 @@ import { AppModule } from './app.module';
 import { ValidationPipe } from '@nestjs/common';
 import { HttpExceptionFilter } from './http-exception.filter';
 import { LoggingInterceptor } from './logging.interceptor';
+import 'dotenv/config';
+
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
