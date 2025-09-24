@@ -13,7 +13,7 @@ type Category = {
 
 // API fetch helper function
 async function fetchFromBackend(endpoint: string) {
-  const res = await fetch(`http://localhost:3000${endpoint}`);
+  const res = await fetch(`/api${endpoint}`);
   if (!res.ok) throw new Error('API request failed');
   return res.json();
 }

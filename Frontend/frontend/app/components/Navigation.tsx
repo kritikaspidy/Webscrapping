@@ -26,7 +26,7 @@ export default function Navigation({
   const [loadingCategories, setLoadingCategories] = useState(false);
 
   useEffect(() => {
-    fetch('http://localhost:3000/navigation')
+    fetch('/api/navigation')
       .then(res => res.json())
       .then(setNavItems)
       .catch(console.error);
@@ -35,7 +35,7 @@ export default function Navigation({
   useEffect(() => {
     if (expandedId !== null) {
       setLoadingCategories(true);
-      fetch(`http://localhost:3000/category/navigation/${expandedId}`)
+      fetch(`/api/category/navigation/${expandedId}`)
         .then(res => res.json())
         .then(data => {
           setCategories(data);

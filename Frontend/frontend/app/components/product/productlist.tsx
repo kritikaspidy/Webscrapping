@@ -35,20 +35,19 @@ export default function ProductList({ selectedHeading, selectedCategory, searchQ
 
 
   const fetchProducts = async (): Promise<ProductsResponse> => {
-    let apiUrl = `http://localhost:3000/products?page=${page}&limit=${limit}`;
-    const params: string[] = [];
+  let apiUrl = `/api/products?page=${page}&limit=${limit}`;
+  const params: string[] = [];
 
-    if (selectedHeading) params.push(`heading=${encodeURIComponent(selectedHeading)}`);
-    if (selectedCategory) params.push(`category=${encodeURIComponent(selectedCategory)}`);
-    if (searchQuery) params.push(`searchQuery=${encodeURIComponent(searchQuery)}`);
-    
-    if (params.length > 0) apiUrl += '&' + params.join('&');
+  if (selectedHeading) params.push(`heading=${encodeURIComponent(selectedHeading)}`);
+  if (selectedCategory) params.push(`category=${encodeURIComponent(selectedCategory)}`);
+  if (searchQuery) params.push(`searchQuery=${encodeURIComponent(searchQuery)}`);
+  if (params.length > 0) apiUrl += '&' + params.join('&');
 
-    const res = await fetch(apiUrl);
-    if (!res.ok) throw new Error('Failed to fetch products');
-    const data = await res.json();
-    return data;
-  };
+  const res = await fetch(apiUrl);
+  if (!res.ok) throw new Error('Failed to fetch products');
+  const data = await res.json();
+  return data;
+};
 
   const { data, isLoading, error } = useQuery<ProductsResponse, Error>({
     queryKey: ['products', selectedHeading, selectedCategory, searchQuery, page],

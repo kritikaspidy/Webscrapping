@@ -10,7 +10,7 @@ export default function ProductDetailsPage() {
   const { data: product, isLoading, error } = useQuery({
     queryKey: ['product', productId],
     queryFn: () =>
-      fetch(`http://localhost:3000/products/${productId}`).then((res) => res.json()),
+      fetch(`/api/products/${productId}`).then((res) => res.json()),
   });
 
   if (isLoading) return <p>Loading...</p>;
