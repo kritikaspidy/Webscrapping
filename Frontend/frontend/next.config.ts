@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://webscrapping-cjf9.onrender.com/api/:path*', // Proxy to your backend port
+        destination: 'https://webscrapping-cjf9.onrender.com/:path*', // Proxy to your backend port
       },
     ];
   },
