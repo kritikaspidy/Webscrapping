@@ -1,6 +1,6 @@
 'use client';
 
-import { Product } from '@/app/types/product';
+import { Product } from '@/types/product';
 import Image from 'next/image';
 
 type Props = { product: Product };

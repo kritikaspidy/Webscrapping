@@ -1,9 +1,9 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Header from '@/app/components/header';
-import ProductList from '@/app/components/product/productlist';
-import Footer from '@/app/components/footer';
+import Header from '@/components/header';
+import ProductList from '@/components/product/productlist';
+import Footer from '@/components/footer';
 import Link from 'next/link';
 
 export default function LandingPage() {

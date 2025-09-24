@@ -2,7 +2,7 @@
 
 import { useParams } from 'next/navigation';
 import { useQuery } from '@tanstack/react-query';
-import ProductDetails from '@/app/components/product/productDetails';
+import ProductDetails from '@/components/product/productDetails';
 
 export default function ProductDetailsPage() {
   const { productId } = useParams();

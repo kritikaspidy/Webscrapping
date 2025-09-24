@@ -6,7 +6,7 @@ import ErrorMessage from '../ErrorMessage';
 import { useQuery, keepPreviousData } from '@tanstack/react-query';
 import Pagination from './Pagination';
 import Loader from '../Loader';
-import { useSearchParams } from 'next/navigation';
+// import { useSearchParams } from 'next/navigation';
 
 export type Product = {
   id: number;
