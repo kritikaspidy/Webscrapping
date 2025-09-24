@@ -1,8 +1,8 @@
 {
 	"id": "VIZZnoOQlv8zw0w",
-	"json": "{\"id\":\"VIZZnoOQlv8zw0w\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/graphic-novels-and-comic-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/graphic-novels-and-comic-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7870,\"categoryId\":14299}}",
+	"json": "{\"id\":\"VIZZnoOQlv8zw0w\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/graphic-novels-and-comic-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/graphic-novels-and-comic-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/graphic-novels-and-comic-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":17,\"categoryId\":187,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:24:28.258Z\"}",
 	"method": "GET",
-	"orderNo": 1758664850241,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/graphic-novels-and-comic-books",
 	"url": "https://www.worldofbooks.com/en-gb/collections/graphic-novels-and-comic-books"

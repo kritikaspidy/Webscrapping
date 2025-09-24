@@ -1,8 +1,8 @@
 {
 	"id": "lPsY0lnv209a1Sd",
-	"json": "{\"id\":\"lPsY0lnv209a1Sd\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/computing-and-it-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/computing-and-it-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7871,\"categoryId\":14284}}",
+	"json": "{\"id\":\"lPsY0lnv209a1Sd\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/computing-and-it-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/computing-and-it-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/computing-and-it-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":18,\"categoryId\":186,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:24:25.885Z\"}",
 	"method": "GET",
-	"orderNo": 1758665088067,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/computing-and-it-books",
 	"url": "https://www.worldofbooks.com/en-gb/collections/computing-and-it-books"

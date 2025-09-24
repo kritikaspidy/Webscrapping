@@ -1,8 +1,8 @@
 {
 	"id": "r7aTBb3ZagP42Bu",
-	"json": "{\"id\":\"r7aTBb3ZagP42Bu\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/all?q=vegetarian\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/all?q=vegetarian\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7871,\"categoryId\":14338}}",
+	"json": "{\"id\":\"r7aTBb3ZagP42Bu\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/all?q=vegetarian\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/all?q=vegetarian\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/all?q=vegetarian\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":18,\"categoryId\":236,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:27:06.023Z\"}",
 	"method": "GET",
-	"orderNo": 1758664850560,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/all?q=vegetarian",
 	"url": "https://www.worldofbooks.com/en-gb/collections/all?q=vegetarian"

@@ -1,8 +1,8 @@
 {
 	"id": "bx55kMcHscwoahk",
-	"json": "{\"id\":\"bx55kMcHscwoahk\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-biography-true-story-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-biography-true-story-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7873,\"categoryId\":14354}}",
+	"json": "{\"id\":\"bx55kMcHscwoahk\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-biography-true-story-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-biography-true-story-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-biography-true-story-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":20,\"categoryId\":269,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:29:40.608Z\"}",
 	"method": "GET",
-	"orderNo": 1758664869107,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/rare-biography-true-story-books",
 	"url": "https://www.worldofbooks.com/en-gb/collections/rare-biography-true-story-books"

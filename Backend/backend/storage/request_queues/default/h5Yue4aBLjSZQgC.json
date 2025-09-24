@@ -1,8 +1,8 @@
 {
 	"id": "h5Yue4aBLjSZQgC",
-	"json": "{\"id\":\"h5Yue4aBLjSZQgC\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-western-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-western-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7875,\"categoryId\":14407}}",
+	"json": "{\"id\":\"h5Yue4aBLjSZQgC\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/dvd-western-films\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/dvd-western-films\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/dvd-western-films\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":22,\"categoryId\":305,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:31:33.415Z\"}",
 	"method": "GET",
-	"orderNo": 1758664885426,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/dvd-western-films",
 	"url": "https://www.worldofbooks.com/en-gb/collections/dvd-western-films"

@@ -1,8 +1,8 @@
 {
 	"id": "28RzukwAAS1NFmT",
-	"json": "{\"id\":\"28RzukwAAS1NFmT\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/travel-and-holiday-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/travel-and-holiday-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7871,\"categoryId\":14340}}",
+	"json": "{\"id\":\"28RzukwAAS1NFmT\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/travel-and-holiday-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/travel-and-holiday-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/travel-and-holiday-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":18,\"categoryId\":238,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:27:20.301Z\"}",
 	"method": "GET",
-	"orderNo": 1758664850630,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/travel-and-holiday-books",
 	"url": "https://www.worldofbooks.com/en-gb/collections/travel-and-holiday-books"

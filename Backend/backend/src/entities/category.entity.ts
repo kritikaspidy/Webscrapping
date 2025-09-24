@@ -20,4 +20,3 @@ url: string;
   @OneToMany(() => Product, product => product.category)
   products: Product[];
 }
-

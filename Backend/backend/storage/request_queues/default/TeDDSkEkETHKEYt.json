@@ -1,8 +1,8 @@
 {
 	"id": "TeDDSkEkETHKEYt",
-	"json": "{\"id\":\"TeDDSkEkETHKEYt\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-horror-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-horror-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":7873,\"categoryId\":14349}}",
+	"json": "{\"id\":\"TeDDSkEkETHKEYt\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-horror-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-horror-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-horror-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":20,\"categoryId\":264,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:29:14.647Z\"}",
 	"method": "GET",
-	"orderNo": 1758664868456,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/rare-horror-books",
 	"url": "https://www.worldofbooks.com/en-gb/collections/rare-horror-books"

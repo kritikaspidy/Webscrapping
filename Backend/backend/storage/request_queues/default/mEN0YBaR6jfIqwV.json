@@ -1,6 +1,6 @@
 {
 	"id": "mEN0YBaR6jfIqwV",
-	"json": "{\"id\":\"mEN0YBaR6jfIqwV\",\"url\":\"https://www.worldofbooks.com/en-gb/pages/non-fiction\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/pages/non-fiction\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/pages/non-fiction\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"HEADING\",\"headingId\":7871,\"headingName\":\"Non-Fiction Books\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-23T22:00:50.693Z\"}",
+	"json": "{\"id\":\"mEN0YBaR6jfIqwV\",\"url\":\"https://www.worldofbooks.com/en-gb/pages/non-fiction\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/pages/non-fiction\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/pages/non-fiction\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"HEADING\",\"headingId\":18,\"headingName\":\"Non-Fiction Books\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:22:18.599Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

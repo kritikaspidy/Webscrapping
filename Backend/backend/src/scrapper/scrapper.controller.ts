@@ -1,29 +1,15 @@
-import { Body, Controller, Get, Post } from '@nestjs/common';
-import { ScraperService } from '../scrapper/scrapper.service'; // Adjust path
+import { Controller, Post } from '@nestjs/common';
+import { ScraperService } from './scrapper.service';
 
 @Controller('scrape')
 export class ScrapperController {
   constructor(private readonly scraperService: ScraperService) {}
 
-  @Get('navigation')
-  async scrapeNavigationHeadings() {
-    return this.scraperService.run('https://www.worldofbooks.com'); // homepage
-  }
-
-  @Get('categories')
-  async scrapeCategories() {
-    return this.scraperService.run('https://www.worldofbooks.com'); // categories
-  }
-
-  @Get('products')
-  async scrapeProducts() {
-    return this.scraperService.run('https://www.worldofbooks.com'); // products
-  }
-
-  @Post('start-product-scrape')
-  async scrapeProductDetails(@Body() body: { url: string }) {
-    const url = body.url || 'https://www.worldofbooks.com';  // default to homepage if none provided
-    await this.scraperService.run(url);
-    return { message: `Started scraping products from ${url}` };
+  @Post('start')
+  startScraping() {
+    // We don't use `await` here, so the request returns immediately
+    // while the scraping runs in the background.
+    this.scraperService.run('https://www.worldofbooks.com');
+    return { message: 'Scraping process has been initiated in the background.' };
   }
 }

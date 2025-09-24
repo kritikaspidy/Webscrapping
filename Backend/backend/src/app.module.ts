@@ -9,16 +9,22 @@ import { ScraperModule } from './scrapper/scrapper.module';
 import { NavigationModule } from './navigation/navigation.module';
 import { CategoryModule } from './category/category.module';
 import { ProductModule } from './product/product.module';
+import { CacheModule } from '@nestjs/cache-manager';
 
 @Module({
   imports: [
+    CacheModule.register({
+      ttl: 5, // seconds
+      max: 10, // maximum number of items in cache
+      isGlobal: true,
+    }),
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'localhost',
       port: 5432,
       username: 'postgres',
       password: '',
-      database: 'Products',
+      database: 'Books',
       entities: [Navigation, Category, Product],
       synchronize: true, // For development only; disable in production
     }),
