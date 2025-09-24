@@ -1,6 +1,10 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  images: {
+    domains: ['image-server.worldofbooks.com'], // Add your external image host here
+  },
+
   async rewrites() {
     return [
       {
