@@ -12,6 +12,7 @@ services:
     dockerfilePath: ./Backend/backend/Dockerfile
     envVars:
       - key: DATABASE_URL
+        value: postgresql://db_user:VHo5I0XCkFT4JEglxvzT9PptkO8WASYV@dpg-d39t3895pdvs73bnnnng-a.singapore-postgres.render.com:5432/products_tvds_pryg
         fromDatabase:
           name: products-db
           property: connectionString
