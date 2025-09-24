@@ -1,6 +1,6 @@
 {
 	"id": "oJhw3u4Vo9zDy7w",
-	"json": "{\"id\":\"oJhw3u4Vo9zDy7w\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/fiction-related-items-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/fiction-related-items-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/fiction-related-items-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":17,\"categoryId\":181,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:24:03.444Z\"}",
+	"json": "{\"id\":\"oJhw3u4Vo9zDy7w\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/fiction-related-items-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/fiction-related-items-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/fiction-related-items-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":1,\"categoryId\":27,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T18:39:04.242Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

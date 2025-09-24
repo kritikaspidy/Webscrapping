@@ -1,9 +1,9 @@
 {
 	"id": "vC3B5Yvtap2ubHN",
-	"json": "{\"id\":\"vC3B5Yvtap2ubHN\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/all-earth-sciences-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/all-earth-sciences-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/all-earth-sciences-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":18,\"categoryId\":189,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:24:39.832Z\"}",
+	"json": "{\"id\":\"vC3B5Yvtap2ubHN\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/all-earth-sciences-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/all-earth-sciences-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/all-earth-sciences-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"Error: requestHandler timed out after 60 seconds.\\n    at Timeout._onTimeout (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@apify\\\\src\\\\index.ts:88:74)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\"],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":2,\"categoryId\":26,\"__crawlee\":{\"state\":5}}}",
 	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
+	"orderNo": 1758739145965,
+	"retryCount": 1,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/all-earth-sciences-books",
 	"url": "https://www.worldofbooks.com/en-gb/collections/all-earth-sciences-books"
 }

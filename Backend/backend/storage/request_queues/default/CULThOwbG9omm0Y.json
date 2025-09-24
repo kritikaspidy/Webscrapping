@@ -1,8 +1,8 @@
 {
 	"id": "CULThOwbG9omm0Y",
-	"json": "{\"id\":\"CULThOwbG9omm0Y\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-science-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rare-science-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-science-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":20,\"categoryId\":274,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:29:52.901Z\"}",
+	"json": "{\"id\":\"CULThOwbG9omm0Y\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rare-science-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rare-science-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":4,\"categoryId\":120}}",
 	"method": "GET",
-	"orderNo": null,
+	"orderNo": 1758738132975,
 	"retryCount": 0,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/rare-science-books",
 	"url": "https://www.worldofbooks.com/en-gb/collections/rare-science-books"

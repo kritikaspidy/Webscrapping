@@ -1,9 +1,9 @@
 {
 	"id": "MRH1t72tM8H6Vca",
-	"json": "{\"id\":\"MRH1t72tM8H6Vca\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/biography-and-true-story-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/biography-and-true-story-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/biography-and-true-story-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":18,\"categoryId\":169,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:23:21.987Z\"}",
+	"json": "{\"id\":\"MRH1t72tM8H6Vca\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/biography-and-true-story-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/biography-and-true-story-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/biography-and-true-story-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":3,\"errorMessages\":[\"Error: requestHandler timed out after 60 seconds.\\n    at Timeout._onTimeout (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@apify\\\\src\\\\index.ts:88:74)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\",\"Error: requestHandler timed out after 60 seconds.\\n    at Timeout._onTimeout (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@apify\\\\src\\\\index.ts:88:74)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\",\"Error: requestHandler timed out after 60 seconds.\\n    at Timeout._onTimeout (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@apify\\\\src\\\\index.ts:88:74)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\"],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":2,\"categoryId\":5,\"__crawlee\":{\"state\":5}}}",
 	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
+	"orderNo": 1758739291678,
+	"retryCount": 3,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/biography-and-true-story-books",
 	"url": "https://www.worldofbooks.com/en-gb/collections/biography-and-true-story-books"
 }

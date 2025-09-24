@@ -1,9 +1,9 @@
 {
 	"id": "YxGCV7odDtI3hYF",
-	"json": "{\"id\":\"YxGCV7odDtI3hYF\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/modern-fiction-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/modern-fiction-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/modern-fiction-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":17,\"categoryId\":163,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:22:53.577Z\"}",
+	"json": "{\"id\":\"YxGCV7odDtI3hYF\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/modern-fiction-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/modern-fiction-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/modern-fiction-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":3,\"errorMessages\":[\"Error: requestHandler timed out after 60 seconds.\\n    at Timeout._onTimeout (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@apify\\\\src\\\\index.ts:88:74)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\",\"Error: requestHandler timed out after 60 seconds.\\n    at Timeout._onTimeout (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@apify\\\\src\\\\index.ts:88:74)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\",\"Error: requestHandler timed out after 60 seconds.\\n    at Timeout._onTimeout (D:\\\\webscrapping\\\\Backend\\\\backend\\\\node_modules\\\\@apify\\\\src\\\\index.ts:88:74)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\"],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":1,\"categoryId\":10,\"__crawlee\":{\"state\":5}}}",
 	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
+	"orderNo": 1758739364021,
+	"retryCount": 3,
 	"uniqueKey": "https://www.worldofbooks.com/en-gb/collections/modern-fiction-books",
 	"url": "https://www.worldofbooks.com/en-gb/collections/modern-fiction-books"
 }

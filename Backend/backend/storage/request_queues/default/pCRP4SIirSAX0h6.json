@@ -1,6 +1,6 @@
 {
 	"id": "pCRP4SIirSAX0h6",
-	"json": "{\"id\":\"pCRP4SIirSAX0h6\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/crime-and-mystery-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/crime-and-mystery-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/crime-and-mystery-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":17,\"categoryId\":161,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:22:45.893Z\"}",
+	"json": "{\"id\":\"pCRP4SIirSAX0h6\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/crime-and-mystery-books\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/crime-and-mystery-books\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/crime-and-mystery-books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"CATEGORY\",\"headingId\":1,\"categoryId\":4,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T18:23:57.213Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -1,6 +1,6 @@
 {
 	"id": "3YxaLYnpMKsu3jP",
-	"json": "{\"id\":\"3YxaLYnpMKsu3jP\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rarebooks\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rarebooks\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rarebooks\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"HEADING\",\"headingId\":20,\"headingName\":\"Rare Books\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T01:22:30.647Z\"}",
+	"json": "{\"id\":\"3YxaLYnpMKsu3jP\",\"url\":\"https://www.worldofbooks.com/en-gb/collections/rarebooks\",\"loadedUrl\":\"https://www.worldofbooks.com/en-gb/collections/rarebooks\",\"uniqueKey\":\"https://www.worldofbooks.com/en-gb/collections/rarebooks\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"type\":\"HEADING\",\"headingId\":4,\"headingName\":\"Rare Books\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-24T18:22:31.069Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

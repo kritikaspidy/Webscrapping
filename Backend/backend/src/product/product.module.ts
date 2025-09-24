@@ -4,9 +4,10 @@ import { Product } from '../entities/product.entity';
 import { ProductService } from './product.service';
 import { ProductController } from './product.controller';
 import { Category } from 'src/entities/category.entity';
+import { CacheModule } from '@nestjs/cache-manager';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Product, Category])],
+  imports: [TypeOrmModule.forFeature([Product, Category, CacheModule.register])],
   controllers: [ProductController],
   providers: [ProductService],
   exports: [ProductService],  // export for sharing with other modules
