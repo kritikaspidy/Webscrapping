@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: product-data-explorer-backend
+    name: webscrapping-cjf9
     env: docker
     repo: https://github.com/kritikaspidy/Webscrapping.git
     region: singapore
