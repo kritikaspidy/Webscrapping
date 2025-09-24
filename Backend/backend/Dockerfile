@@ -1,18 +1,14 @@
-# Use node official image as base
-FROM node:18
+FROM node:20-alpine
 
-# Set working directory
 WORKDIR /usr/src/app
 
-# Copy package.json and install dependencies
 COPY package*.json ./
 RUN npm install
 
-# Copy source code
 COPY . .
 
-# Expose port
+RUN npm run build
+
 EXPOSE 3000
 
-# Start command
-CMD ["node", "server.js"]
+CMD ["npm", "run", "start:prod"]
