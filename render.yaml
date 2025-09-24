@@ -1,29 +1,21 @@
-# services:
-#   # A Docker web service
-#   - type: web
-#     name: product-data-explorer-backend
-#     env: docker
-#     repo: https://github.com/kritikaspidy/Webscrapping.git
-#     region: singapore
-#     plan: free
-#     healthCheckPath: /
-#     # Add the following two lines to specify the Docker build context and path
-#     dockerContext: ./Backend/backend
-#     dockerfilePath: ./Backend/backend/Dockerfile
-#     envVars:
-#       - key: DATABASE_URL
-#         value: postgresql://db_user:VHo5I0XCkFT4JEglxvzT9PptkO8WASYV@dpg-d39t3895pdvs73bnnnng-a.singapore-postgres.render.com:5432/products_tvds_pryg
+services:
+  - type: web
+    name: product-data-explorer-backend
+    env: docker
+    repo: https://github.com/kritikaspidy/Webscrapping.git
+    region: singapore
+    plan: free
+    healthCheckPath: /
+    dockerContext: ./Backend/backend
+    dockerfilePath: ./Backend/backend/Dockerfile
+    envVars:
+      - key: DATABASE_URL
+        value: postgresql://products_db_6xdp_user:gbUf7KeLT1yjDvlAGLTAD3Rmgyd8UswK@dpg-d39usnp5pdvs73boprdg-a/products_db_6xdp
+      - key: PORT
+        value: 3000
 
-#         fromDatabase:
-#           name: products-db
-#           property: connectionString
-#       - key: PORT
-#         value: 3000
-
-# databases:
-#   # A PostgreSQL database
-#   - name: products-db
-#     databaseName: products
-#     user: db_user
-#     plan: free
-
+databases:
+  - name: products-db
+    databaseName: products_db_6xdp
+    user: products_db_6xdp_user
+    plan: free

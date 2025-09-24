@@ -1,26 +1,18 @@
-# Use an official Node.js runtime as a parent image
-FROM mcr.microsoft.com/playwright:v1.44.0-jammy
+# Use node official image as base
+FROM node:18
 
-# Set the working directory in the container
+# Set working directory
 WORKDIR /usr/src/app
 
-# Copy package.json and package-lock.json
+# Copy package.json and install dependencies
 COPY package*.json ./
+RUN npm install
 
-# Install app dependencies
-RUN npm install --only=production --legacy-peer-deps
-
-# Copy app source
+# Copy source code
 COPY . .
 
-# Build the app
-RUN npm run build
-
-# Install Playwright browsers
-RUN npx playwright install --with-deps
-
-# Your app binds to 0.0.0.0
+# Expose port
 EXPOSE 3000
 
-# Define the command to run your app
-CMD [ "npm", "run", "start:prod" ]
+# Start command
+CMD ["node", "app.js"]
