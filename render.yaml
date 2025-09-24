@@ -3,10 +3,13 @@ services:
   - type: web
     name: product-data-explorer-backend
     env: docker
-    repo: https://github.com/kritikaspidy/Webscrapping.git # Replace with your repo URL
-    region: singapore # optional; choose a region close to you
-    plan: free # optional
+    repo: https://github.com/kritikaspidy/Webscrapping.git
+    region: singapore
+    plan: free
     healthCheckPath: /
+    # Add the following two lines to specify the Docker build context and path
+    dockerContext: ./Backend/backend
+    dockerfilePath: ./Backend/backend/Dockerfile
     envVars:
       - key: DATABASE_URL
         fromDatabase:
@@ -21,3 +24,4 @@ databases:
     databaseName: products
     user: db_user
     plan: free
+
