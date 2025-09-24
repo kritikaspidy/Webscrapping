@@ -8,7 +8,7 @@ const ContactPage = () => {
           <h1 className="text-4xl font-extrabold text-gray-900 text-center mb-6">Contact Us</h1>
           <div className="bg-white shadow-lg rounded-lg p-8">
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              We'd love to hear from you! Whether you have a question about our products, need assistance, or just want to share your love for books, feel free to reach out.
+              We&aps;d love to hear from you! Whether you have a question about our products, need assistance, or just want to share your love for books, feel free to reach out.
             </p>
             <div className="space-y-4">
               <div>

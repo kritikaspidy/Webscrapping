@@ -44,15 +44,15 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-4">Follow Us</h3>
           <div className="flex space-x-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition">
+            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition">
               Facebook
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition">
+            </Link>
+            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition">
               Twitter
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition">
+            </Link>
+            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition">
               Instagram
-            </a>
+            </Link>
           </div>
         </div>
       </div>

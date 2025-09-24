@@ -19,6 +19,7 @@ export type Product = {
 type ProductListProps = {
   selectedHeading: string | null;
   selectedCategory: string | null;
+  searchQuery: string;
 };
 
 type ProductsResponse = {
@@ -26,11 +27,11 @@ type ProductsResponse = {
   total: number;
 };
 
-export default function ProductList({ selectedHeading, selectedCategory }: ProductListProps) {
+export default function ProductList({ selectedHeading, selectedCategory, searchQuery }: ProductListProps) {
   const [page, setPage] = useState(1);
   const limit = 20; // items per page
   const searchParams = useSearchParams();
-  const searchQuery = searchParams.get('searchQuery') || '';
+  // const searchQuery = searchParams.get('searchQuery') || '';
 
 
   const fetchProducts = async (): Promise<ProductsResponse> => {

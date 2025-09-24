@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Header from '@/app/components/header';
 import ProductList from '@/app/components/product/productlist';
 import Footer from '@/app/components/footer';
+import Link from 'next/link';
 
 export default function LandingPage() {
   const [selectedHeading, setSelectedHeading] = useState<string | null>(null);
@@ -58,7 +59,7 @@ export default function LandingPage() {
             {breadcrumbs.map((b, i) => (
               <span key={i}>
                 {b.label === 'Home' ? (
-                  <a
+                  <Link
                     href="/"
                     onClick={(e) => {
                       e.preventDefault();
@@ -70,11 +71,11 @@ export default function LandingPage() {
                     className="hover:underline"
                   >
                     {b.label}
-                  </a>
+                  </Link>
                 ) : (
-                  <a href={b.href} className="hover:underline">
+                  <Link href={b.href} className="hover:underline">
                     {b.label}
-                  </a>
+                  </Link>
                 )}
                 {i < breadcrumbs.length - 1 && ' / '}
               </span>

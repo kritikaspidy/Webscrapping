@@ -71,7 +71,7 @@ export default function Header({
     <header className="bg-white text-gray-800 shadow">
       {/* Top section: Ad Banner */}
       <div className="bg-green-700 text-white text-center py-2 text-sm font-semibold">
-        Autumn Sale | Books for just £3! SHOP NOW
+        Where stories find their readers.
       </div>
 
       {/* Middle section: Logo, Search, and User Links */}

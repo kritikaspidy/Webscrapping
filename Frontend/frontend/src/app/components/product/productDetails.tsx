@@ -1,13 +1,14 @@
 'use client';
 
 import { Product } from '@/app/types/product';
+import Image from 'next/image';
 
 type Props = { product: Product };
 
 export default function ProductDetails({ product }: Props) {
   return (
     <div className="bg-white shadow rounded-lg p-6 max-w-2xl mx-auto">
-      <img
+      <Image
         src={product.imageUrl}
         alt={product.title}
         className="w-64 h-64 object-contain mx-auto mb-4"
