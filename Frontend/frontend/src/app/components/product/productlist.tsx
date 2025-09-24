@@ -30,7 +30,7 @@ type ProductsResponse = {
 export default function ProductList({ selectedHeading, selectedCategory, searchQuery }: ProductListProps) {
   const [page, setPage] = useState(1);
   const limit = 20; // items per page
-  const searchParams = useSearchParams();
+  // const searchParams = useSearchParams();
   // const searchQuery = searchParams.get('searchQuery') || '';
 
 
