@@ -20,13 +20,9 @@ import { CacheModule } from '@nestjs/cache-manager';
     }),
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
-      port: 5432,
-      username: 'postgres',
-      password: '',
-      database: 'Books',
-      entities: [Navigation, Category, Product],
-      synchronize: true, // For development only; disable in production
+      url: process.env.DATABASE_URL, // <-- use Render DATABASE_URL
+      synchronize: false, // disable in production
+      autoLoadEntities: true, // automatically loads entities
     }),
     ScraperModule,
     NavigationModule,
