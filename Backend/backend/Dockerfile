@@ -3,7 +3,7 @@ FROM node:20-alpine
 WORKDIR /usr/src/app
 
 # Copy package files from the backend folder specifically
-COPY Backend/backend/package*.json ./
+COPY Backend/package*.json ./
 
 # Install dependencies inside /usr/src/app
 RUN npm install
